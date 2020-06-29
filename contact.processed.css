@@ -1,0 +1,15 @@
+.contactcontent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 32%;
+  box-sizing: border-box;
+  margin-bottom: 96px;
+}
+
+@media (max-width: 899px) {
+  .contactcontent {
+    padding: 0 24px 0 24px;
+    width: 100%;
+  }
+}

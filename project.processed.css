@@ -1,0 +1,163 @@
+/** Breakpoints */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.projectcontent {
+  position: absolute;
+  top: 32%;
+  width: 100%;
+}
+
+.projectinfo {
+  position: relative;
+  padding: 0 48px 0 48px;
+  width: 64%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  .projectinfo {
+    width: 100%;
+    padding: 0 24px 0 24px;
+  }
+}
+
+.images {
+  position: relative;
+  padding: 0 24px 0 24px;
+  margin: 144px 0 48px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  .images {
+    margin: 160px 0 68px 0;
+  }
+}
+
+.infobutton {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  height: 36px;
+  width: max-content;
+  z-index: 6;
+  background-color: white;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.16);
+  border-radius: 18px;
+}
+
+@media (max-width: 899px) {
+  .infobutton {
+    right: 0;
+    margin-top: 8px;
+    top: 100%;
+  }
+}
+
+.infobutton:hover {
+  cursor: pointer;
+}
+
+.infobutton p {
+  line-height: 36px;
+  padding: 0 24px 0 24px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.infodrawer {
+  display: none;
+  right: 0;
+  top: 0;
+  width: 360px;
+  height: 100%;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+}
+
+@media (max-width: 899px) {
+  .infodrawer {
+    width: 100%;
+    translate: transformY(-44px);
+    position: relative;
+  }
+}
+
+.icon-touch-target {
+  position: relative;
+  left: 4px;
+  top: 0;
+  height: 48px;
+  width: 48px;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 899px) {
+  .icon-touch-target {
+    left: 100%;
+    transform: translateX(-100%) rotate(90deg);
+  }
+}
+
+.icon-touch-target:hover {
+  cursor: pointer;
+}
+
+.icon-touch-target svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+}
+
+.infodrawer p {
+  position: relative;
+  text-align: left;
+  color: black;
+  width: 100%;
+  padding: 8px 0 0 24px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  .infodrawer p {
+    padding: 0;
+  }
+}
+
+.imagecontainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.imagecontainer {
+  margin-top: 64px;
+  position: relative;
+  overflow: visible;
+}
+
+@media (max-width: 899px) {
+  .imagecontainer {
+    margin-top: 60px;
+  }
+}
+
+.imagezoomed {
+  background-position: 50% 50%;
+  position: relative;
+  cursor: zoom-in;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imagezoomed img:hover {
+  opacity: 0;
+}
