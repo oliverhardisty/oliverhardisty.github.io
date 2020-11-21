@@ -14,7 +14,7 @@ p {
 h1 {
   font-family: europa, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 1px;
   font-size: 18px;
   color: white;
@@ -71,6 +71,8 @@ h5 {
   overflow-wrap: break-word;
   word-break: normal;
 }
+
+
 
 @media (max-width: 899px) {
   h5 {
