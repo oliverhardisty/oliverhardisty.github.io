@@ -1,14 +1,13 @@
 /** Home page items*/
-.mainlogo {
+.logoandintro {
   position: absolute;
   top: 44%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 112px;
+  transform: translate(-40px, -50%);
 }
 
 @media (max-width: 899px) {
-  .mainlogo {
+  .logo {
     width: 80px;
   }
 }
