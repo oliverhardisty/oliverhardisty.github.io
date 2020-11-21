@@ -204,9 +204,9 @@ h5 {
 .navigation {
   position: absolute;
   left: 50%;
+  bottom: 8px;
   transform: translateX(-50%);
   z-index: 20;
-  bottom: 0;
 }
 
 @media (max-width: 599px) {
@@ -227,10 +227,10 @@ h5 {
 }
 
 .navigation h1 {
-  line-height: 48px;
+  line-height: 18px;
 }
 
-.navigation p:hover {
+.navigation h1:hover {
   color: #ed1843;
   font-weight: 700;
 }
