@@ -224,11 +224,11 @@ h5 {
 }
 
 .navigation li {
-  margin: 0 24px -4px 24px;
+  margin: 0 24px 0 24px;
   display: inline-block;
 }
 
-.navigation h1 {
+.navigation h2 {
   line-height: 18px;
 }
 
