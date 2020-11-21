@@ -206,7 +206,7 @@ h5 {
 .navigation {
   position: absolute;
   left: 50%;
-  bottom: 8px;
+  bottom: 14px;
   transform: translateX(-50%);
   z-index: 20;
 }
@@ -327,7 +327,7 @@ h5 {
 
 .linkedin {
   position: absolute;
-  width: 20px;
+  height: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
