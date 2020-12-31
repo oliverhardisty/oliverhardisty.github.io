@@ -61,7 +61,7 @@ h5 {
   font-style: normal;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: 64px;
+  font-size: 80px;
   color: black;
   margin: 0;
   line-height: 1;
@@ -72,11 +72,23 @@ h5 {
   word-break: normal;
 }
 
-
+h6 {
+  font-family: europa, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 40px;
+  color: black;
+  margin: 0;
+  line-height: 1;
+}
 
 @media (max-width: 899px) {
   h5 {
-    font-size: 48px;
+    font-size: 64px;
+  }
+  h6 {
+    font-size: 32px;
   }
 }
 
@@ -148,6 +160,36 @@ h5 {
   position: relative;
   margin-top: 48px;
 }
+
+.vertical-spacing_16px {
+  height: 16px;
+}
+
+.vertical-spacing_24px {
+  height: 24px;
+}
+
+.vertical-spacing_32px {
+  height: 32px;
+}
+
+.vertical-spacing_48px {
+  height: 48px;
+}
+
+.vertical-spacing_48px {
+  height: 48px;
+}
+
+.vertical-spacing_64px {
+  height: 64px;
+}
+
+.vertical-spacing_80px {
+  height: 80px;
+}
+
+
 
 /** Colors */
 .white {

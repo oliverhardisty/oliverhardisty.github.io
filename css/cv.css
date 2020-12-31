@@ -5,7 +5,7 @@
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
-  margin-bottom: 96px;
+  padding-bottom: 160px;
 }
 
 @media (max-width: 899px) {
@@ -14,3 +14,50 @@
     width: 100%;
   }
 }
+
+.image-placeholder-L {
+  background-color: black;
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-right: 16px;
+}
+
+.image-placeholder-S {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 16px;
+}
+
+.image-title {
+  display: flex;
+  align-items: center;
+}
+
+.exam-results h4, p {
+  display: inline;
+}
+
+.image-placeholder {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+  height: 500px;
+}
+
+.lists-flexbox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transform: translate(0, -48px);
+}
+
+.list-section {
+  width: 33.3%;
+  margin-top: 48px;
+}
+
+
