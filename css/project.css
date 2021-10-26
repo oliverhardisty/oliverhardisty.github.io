@@ -41,7 +41,7 @@ body {
 .infobutton {
   position: absolute;
   right: 16px;
-  bottom: 16px;
+  bottom: -16px;
   height: 36px;
   width: max-content;
   z-index: 6;
@@ -92,8 +92,8 @@ body {
 
 .icon-touch-target {
   position: absolute;
-  left: 4px;
-  bottom: 0;
+  right: 16px;
+  bottom: 16px;
   height: 48px;
   width: 48px;
   transform: rotate(180deg);
@@ -120,7 +120,7 @@ body {
 
 .infodrawer p {
   position: absolute;
-  bottom: 96px;
+  bottom: 80px;
   text-align: left;
   color: black;
   width: 100%;
