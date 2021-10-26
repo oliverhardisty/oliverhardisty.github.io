@@ -21,12 +21,14 @@
 
 .intro {
   position: absolute;
-  left: 24px;
+  left: 50%;
+  translate: transformX(-50%);
   bottom: 48px;
   height: auto;
   line-height: 48px;
   clip-path: inset(0 0 100% 0);
   animation: reveal 0.5s linear 1.5s forwards;
+  text-align: center;
 }
 
   
