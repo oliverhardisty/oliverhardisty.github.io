@@ -91,7 +91,7 @@ body {
 }
 
 .icon-touch-target {
-  position: relative;
+  position: absolute;
   left: 4px;
   bottom: 0;
   height: 48px;
