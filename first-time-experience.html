@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Oliver Hardisty</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" type="text/css" href="css/project.css">
+  <link rel="stylesheet" type="text/css" href="css/shared.css">
+  <link rel="stylesheet" href="https://use.typekit.net/tgl1vgk.css">
+
+</head>
+
+<body class="lightbackground">
+  
+  <nav id="navbar" class="is-visible lightbackground">
+    <div class="home_touch-target">
+      <a href="index.html">
+        <div class="homelogo black">
+          <svg width="100%" height="100%" viewBox="0 0 100 132">
+      <path d="M27.8230769,93.056213 C18.7497041,93.056213 11.3940828,85.7005917 11.3940828,76.6272189 C11.3940828,67.5538462 18.7497041,60.1988166 27.8230769,60.1988166 C36.8964497,60.1988166 44.252071,67.5538462 44.252071,76.6272189 C44.252071,85.7005917 36.8964497,93.056213 27.8230769,93.056213 M71.9319527,48.804142 C65.7852071,48.804142 60.1218935,50.8053254 55.5384615,54.1857988 L55.5384615,-8.52651283e-14 L44.252071,-8.52651283e-14 L44.252071,54.2278107 C39.6414201,50.8213018 33.9414201,48.804142 27.7686391,48.804142 C12.4325444,48.804142 1.13686838e-13,61.2366864 1.13686838e-13,76.5733728 C1.13686838e-13,91.9094675 12.4325444,104.34142 27.7686391,104.34142 C43.0863905,104.34142 55.5065089,91.9384615 55.5360947,76.6272189 L55.5384615,76.6272189 L55.5579882,76.6272189 C55.5579882,67.5538462 62.9130178,60.1988166 71.9869822,60.1988166 C81.0414201,60.1988166 88.3846154,67.5248521 88.4136095,76.5733728 L88.4130178,76.5733728 L88.4130178,131.030178 L99.7011834,131.030178 L99.7011834,76.5733728 C99.7011834,61.2366864 87.2686391,48.804142 71.9319527,48.804142"></path>
+    </svg>
+        </div>
+    </div>
+    </a>
+
+    <div class="navigation">
+      <ul>
+        <a href="work.html">
+          <li>
+            <h2 class="text_red text_bold">Work</h2>
+          </li>
+        </a>
+        <a href="contact.html">
+          <li>
+            <h2 class="text_black">Contact</h2>
+          </li>
+        </a>
+      </ul>
+    </div>
+    <div class="linkedin_touch-target">
+      <svg class="linkedin black" viewBox="0 0 17 17"> 
+        <path d="M16.2856667,9.99631269 L16.2856667,16.058558 L12.9561343,16.058558 L12.9561343,10.4023253 C12.9561343,8.98143358 12.4745533,8.01173052 11.269373,8.01173052 C10.3493706,8.01173052 9.80187654,8.66523932 9.56101383,9.2973991 C9.47317786,9.52339374 9.45056876,9.8379487 9.45056876,10.1542955 L9.45056876,16.058558 L6.11991673,16.058558 C6.11991673,16.058558 6.16477375,6.47875639 6.11991673,5.48621751 L9.45024371,5.48621751 L9.45024371,6.98480445 C9.44348987,6.99601269 9.4347135,7.00809776 9.42835695,7.01896289 L9.45024371,7.01896289 L9.45024371,6.98480445 C9.89271021,6.26545679 10.6829089,5.23784451 12.4516192,5.23784451 C14.6429317,5.23780639 16.2856667,6.74889776 16.2856667,9.99631269 Z M2.6359129,0.38982481 C1.49650117,0.38982481 0.751231706,1.17870928 0.751231706,2.21611924 C0.751231706,3.23092211 1.47493946,4.04374799 2.59170598,4.04374799 L2.61395391,4.04374799 C3.77543298,4.04374799 4.4977683,3.2310746 4.4977683,2.21611924 C4.47588154,1.17870928 3.77543298,0.38982481 2.6359129,0.38982481 Z M0.949043233,16.058558 L4.27843118,16.058558 L4.27843118,5.48621751 L0.949043233,5.48621751 L0.949043233,16.058558 Z"></path>
+      </svg>
+    </div>
+    <div class="hamburger_touch-target">
+      <svg class="hamburger_icon black" width="100%" height="100%" viewBox="0 0 20 16" onclick="showHamburger()">
+    <path d="M20,13.6666667 L20,15.6666667 L0,15.6666667 L0,13.6666667 L20,13.6666667 Z M20,6.84313725 L20,8.84313725 L0,8.84313725 L0,6.84313725 L20,6.84313725 Z M20,0 L20,2 L0,2 L0,0 L20,0 Z"></path>
+</svg>
+    </div>
+  </nav>
+
+  <div id="navigation_hamburger" style="background-color: black";>
+    <div class="close_touch-target" onclick="hideHamburger()">
+      <svg class="close_icon white" viewBox="0 0 16 16">
+        <path d="M14.1421356,-5.04041253e-14 L15.5563492,1.41421356 L9.192,7.778 L15.5563492,14.1421356 L14.1421356,15.5563492 L7.778,9.192 L1.41421356,15.5563492 L1.7408297e-13,14.1421356 L6.364,7.778 L1.7696955e-13,1.41421356 L1.41421356,4.01900735e-13 L7.778,6.364 L14.1421356,-5.04041253e-14 Z"></path>
+</svg>
+    </div>
+
+    <ul>
+      <a href="work.html">
+        <li>
+          <h2 class="text_red text_bold">Work</h2>
+        </li>
+      </a>
+      <a href="contact.html">
+        <li>
+          <h2>Contact</h2>
+        </li>
+      </a>
+    </ul>
+  </div>
+
+  <div class="projectcontent">
+    <div class="projectinfo">
+      <h5>First Time Experience</h5>
+      <div class="info-section">
+      <h3 class="text_black">project type</h3>
+      <p class="text_black">Lorem ipsum</p>
+      </div>
+      <div class="info-section">
+      <h3 class="text_black">project company</h3>
+      <p class="text_black">ClearScore</p>
+      </div>
+      <div class="info-section">
+      <h3 class="text_black">project context</h3>
+      <p class="text_black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      </div>
+      <div class="info-section">
+      <h3 class="text_black">design process</h3>
+      <p class="text_black">The process was largely agile, involving these key stages;</p>
+      <p class="spacing_16px text_black text_bold line-height_36px">
+        - Competitor analysis and market research<br> - UX/UI explorations and iterations<br> - User testing of prototypes<br> - Data analysis on released experiments<br> - Further design iterations dependent on analytics
+      </p>
+      </div>
+      <div class="info-section">
+      <h3 class="text_black">platforms</h3>
+      <p class="text_black">Android</p>
+      </div>
+      <div class="info-section">
+      <h3 class="text_black">approx. time frame</h3>
+      <p class="text_black">08-10.2021</p>
+      </div>
+    </div>
+
+    <div class="images">
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]user-barriers.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]design-principles.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]offers-flow.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]flow-options.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/ [S&S]flow-strategy.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]user-flow-1.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]card-form-concepts.png" />
+      </div>
+      <div class="imagecontainer">
+        <img src="img/Switch and Save/[S&S]PLP-development.png" />
+      </div>   
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script type="text/javascript" src="js/shared.js"></script>
+  <script type="text/javascript" src="js/project.js"></script>
+</body>
+</html>
