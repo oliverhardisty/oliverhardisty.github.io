@@ -29,7 +29,10 @@
   clip-path: inset(0 0 100% 0);
   animation: reveal 0.5s linear 1.5s forwards;
   text-align: center;
-  line-height: 36px;
+}
+
+.intro h1 {
+  line-height: 2;
 }
 
   
