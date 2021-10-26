@@ -22,7 +22,7 @@
 .intro {
   position: absolute;
   left: 50%;
-  translate: transformX(-50%);
+  transform: translate(-50%);
   bottom: 48px;
   height: auto;
   line-height: 48px;
