@@ -24,14 +24,9 @@
   left: 24px;
   bottom: 48px;
   height: auto;
-  transform: translate(-50%, 0);
   line-height: 48px;
   clip-path: inset(0 0 100% 0);
   animation: reveal 0.5s linear 1.5s forwards;
-}
-
-.intro h1 {
-  line-height: 32px;
 }
 
   
