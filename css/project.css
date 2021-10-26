@@ -50,6 +50,11 @@ body {
   border-radius: 18px;
 }
 
+.infobutton project {
+  translate: transformY(24px);
+}
+
+
 @media (max-width: 899px) {
   .infobutton {
     right: 0;
