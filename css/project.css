@@ -40,8 +40,6 @@ body {
 
 .infobutton {
   position: relative;
-  bottom: 16px;
-  right: 16px;
   height: 36px;
   width: max-content;
   z-index: 6;
