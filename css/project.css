@@ -50,10 +50,6 @@ body {
   border-radius: 18px;
 }
 
-#top-padding-24px {
-  padding-top: 24px; 
-}
-
 
 @media (max-width: 899px) {
   .infobutton {
