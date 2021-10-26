@@ -48,6 +48,7 @@ body {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 18px;
+  background-color: black;
 }
 
 @media (max-width: 899px) {
@@ -67,6 +68,7 @@ body {
   padding: 0 24px 0 24px;
   font-size: 14px;
   font-weight: 700;
+  color: white;
 }
 
 .infodrawer {
