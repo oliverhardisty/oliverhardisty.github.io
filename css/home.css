@@ -23,7 +23,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: 48px;
+  bottom: 32px;
   height: auto;
   clip-path: inset(0 0 100% 0);
   animation: reveal 0.5s linear 1.5s forwards;
