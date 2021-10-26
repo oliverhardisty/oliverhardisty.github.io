@@ -39,7 +39,9 @@ body {
 }
 
 .infobutton {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   height: 36px;
   width: max-content;
   z-index: 6;
