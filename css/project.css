@@ -40,8 +40,8 @@ body {
 
 .infobutton {
   position: absolute;
-  box-sizing: border-box;
-  padding: 0, 16px, 16px, 0;
+  bottom: 16px;
+  right: 16px
   height: 36px;
   width: max-content;
   z-index: 6;
