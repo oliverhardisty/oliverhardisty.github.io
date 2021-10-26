@@ -39,7 +39,7 @@ body {
 }
 
 .infobutton {
-  position: absolute;
+  position: relative;
   bottom: 16px;
   right: 16px;
   height: 36px;
