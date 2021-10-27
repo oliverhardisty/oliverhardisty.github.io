@@ -376,6 +376,7 @@ h7 {
   top: 50%;
   transform: translateY(-50%);
   right: 4px;
+  z-index: 10;
 }
 
 .linkedin {
