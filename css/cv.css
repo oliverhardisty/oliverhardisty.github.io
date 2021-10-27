@@ -15,7 +15,7 @@
   }
 }
 
-.image-placeholder-L {
+.image_L {
   background-color: black;
   width: 48px;
   height: 48px;
@@ -23,7 +23,7 @@
   margin-right: 16px;
 }
 
-.image-placeholder-S {
+.image_S {
   background-color: black;
   width: 32px;
   height: 32px;
