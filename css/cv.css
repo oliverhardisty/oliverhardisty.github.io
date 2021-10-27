@@ -31,6 +31,16 @@
   margin-right: 16px;
 }
 
+.image_S img {
+  max-height: 100%;
+  max-width: auto;
+}
+
+.image_L img {
+  max-height: 100%;
+  max-width: auto;
+}
+
 .image-title {
   display: flex;
   align-items: center;
@@ -63,5 +73,7 @@
 .list-section h7 {
   line-height: 36px;
 }
+
+
 
 
