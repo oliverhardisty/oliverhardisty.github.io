@@ -62,16 +62,12 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
 }
 
 .list-section {
   width: 33.3%;
   margin-top: 48px;
   transform: translateY(-48px);
-  margin-bottom: 0;
-  padding: 0;
 }
 
 .list-section h7 {
