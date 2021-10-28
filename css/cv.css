@@ -62,18 +62,17 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .list-section-3columns {
   width: calc(33.3% - 8px) ;
   margin-top: 48px;
-  justify-content: space-between;
 }
 
 .list-section-2columns {
   width: calc(50% - 8px);
   margin-top: 48px;
-  justify-content: space-between;
 }
 
 .list-section h7 {
