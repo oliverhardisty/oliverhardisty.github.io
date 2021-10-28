@@ -62,13 +62,13 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .list-section-3columns {
   width: calc(33.3% - 8px);
   margin-top: 48px;
   margin-left: 16px;
-  transform: translate(-16px, -48px);
 }
 
 .list-section-2columns {
