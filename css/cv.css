@@ -64,8 +64,14 @@
   flex-wrap: wrap;
 }
 
-.list-section {
+.list-section-3columns {
   width: 33.3%;
+  margin-top: 48px;
+  transform: translateY(-48px);
+}
+
+.list-section-2columns {
+  width: 50%;
   margin-top: 48px;
   transform: translateY(-48px);
 }
