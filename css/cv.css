@@ -66,17 +66,15 @@
 }
 
 .list-section-3columns {
-  width: calc(33.3% - 8px);
+  width: 33.3%;
   margin-top: 48px;
   margin-left: 16px;
-  overflow: hidden;
 }
 
 .list-section-2columns {
-  width: calc(50% - 8px);
+  width: 50%;
   margin-top: 48px;
   margin-left: 16px;
-  overflow: hidden;
 }
 
 .list-section h7 {
