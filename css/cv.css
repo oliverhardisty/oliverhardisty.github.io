@@ -68,15 +68,14 @@
   width: calc(33.3% - 8px);
   margin-top: 48px;
   margin-left: 16px;
-  transform: translateY(-48px);
+  transform: translate(-16px -48px);
 }
 
 .list-section-2columns {
   width: calc(50% - 8px);
   margin-top: 48px;
   margin-left: 16px;
-  margin-top: 48px;
-  transform: translateY(-48px);
+  transform: translate(-16px -48px);
 }
 
 .list-section h7 {
