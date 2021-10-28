@@ -66,12 +66,12 @@
 }
 
 .list-section-3columns {
-  width: calc(33.3% - 8px) ;
+  width: calc(33.3% - 12px) ;
   margin-top: 48px;
 }
 
 .list-section-2columns {
-  width: calc(50% - 8px);
+  width: calc(50% - 12px);
   margin-top: 48px;
 }
 
