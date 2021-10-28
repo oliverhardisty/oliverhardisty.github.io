@@ -62,7 +62,6 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .list-section-3columns {
