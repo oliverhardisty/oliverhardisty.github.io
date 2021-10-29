@@ -63,12 +63,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
+  grid-row-gap: 48px;
 }
 
 .list-section-3columns {
   width: calc(33.3% - 12px) ;
   margin-top: 48px;
+  padding-top:
+  height: auto;
 }
 
 .list-section-2columns {
