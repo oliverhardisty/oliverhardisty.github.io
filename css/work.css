@@ -109,3 +109,15 @@ a:not(.no-hover):hover .projecttileoverlay {
   height: 100%;
   width: 100%;
 }
+
+.prototype-native {
+  position: absolute;
+  left: 182px;
+  top: 100px;
+}
+
+.prototype-web {
+  position: absolute;
+  left: 670px;
+  top: 100px;
+}
