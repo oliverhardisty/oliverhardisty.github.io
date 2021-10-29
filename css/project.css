@@ -165,3 +165,22 @@ body {
 .imagezoomed img:hover {
   opacity: 0;
 }
+
+.prototype-native {
+  position: absolute;
+  left: 182px;
+  top: 100px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  
+}
+
+.prototype-web {
+  position: absolute;
+  left: 670px;
+  top: 100px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
