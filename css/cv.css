@@ -62,7 +62,6 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   grid-row-gap: 48px;
 }
 
