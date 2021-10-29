@@ -114,10 +114,14 @@ a:not(.no-hover):hover .projecttileoverlay {
   position: absolute;
   left: 182px;
   top: 100px;
+  width: 100%;
+  height: auto;
 }
 
 .prototype-web {
   position: absolute;
   left: 670px;
   top: 100px;
+  width: 100%;
+  height: auto;
 }
