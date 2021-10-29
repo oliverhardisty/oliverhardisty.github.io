@@ -64,7 +64,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   grid-row-gap: 48px;
-  grid-column-gap: 24px;
 }
 
 .list-section-3columns {
