@@ -63,6 +63,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-content: space-between;
 }
 
 .list-section-3columns {
