@@ -116,6 +116,7 @@ a:not(.no-hover):hover .projecttileoverlay {
   top: 100px;
   width: 100%;
   height: auto;
+  z-index: 10;
 }
 
 .prototype-web {
@@ -124,4 +125,5 @@ a:not(.no-hover):hover .projecttileoverlay {
   top: 100px;
   width: 100%;
   height: auto;
+  z-index: 10;
 }
