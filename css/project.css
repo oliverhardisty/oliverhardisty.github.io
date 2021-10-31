@@ -11,10 +11,13 @@ body {
 }
 
 .projectinfo {
-  position: relative;
+  position: absolute;
+  top: 32%;
   width: 40%;
-  
+  left: 50%;
+  transform: translateX(-50%);
   box-sizing: border-box;
+  padding-bottom: 160px;
 }
 
 @media (max-width: 899px) {
