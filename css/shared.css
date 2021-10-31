@@ -404,14 +404,21 @@ h7 {
 }
 
 
-.linkedin {
+.linkedin1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 32px;
+  height: 24px;
   transform: translate(-50%, -50%);
 }
 
+.linkedin2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 24px;
+  transform: translate(-50%, -50%);
+}
 
 
 
