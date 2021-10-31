@@ -279,7 +279,7 @@ h7 {
 }
 
 .navigation ul {
-  list-text-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
@@ -395,20 +395,11 @@ h7 {
   }
 }
 
-.linkedin_touch-target_hamburger {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  right: 4px;
-  bottom: 4px;
-}
-
-
 .linkedin {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 20px;
+  height: 24px;
   transform: translate(-50%, -50%);
 }
 
