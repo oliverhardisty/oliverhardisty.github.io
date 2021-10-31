@@ -399,7 +399,7 @@ h7 {
 }
 
 @media (max-width: 599px) {
-.linkedin_touch-target1 {
+.linkedin_touch-target {
     display: none;
   }
 }
