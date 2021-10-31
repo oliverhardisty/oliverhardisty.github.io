@@ -394,8 +394,7 @@ h7 {
   width: 48px;
   height: 48px;
   bottom: 4px;
-  right: 4p: 10;x;
-  z-index
+  right: 4px;
 }
 
 @media (max-width: 599px) {
@@ -404,7 +403,15 @@ h7 {
   }
 }
 
-.linkedin {
+.linkedin1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.linkedin2 {
   position: absolute;
   top: 50%;
   left: 50%;
