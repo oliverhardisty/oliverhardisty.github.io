@@ -379,7 +379,7 @@ h7 {
   text-transform: none;
 }
 
-.linkedin_touch-target1 {
+.linkedin_touch-target {
   position: absolute;
   width: 48px;
   height: 48px;
@@ -389,12 +389,13 @@ h7 {
   z-index: 10;
 }
 
-.linkedin_touch-target2 {
+.linkedin_touch-target_hamburger {
   position: absolute;
   width: 48px;
   height: 48px;
   bottom: 4px;
   right: 4px;
+  z-index: 10;
 }
 
 @media (max-width: 599px) {
