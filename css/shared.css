@@ -346,7 +346,7 @@ h7 {
   right: 4px;
 }
 
-#navigation_hamburger close_icon {
+.close_icon {
   position: absolute;
   top: 50%;
   left: 50%;
