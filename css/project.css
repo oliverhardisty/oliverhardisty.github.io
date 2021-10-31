@@ -12,9 +12,12 @@ body {
 
 .projectinfo {
   position: relative;
-  padding: 0 48px 0 48px;
-  width: 64%;
+  top: 32%;
+  width: 48%;
+  left: 50%;
+  transform: translateX(-50%);
   box-sizing: border-box;
+  padding-bottom: 80px;
 }
 
 @media (max-width: 899px) {
@@ -168,19 +171,19 @@ body {
 
 .prototype-native {
   position: absolute;
-  left: 9.5%;
-  top: 10%;
+  left: 11%;
+  top: 10.4%;
   width: 19%;
-  height: 79%;
+  height: 75%;
   z-index: 10;
   
 }
 
 .prototype-web {
   position: absolute;
-  left: 35%;
-  top: 10%;
+  left: 36.4%;
+  top: 10.4%;
   width: 56%;
-  height: 79%;
+  height: 75%;
   z-index: 10;
 }
