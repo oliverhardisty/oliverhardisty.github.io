@@ -409,7 +409,6 @@ h7 {
   top: 50%;
   left: 50%;
   height: 32px;
-  width: auto;
   transform: translate(-50%, -50%);
 }
 
