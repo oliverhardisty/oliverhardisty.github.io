@@ -357,7 +357,7 @@ h7 {
 #navigation_hamburger ul {
   position: absolute;
   right: 20px;
-  top: calc(50% - 32px);
+  top: calc(50% - 40px);
   transform: translateY(-50%);
   list-style-type: none;
   
