@@ -15,18 +15,18 @@ h1 {
   font-family: europa, sans-serif;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 1px;
   font-size: 18px;
   color: white;
   line-height: 28px;
   margin: 0;
+  letter-spacing: 1.5px;
 }
 
 h2 {
   font-family: europa, sans-serif;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 18px;
   color: white;
   margin: 0;
@@ -80,18 +80,7 @@ h6 {
   font-size: 40px;
   color: black;
   margin: 0;
-  line-height: 1;
-}
-
-h7 {
-  font-family: europa, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 18px;
-  color: black;
-  margin: 0;
-  line-height: 28px;
+  line-height: 1.25;
 }
 
 @media (max-width: 899px) {
@@ -139,6 +128,16 @@ h7 {
   font-size: 40px;
 }
 
+.text_48px {
+  font-pze: 48px;
+  line-height: 1.5;
+}
+
+.text_56px {
+  font-size: 56px;
+  line-height: 1.5;
+}
+
 .text_bold {
   font-weight: 700;
 }
@@ -172,10 +171,6 @@ h7 {
   margin-top: 48px;
 }
 
-.vertical-spacing_8px {
-  height: 8px;
-}
-
 .vertical-spacing_16px {
   height: 16px;
 }
@@ -202,14 +197,6 @@ h7 {
 
 .vertical-spacing_80px {
   height: 80px;
-}
-
-.vertical-spacing_96px {
-  height: 96px;
-}
-
-.vertical-spacing_112px {
-  height: 112px;
 }
 
 
@@ -276,31 +263,34 @@ h7 {
   z-index: 20;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 479px) {
   .navigation {
     display: none;
   }
 }
 
 .navigation ul {
-  list-style-type: none;
+  list-text-style: none;
   padding: 0;
   margin: 0;
+  width: max-content;
 }
 
 .navigation li {
-  margin: 0 24px 0 24px;
+  margin: 0 8px 0 8px;
   display: inline-block;
+  
 }
 
 .navigation h2 {
   line-height: 18px;
+  padding: 0 16px 0 16px;
 }
 
-.navigation h1:hover {
-  color: #ed1843;
-  font-weight: 700;
+.navigation h2:hover {
+  color: grey;
 }
+
 
 .navigation a {
   text-decoration: none;
@@ -314,6 +304,11 @@ h7 {
   top: 50%;
   right: 4px;
   transform: translateY(-50%);
+  visibility: hidden;
+}
+
+.hamburger_touch-target:hover + .hamburger_icon svg {
+    color: grey;
 }
 
 .hamburger_icon {
@@ -322,11 +317,14 @@ h7 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 20px;
-  visibility: hidden;
 }
 
-@media (max-width: 599px) {
-  .hamburger_icon {
+
+
+
+
+@media (max-width: 479px) {
+  .hamburger_touch-target {
     visibility: visible;
   }
 }
@@ -350,7 +348,7 @@ h7 {
   right: 4px;
 }
 
-.close_icon {
+#navigation_hamburger svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -359,12 +357,10 @@ h7 {
 }
 
 #navigation_hamburger ul {
-  position: absolute;
+  position: relative;
   right: 20px;
-  top: calc(50% - 40px);
-  transform: translateY(-50%);
+  top: 48px;
   list-style-type: none;
-  
 }
 
 #navigation_hamburger li {
@@ -390,33 +386,27 @@ h7 {
   top: 50%;
   transform: translateY(-50%);
   right: 4px;
-  z-index: 10;
 }
 
-.linkedin_touch-target_hamburger {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  bottom: 8px;
-  right: 8px;
-  z-index: 10;
-}
-
-@media (max-width: 599px) {
-.linkedin_touch-target {
-    display: none;
-  }
+.linkedin_touch-target:hover > svg {
+  fill: grey;
 }
 
 .linkedin {
   position: absolute;
+  height: 20px;
   top: 50%;
   left: 50%;
-  height: 20px;
   transform: translate(-50%, -50%);
 }
 
 
+
+@media (max-width: 479px) {
+  .linkedin {
+    visibility: hidden;
+  }
+}
 
 .home_touch-target {
   position: absolute;
