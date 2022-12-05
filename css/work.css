@@ -1,2 +1,9 @@
-.project_container_work {
+.projecttiles_container_work {
+  position: absolute;
+  padding: 24%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
   
