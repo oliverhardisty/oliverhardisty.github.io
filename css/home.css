@@ -14,8 +14,8 @@ body {
   background-color: #ffffff;
 }
 
-.navigation ul li:nth-child(1) {
-  color: white;
+.homelogo svg {
+  fill: red
 }
 
 .landing-container {
