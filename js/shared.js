@@ -14,6 +14,11 @@ $('a').on('click', function() {
 });
 
 
+$(function(){
+      $(".navigation_work").load("navigation_work"); 
+    });
+
+
 
 
 
