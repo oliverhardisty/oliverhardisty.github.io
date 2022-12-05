@@ -15,6 +15,11 @@ body {
 }
 
 
+home_touch-target white {
+  visibility: hidden;
+}
+
+
 .landing-container {
   position: relative;
   width: 100%;
