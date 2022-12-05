@@ -228,7 +228,7 @@ h6 {
 }
 
 /** Components*/
-#navbar {
+.navbar {
   position: fixed;
   left: 0;
   right: 0;
