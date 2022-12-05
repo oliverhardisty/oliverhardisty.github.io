@@ -18,7 +18,7 @@
 
 <body class="darkbackground">
 
-<?php include 'navigation_work.php';?>
+<?php include 'navigation_work.html';?>
 <div class="projecttiles_container_work">
   <div class="projecttiles_work">
     <div class="projecttile">
