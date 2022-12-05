@@ -14,8 +14,8 @@ body {
   background-color: #ffffff;
 }
 
-.homelogo {
-  fill: red;
+.homelogo svg {
+  fill: #ed1843;
 }
 
 
