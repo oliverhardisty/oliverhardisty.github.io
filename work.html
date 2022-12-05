@@ -1,5 +1,5 @@
 <!-- DOCTYPE html -->
-<? php 
+<html lang="en">
 
 <head>
   
@@ -13,12 +13,20 @@
   <link rel="stylesheet" type="text/css" href="css/work.css">
   <link rel="stylesheet" type="text/css" href="css/shared.css">
   <link rel="stylesheet" href="https://use.typekit.net/tgl1vgk.css">
+  
+  <!--  Scripts  -->
+  <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $(".navigation_work").load("navigation_work.html"); 
+    });
+    </script> 
 
 </head>
 
 <body class="darkbackground">
 
-<?php include 'navigation_work.html';?>
+<div class="navigation_work"></div>
 <div class="projecttiles_container_work">
   <div class="projecttiles_work">
     <div class="projecttile">
@@ -128,4 +136,4 @@
   <script type="text/javascript" src="js/shared.js"></script>
 </body>
 
-?>
+<html>
