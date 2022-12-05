@@ -15,7 +15,7 @@ $('a').on('click', function() {
 
 
 $(function(){
-      $(".navigation").load("navigation_work"); 
+      $(".navigation_work").load("navigation_work.html"); 
     });
 
 
