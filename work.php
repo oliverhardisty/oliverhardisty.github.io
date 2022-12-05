@@ -1,5 +1,5 @@
 <!-- DOCTYPE html -->
-<html lang="en">
+<? php lang="en">
 
 <head>
   
@@ -128,4 +128,4 @@
   <script type="text/javascript" src="js/shared.js"></script>
 </body>
 
-</html>
+?>
