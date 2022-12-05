@@ -14,8 +14,8 @@ body {
   background-color: #ffffff;
 }
 
-.homelogo svg {
-  fill: #ed1843;
+.navbar white {
+  visibility: hidden;
 }
 
 
