@@ -406,7 +406,7 @@ h6 {
   text-transform: none;
 }
 
-.linkedin_touch-target[hamburger] {
+.linkedin_touch-target_hamburger {
   position: absolute;
   width: 48px;
   height: 48px;
