@@ -318,7 +318,7 @@ h6 {
 }
 
 @media (max-width: 479px) {
-  .linkedin {
+  .linkedin_touch-target {
     visibility: hidden;
   }
 }
@@ -406,7 +406,7 @@ h6 {
   text-transform: none;
 }
 
-.linkedin_touch-target_hamburger {
+.linkedin_touch-target[hamburger] {
   position: absolute;
   width: 48px;
   height: 48px;
