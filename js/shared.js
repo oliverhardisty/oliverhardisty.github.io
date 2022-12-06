@@ -19,7 +19,7 @@ $(function(){
     });
 
 $(function(){
-  $(".project-picker").load("html/shared/project-picker.html"); 
+  $(".project-picker-html").load("html/shared/project-picker.html"); 
 });
 
 
