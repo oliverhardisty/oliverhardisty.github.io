@@ -18,6 +18,10 @@ $(function(){
       $(".navigation_content").load("html/shared/navigation.html"); 
     });
 
+$(function(){
+  $(".project-picker").load("html/shared/navigation.html"); 
+});
+
 
 
 

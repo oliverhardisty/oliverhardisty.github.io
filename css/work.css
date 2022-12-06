@@ -1,4 +1,4 @@
-.projecttiles_container_work {
+.project-picker-container {
   position: absolute;
   top: 16%;
   width: 100%;
@@ -6,4 +6,3 @@
   display: flex;
   justify-content: center;
 }
-  
