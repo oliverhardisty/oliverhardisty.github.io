@@ -1,3 +1,8 @@
+navigation li:nth-child(1) text_white {
+  visibility: hidden;
+}
+  
+
 .project-picker-container {
   position: absolute;
   top: 16%;
@@ -6,3 +11,5 @@
   display: flex;
   justify-content: center;
 }
+
+
