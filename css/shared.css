@@ -311,7 +311,7 @@ h6 {
   }
 }
 
-.navigation_hamburger {
+#navigation_hamburger {
   position: fixed;
   width: 88%;
   height: 100%;
@@ -330,7 +330,7 @@ h6 {
   right: 4px;
 }
 
-.navigation_hamburger svg {
+#navigation_hamburger svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -338,25 +338,25 @@ h6 {
   width: 16px;
 }
 
-.navigation_hamburger ul {
+#navigation_hamburger ul {
   position: relative;
   right: 20px;
   top: 48px;
   list-style-type: none;
 }
 
-.navigation_hamburger li {
+#navigation_hamburger li {
   display: block;
   margin-top: 32px;
   text-align: right;
 }
 
-.navigation_hamburger p:hover {
+#navigation_hamburger p:hover {
   color: #ed1843;
   font-weight: 700;
 }
 
-.navigation_hamburger a {
+#navigation_hamburger a {
   text-decoration: none;
   text-transform: none;
 }
