@@ -358,7 +358,7 @@ h6 {
 
 #navigation_hamburger {
   position: fixed;
-  width: 48%;
+  width: 64%;
   height: 100%;
   display: none;
   top: 0;
@@ -379,8 +379,12 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.close_touch-target svg {
   width: 16px;
 }
+
 
 #navigation_hamburger ul {
   position: absolute;
@@ -412,6 +416,10 @@ h6 {
   height: 48px;
   bottom: 4px;
   right: 4px;
+}
+
+.linkedin_touch-target_hamburger svg {
+ width: 20px;
 }
 
 .projecttiles_container {
