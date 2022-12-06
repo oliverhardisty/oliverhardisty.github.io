@@ -405,6 +405,7 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
   list-style-type: none;
+  height: auto;
 }
 
 .hamburger-drawer li {
