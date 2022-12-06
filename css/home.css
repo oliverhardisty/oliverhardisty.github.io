@@ -157,12 +157,6 @@ body {
   }
 }
 
-
-.intro-container h6 {
-  font-size: 56px;
-  line-height: 1.5;
-}
-
 @media (max-width: 479px) {
   .intro-container h6 {
   font-size: 32px;
