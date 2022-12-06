@@ -15,7 +15,7 @@ $('a').on('click', function() {
 
 
 $(function(){
-      $(".navigation_content").load("html/shared/navigation.html"); 
+      $(".navigation-html").load("html/shared/navigation.html"); 
     });
 
 $(function(){
