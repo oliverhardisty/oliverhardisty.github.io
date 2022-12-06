@@ -347,23 +347,34 @@ h6 {
 }
 
 
-
-
-
 @media (max-width: 479px) {
   .hamburger_touch-target {
     visibility: visible;
   }
 }
 
-#navigation_hamburger {
+#hamburger-container {
+  display: none;
   position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.hamburger-drawer {
+  position: absolute;
   width: 64%;
   height: 100%;
-  display: none;
   top: 0;
   right: 0;
-  z-index: 10;
+}
+
+.behind-hamburger {
+  position: absolute;
+  width: 36%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .close_touch-target {

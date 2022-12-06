@@ -1,11 +1,11 @@
 
 
 function showHamburger() {
-  document.getElementById("navigation_hamburger").style.display = "block";
+  document.getElementById("hamburger-container").style.display = "block";
 }
 
 function hideHamburger() {
-  document.getElementById("navigation_hamburger").style.display = "none";
+  document.getElementById("hamburger-container").style.display = "none";
 }
 
 
