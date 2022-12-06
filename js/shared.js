@@ -19,6 +19,10 @@ $(function(){
     });
 
 $(function(){
+      $(".navigation-html").load("shared/navigation.html"); 
+    });
+
+$(function(){
   $(".project-picker-html").load("html/shared/project-picker.html"); 
 });
 
