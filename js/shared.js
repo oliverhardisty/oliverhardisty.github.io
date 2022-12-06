@@ -15,11 +15,11 @@ $('a').on('click', function() {
 
 
 $(function(){
-      $(".navigation-html").load("navigation.html"); 
+      $(".navigation-html").load("html/shared/navigation.html"); 
     });
 
 $(function(){
-  $(".project-picker-html").load("project-picker.html"); 
+  $(".project-picker-html").load("html/shared/project-picker.html"); 
 });
 
 
