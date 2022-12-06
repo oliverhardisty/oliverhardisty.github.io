@@ -5,7 +5,7 @@ function showHamburger() {
 }
 
 function hideHamburger() {
-  document.getElementId("navigation_hamburger").style.display = "none";
+  document.getElementById("navigation_hamburger").style.display = "none";
 }
 
 
