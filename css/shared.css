@@ -279,6 +279,28 @@ h6 {
   text-transform: none;
 }
 
+.linkedin_touch-target {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 4px;
+}
+
+.linkedin_touch-target:hover > svg {
+  fill: grey;
+}
+
+.linkedin {
+  position: absolute;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 .hamburger_touch-target {
   position: absolute;
   width: 48px;
@@ -359,28 +381,6 @@ h6 {
   text-decoration: none;
   text-transform: none;
 }
-
-.linkedin_touch-target {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 4px;
-}
-
-.linkedin_touch-target:hover > svg {
-  fill: grey;
-}
-
-.linkedin {
-  position: absolute;
-  height: 20px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 
 
 @media (max-width: 479px) {
