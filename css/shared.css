@@ -237,6 +237,23 @@ h6 {
   z-index: 10;
 }
 
+.home_touch-target {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+}
+
+.homelogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 32px;
+}
+
 .navigation {
   position: absolute;
   left: 50%;
@@ -298,6 +315,12 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 479px) {
+  .linkedin {
+    visibility: hidden;
+  }
 }
 
 
@@ -382,28 +405,9 @@ h6 {
   text-transform: none;
 }
 
-
-@media (max-width: 479px) {
-  .linkedin {
-    visibility: hidden;
-  }
-}
-
-.home_touch-target {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 4px;
-}
-
-.homelogo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 32px;
+.linkedin_touch-target(hamburger) {
+  
+  
 }
 
 .projecttiles_container {
