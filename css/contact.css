@@ -1,3 +1,8 @@
+.navigation li:nth-child(3) h2 {
+  color: #ed1843;;
+}
+
+
 .contactcontent {
   position: absolute;
   left: 50%;
