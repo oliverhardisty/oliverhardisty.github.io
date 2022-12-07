@@ -32,7 +32,7 @@ $(function(){
 
 
 $(document).ready(function () {
-              $(".navigation > a").click(function (e) {
+              $(".navigation > h2 > a").click(function (e) {
                $(".navigation > h2").removeClass("text_red");
                $(this).addClass("text_red");
                 });
