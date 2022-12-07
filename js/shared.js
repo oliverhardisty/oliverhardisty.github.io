@@ -30,6 +30,13 @@ $(function(){
   $(".project-picker-html").load("shared/project-picker.html"); 
 });
 
+$(document).ready(function () {
+              $(".navigation > h2").click(function (e) {
+               $(".navigation > h2").removeClass("text_red");
+               $(this).addClass("text_red");
+                });
+            });
+
 
 
 
