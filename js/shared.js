@@ -31,6 +31,12 @@ $(function(){
 });
 
 
+$(".navigation h2").click(function(){
+      $(".navigation h2").css("color", "");
+    $(this).css("color", "red");
+});
+
+
 
 
 
