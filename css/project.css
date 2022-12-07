@@ -60,9 +60,8 @@ body {
 }
 
 .back-button h2 {
-  position: absolute;
   margin: 0 24px 0 24px;
-  line-height: 100%
+  line-height: 48px;
 }
 
 
