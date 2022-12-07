@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.navigation li:nth-child(2) {
+.navigation li:nth-child(1) h2 {
   color: red;
 }
 
