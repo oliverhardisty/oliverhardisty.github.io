@@ -32,9 +32,9 @@ $(function(){
 
 
 $(document).ready(function () {
-              $("").click(function (e) {
-               $("").removeClass("text_red");
-               $(this).addClass("text_red");
+              $(".navigation > li").click(function (e) {
+               $(".navigation > li").removeClass(".text_red");
+               $(this).addClass(".text_red");
                 });
             });
 
