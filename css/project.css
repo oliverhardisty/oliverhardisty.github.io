@@ -61,6 +61,10 @@ body {
   border-radius: 28px;
 }
 
+.back-button:hover {
+  background-color: grey;
+}
+
 .back-button p {
   padding: 0 48px 4px 48px;
   font-weight: 700;
