@@ -65,10 +65,14 @@ body {
   background-color: grey;
 }
 
+.back-button a {
+  text-decoration: none;
+}
+
+
 .back-button p {
   padding: 0 48px 4px 48px;
   font-weight: 700;
-  text-decoration: none;
 }
 
 
