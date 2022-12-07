@@ -15,7 +15,7 @@ body {
 }
 
 .navigation-html .darkbackground {
-  opacity: 0;
+  background-color: transparent;
 }
 
 .homelogo svg {
