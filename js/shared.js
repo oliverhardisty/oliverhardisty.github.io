@@ -30,15 +30,10 @@ $(function(){
   $(".project-picker-html").load("shared/project-picker.html"); 
 });
 
-$(document).ready(function () {
-                $(".navigation > h2 > a").click(function (e) {
-                    $(".navigation > h2").removeClass("active");
-                    $(".navigation > h2 > a").css("color", "");
- 
-                    $(this).addClass("active");
-                    $(this).css("color", "red");
-                });
-            });
+$(".navigation > h2 > a").click(function(){
+      $(".navigation > h2").css("color", "white");
+    $(this).css("color", "red");
+});
 
 
 
