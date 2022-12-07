@@ -1,3 +1,7 @@
+.navigation li:nth-child(1) h2 {
+  color: #ed1843;;
+}
+
 
 .project-picker-container {
   position: absolute;
@@ -7,9 +11,4 @@
   display: flex;
   justify-content: center;
 }
-
-.navigation li:nth-child(1) h2 {
-  color: #ed1843;;
-}
-
 
