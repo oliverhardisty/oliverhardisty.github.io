@@ -49,8 +49,6 @@ body {
 
 .back-button {
   position: relative;
-  display: flex;
-  align-items: center; 
   left: 50%;
   transform: translateX(-50%);
   margin: 96px 0 48px 0;
@@ -62,8 +60,9 @@ body {
 }
 
 .back-button p {
-  margin: 0 48px 0 48px;
-  line-height: 1;
+  margin: 0 32px 0 32px;
+  line-height: 48px;
+  padding-bottom: 2px;
   font-weight: 700;
 }
 
