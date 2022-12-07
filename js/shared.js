@@ -31,6 +31,14 @@ $(function(){
 });
 
 
+$(document).ready(function () {
+              $("").click(function (e) {
+               $("").removeClass("text_red");
+               $(this).addClass("text_red");
+                });
+            });
+
+
 
 
 
