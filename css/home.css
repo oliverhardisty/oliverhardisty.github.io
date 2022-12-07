@@ -10,6 +10,11 @@ body {
   background-color: #0f0f0f;
 }
 
+.homelogo_touch-target white {
+  display: none;
+}
+  
+  
 .color-white {
   background-color: #ffffff;
 }
