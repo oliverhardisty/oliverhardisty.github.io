@@ -255,7 +255,7 @@ h6 {
   height: 32px;
 }
 
-.homelogo_touch-target:hover > svg {
+.home_touch-target:hover > svg {
   fill: grey;
 }
   
