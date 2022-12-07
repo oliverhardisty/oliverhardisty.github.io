@@ -53,7 +53,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   align-items: center;
-  margin: 96px 0 48px 0;
+  margin: 96px 0 96px 0;
   height: 48px;
   width: max-content;
   z-index: 6;
@@ -62,7 +62,7 @@ body {
 }
 
 .back-button p {
-  padding: 0 32px 4px 32px;
+  padding: 0 48px 4px 48px;
   font-weight: 700;
 }
 
