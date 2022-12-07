@@ -53,8 +53,8 @@ body {
   left: 50%;
   transform: translateX(-50%);
   align-items: center;
-  margin: 96px 0 96px 0;
-  height: 48px;
+  margin: 128px 0 64px 0;
+  height: 56px;
   width: max-content;
   z-index: 6;
   background-color: black;
