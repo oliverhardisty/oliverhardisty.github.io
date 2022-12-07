@@ -1,4 +1,4 @@
-navigation li:nth-child(1) text_white {
+.navigation li:nth-child(1) text_white {
   display: none;
 }
   
