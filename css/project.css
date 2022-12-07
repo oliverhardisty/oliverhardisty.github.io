@@ -50,9 +50,10 @@ body {
 .back-button {
   position: relative;
   display: flex;
-  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
   align-items: center;
-  padding: 96px 0 48px 0;
+  margin: 96px 0 48px 0;
   height: 48px;
   width: max-content;
   z-index: 6;
