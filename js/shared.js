@@ -30,7 +30,7 @@ $(function(){
   $(".project-picker-html").load("shared/project-picker.html"); 
 });
 
-$(".navigation h2 a").click(function(){
+$(".navigation a h2").click(function(){
       $(".navigation h2").css("color", "white");
     $(this).css("color", "red");
 });
