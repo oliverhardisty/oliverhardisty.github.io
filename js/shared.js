@@ -32,8 +32,8 @@ $(function(){
 
 
 $(document).ready(function () {
-              $(".navigation > li").click(function (e) {
-               $(".navigation > li").removeClass(".text_red");
+              $(".navigation > h2").click(function (e) {
+               $(".navigation > h2").removeClass(".text_red");
                $(this).addClass(".text_red");
                 });
             });
