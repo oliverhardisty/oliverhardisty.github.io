@@ -295,6 +295,7 @@ h6 {
 .navigation a {
   text-decoration: none;
   text-transform: none;
+  color: inherit;
 }
 
 .linkedin_touch-target {
