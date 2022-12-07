@@ -50,8 +50,10 @@ body {
 .back-button {
   position: relative;
   display: flex;
+  left: 50%;
+  margin: auto;
   align-items: center;
-  margin: 96px 0 48px 0;
+  padding: 96px 0 48px 0;
   height: 48px;
   width: max-content;
   z-index: 6;
@@ -60,8 +62,7 @@ body {
 }
 
 .back-button p {
-  margin: 0 32px 0 32px;
-  padding-bottom: 2px;
+  padding: 0 32px 4px 32px;
   font-weight: 700;
 }
 
