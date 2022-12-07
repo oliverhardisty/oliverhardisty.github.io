@@ -1,5 +1,5 @@
 navigation li:nth-child(1) text_white {
-  visibility: hidden;
+  display: none;
 }
   
 
