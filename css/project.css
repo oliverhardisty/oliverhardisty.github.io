@@ -51,7 +51,7 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin: 96px 0px 48px 24px;
+  margin: 96px 0 48px 0;
   height: 48px;
   width: max-content;
   z-index: 6;
