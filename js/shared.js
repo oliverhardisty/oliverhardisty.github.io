@@ -30,8 +30,8 @@ $(function(){
   $(".project-picker-html").load("shared/project-picker.html"); 
 });
 
-$(".navigation a h2").click(function(){
-      $(".navigation h2").css("color", "white");
+$(".navigation > a").click(function(){
+      $(".navigation > h2").css("color", "white");
     $(this).css("color", "red");
 });
 
