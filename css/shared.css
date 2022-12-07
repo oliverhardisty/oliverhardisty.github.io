@@ -255,6 +255,9 @@ h6 {
   height: 32px;
 }
 
+.homelogo_touch-target:hover > svg{
+  
+
 .navigation {
   position: absolute;
   left: 50%;
@@ -307,7 +310,7 @@ h6 {
   right: 4px;
 }
 
-.linkedin_touch-target:hover > svg {
+.linkedin_touch-target:hover svg {
   fill: grey;
 }
 
@@ -334,10 +337,6 @@ h6 {
   right: 4px;
   transform: translateY(-50%);
   visibility: hidden;
-}
-
-.hamburger_touch-target:hover + .hamburger_icon svg {
-    color: grey;
 }
 
 .hamburger_icon {
