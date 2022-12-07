@@ -14,10 +14,6 @@ body {
   background-color: #ffffff;
 }
 
-.home_touch-target white {
-  display: none;
-}
-
 .landing-container {
   position: relative;
   width: 100%;
