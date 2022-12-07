@@ -14,7 +14,7 @@ body {
   background-color: #ffffff;
 }
 
-.navigation-html darkbackground {
+.navigation-html .darkbackground {
   opacity: 0;
 }
 
