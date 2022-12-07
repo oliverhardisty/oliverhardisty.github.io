@@ -1,4 +1,10 @@
 /** Breakpoints */
+
+.navigation li:nth-child(1) h2 {
+  color: #ed1843;;
+}
+
+
 body {
   padding: 0;
   margin: 0;
