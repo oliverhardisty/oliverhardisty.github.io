@@ -310,7 +310,7 @@ h6 {
   right: 4px;
 }
 
-.linkedin_touch-target:hover svg {
+.linkedin_touch-target:hover > svg {
   fill: grey;
 }
 
