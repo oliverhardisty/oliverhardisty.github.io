@@ -31,9 +31,12 @@ $(function(){
 });
 
 $(document).ready(function () {
-              $(".navigation > h2").click(function (e) {
-               $(".navigation > h2").removeClass("text_red");
-               $(this).addClass("text_red");
+                $(".navigation > h2 > a").click(function (e) {
+                    $(".navigation > h2").removeClass("active");
+                    $(".navigation > h2 > a").css("color", "");
+ 
+                    $(this).addClass("active");
+                    $(this).css("color", "red");
                 });
             });
 
