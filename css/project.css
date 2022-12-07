@@ -47,6 +47,21 @@ body {
   }
 }
 
+.back-button {
+  position: relative;
+  left: 0;
+  margin: 80px 0px 48px 48px;
+  height: 48px;
+  width: max-content;
+  z-index: 6;
+  background-color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  border-radius: 24px;
+}
+
+
+  
+
 .infobutton {
   position: absolute;
   bottom: 16px;
