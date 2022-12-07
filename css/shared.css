@@ -247,7 +247,7 @@ h6 {
   left: 4px;
 }
 
-#homelogo {
+.homelogo {
   position: absolute;
   top: 50%;
   left: 50%;
