@@ -48,12 +48,6 @@ $('a').on('click', function() {
   $(this).addClass('no-hover');
 });
 
-$(document).ready(function () {
-              $("ul.navbar-nav > li").click(function (e) {
-               $("ul.navbar-nav > li").removeClass("text_red");
-               $(this).addClass("text_red");
-                });
-            });
 
 
 
