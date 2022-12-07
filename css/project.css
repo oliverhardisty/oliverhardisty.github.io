@@ -59,9 +59,10 @@ body {
   border-radius: 24px;
 }
 
-.back-button h2 {
+.back-button p {
   margin: 0 24px 0 24px;
   line-height: 48px;
+  font-weight: 700;
 }
 
 
