@@ -298,6 +298,10 @@ h6 {
   color: inherit;
 }
 
+.navigation > a:active {
+  color: red;
+}
+
 .linkedin_touch-target {
   position: absolute;
   width: 48px;
