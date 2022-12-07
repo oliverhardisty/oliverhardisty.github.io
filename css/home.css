@@ -15,7 +15,7 @@ body {
 }
 
 .navigation-html darkbackground {
-  display: none;
+  opacity: 0;
 }
 
 .homelogo svg {
