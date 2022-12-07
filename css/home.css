@@ -10,8 +10,10 @@ body {
   background-color: #0f0f0f;
 }
 
-.homelogo_touch-target red {
+.homelogo_touch-target white {
   display: none;
+  opacity: 0;
+  visibility: hidden;
 }
   
   
