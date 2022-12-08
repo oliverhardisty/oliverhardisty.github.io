@@ -111,7 +111,7 @@ body {
 }
 
 .arrow {
-  absolute: 64px;
+  position: absolute;
   bottom: 64px;
   width: 32px;
 }
