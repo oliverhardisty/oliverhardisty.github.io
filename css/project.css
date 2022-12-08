@@ -114,7 +114,7 @@ body {
 }
 
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .infobutton {
     right: 0;
     margin-top: 8px;
@@ -145,7 +145,7 @@ body {
   box-shadow: -4px 0 10px rgb(0, 0, 0, 0.2);
 }
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .infodrawer {
     width: 100%;
     translate: transformY(-44px);
@@ -162,7 +162,7 @@ body {
   transform: rotate(180deg);
 }
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .icon-touch-target {
     left: 100%;
     transform: translateX(-100%) rotate(90deg);
@@ -191,7 +191,7 @@ body {
   box-sizing: border-box;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .infodrawer p {
     padding: 0;
   }
@@ -211,7 +211,7 @@ body {
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
 }
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .imagecontainer {
     margin-top: 60px;
   }
