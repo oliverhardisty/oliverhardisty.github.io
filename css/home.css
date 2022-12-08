@@ -106,16 +106,13 @@ body {
 
 .arrow-container {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
   width: 100%;
-  height: 100%;
-  justify-content: flex-end;
+  height: 200vw;
 }
 
 .arrow {
-  margin-bottom: 64px;
+  absolute: 64px;
+  bottom: 64px;
   width: 32px;
 }
 
