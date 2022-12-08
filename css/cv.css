@@ -21,7 +21,7 @@
 .cvcontent {
   position: absolute;
   top: 32%;
-  width: 704px;
+  width: 640px;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
