@@ -103,20 +103,25 @@ body {
 }
 
 
-.arrow {
+
+.arrow-container {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-.arrow svg {
+.arrow {
   position: absolute;
-  fill: #5F5F5F;
   bottom: 64px;
   left: 50%;
   transform: translateX(-50%);
   width: 32px;
 }
+
+.arrow svg {
+  fill: #5F5F5F;
+}
+  
 
 
 .stroke {
