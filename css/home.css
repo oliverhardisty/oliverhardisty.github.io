@@ -107,13 +107,13 @@ body {
 .arrow-container {
   position: absolute;
   width: 100%;
-  height: 178vw;
+  height: 100%;
 }
 
 .arrow {
   position: absolute;
-  bottom: 64px;
   width: 32px;
+  top: 800px
 }
 
 .arrow svg {
