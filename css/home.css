@@ -112,6 +112,10 @@ body {
   margin-bottom: 64px;
 }
 
+.arrow svg {
+  fill: #5F5F5F;
+}
+
 
 .stroke {
   animation: dash 2s ease-out forwards;
