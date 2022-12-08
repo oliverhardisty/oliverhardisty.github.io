@@ -461,7 +461,6 @@ h6 {
 
 @media (max-width: 479px) {
   .project-picker {
-    padding: 0 24px 0 24px;
     width: 100%;
   }
 }
