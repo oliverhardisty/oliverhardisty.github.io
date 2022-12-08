@@ -105,10 +105,11 @@ body {
 
 .arrow {
   position: absolute;
-  left: 50%;
-  bottom: 64px;
-  transform: translateX(-50%);
   width: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  margin-bottom: 64px;
 }
 
 
