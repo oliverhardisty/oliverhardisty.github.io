@@ -103,21 +103,19 @@ body {
 }
 
 
-
-.arrow-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 .arrow {
   position: absolute;
-  width: 32px;
-  top: 600px
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
 }
 
 .arrow svg {
+  position: absolute;
   fill: #5F5F5F;
+  bottom: 64px;
+  width: 32px;
 }
   
 
