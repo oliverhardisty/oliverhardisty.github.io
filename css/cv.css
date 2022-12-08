@@ -30,14 +30,8 @@
 
 @media (max-width: 767px) {
   .cvcontent {
-    padding: 0 32px 0 32px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 479px) {
-  .cvcontent {
     padding: 0 24px 0 24px;
+    width: 100%;
   }
 }
 
