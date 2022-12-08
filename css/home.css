@@ -3,9 +3,7 @@
 body {
   background-color: #0f0f0f;
   transition: background-color 1s ease;
-  overflow-x: hidden;
 }
-
 
 
 .color-black {
@@ -72,10 +70,6 @@ body {
   .landing-container {
     height: 178vw;
   }
-  
-  body {
-    overflow-x: hidden;
-  }
 }
 
 .panel {
@@ -117,6 +111,8 @@ body {
   
 .arrow-container {
   position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 200%;
 }
