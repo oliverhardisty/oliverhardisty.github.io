@@ -6,6 +6,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 .color-black {
   background-color: #0f0f0f;
 }
@@ -69,6 +71,10 @@ body {
 @media (max-width: 479px) {
   .landing-container {
     height: 178vw;
+  }
+  
+  body {
+    overflow-x: hidden;
   }
 }
 
