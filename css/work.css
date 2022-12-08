@@ -6,6 +6,7 @@
 
 .project-picker-container {
   position: absolute;
+  left: 0;
   top: 16%;
   width: 100%;
   height: auto;
