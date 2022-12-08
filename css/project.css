@@ -4,10 +4,14 @@
   background-color: transparent;
 }
 
-navbar li {
+.navigation-html h2 {
+  color: black;
+}
+
+.navigation-html svg {
+  fill: black;
+}
   
-
-
 
 .navigation li:nth-child(1) h2 {
   color: #ed1843;
