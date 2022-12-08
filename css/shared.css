@@ -437,6 +437,7 @@ h6 {
 }
 
 .project-picker {
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
