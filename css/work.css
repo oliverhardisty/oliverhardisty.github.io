@@ -1,6 +1,11 @@
-.navigation li:nth-child(1) h2, .hamburger-container li:nth-child(1) h2 {
+.navigation li:nth-child(1) h2 {
   color: #ed1843;
 }
+
+.hamburger-container li:nth-child(1) h2 {
+  color: #ed1843;
+}
+
 
 
 .project-picker-container {
