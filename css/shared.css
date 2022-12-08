@@ -83,7 +83,7 @@ h6 {
   line-height: 1.25;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   h5 {
     font-size: 64px;
   }
