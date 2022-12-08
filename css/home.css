@@ -111,9 +111,19 @@ body {
   width: 32px;
 }
 
+@media (max-width: 479px) {
+  .arrow {
+    translateY: 400px;
+  }
+}
+
 .arrow svg {
   fill: #5F5F5F;
 }
+
+
+
+
   
 
 
