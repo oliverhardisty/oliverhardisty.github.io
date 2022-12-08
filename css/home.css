@@ -9,10 +9,18 @@ body {
   background-color: #0f0f0f;
 }
   
-  
 .color-white {
   background-color: #ffffff;
 }
+
+.home-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+  
 
 .navigation-html .darkbackground {
   background-color: transparent;
