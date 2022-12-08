@@ -105,15 +105,17 @@ body {
 
 .arrow {
   position: absolute;
-  width: 32px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  margin-bottom: 64px;
+  width: 100%;
+  height: 100%;
 }
 
 .arrow svg {
+  position: absolute;
   fill: #5F5F5F;
+  bottom: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
 }
 
 
