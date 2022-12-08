@@ -3,6 +3,7 @@
 body {
   background-color: #0f0f0f;
   transition: background-color 1s ease;
+  overflow-x: hidden;
 }
 
 .color-black {
@@ -12,6 +13,8 @@ body {
 .color-white {
   background-color: #ffffff;
 }
+
+
 
 .home-container {
   position: absolute;
