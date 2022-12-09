@@ -154,8 +154,12 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
+.intro-container h6 {
+  top: 25%;
+}
+
 
 @media (min-width: 1200px) {
   .intro-container {
