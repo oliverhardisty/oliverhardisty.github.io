@@ -563,8 +563,7 @@ a:not(.no-hover):hover .projecttileoverlay {
 
 .secondary-button {
   background-color: #ffffff;
-  stroke: #0f0f0f;
-  stroke-width: 2;
+  border: 2px solid #0f0f0f;
 }
 
 .secondary-button p {
