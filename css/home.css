@@ -141,7 +141,7 @@ body {
   animation: dash 2s ease-out forwards;
   fill: none;
   pulse: 1s 1s ease-out forwards;
-  stroke: white;
+  stroke: #ffffff;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   stroke-width: 16;
