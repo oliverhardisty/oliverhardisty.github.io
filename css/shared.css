@@ -537,13 +537,10 @@ a:not(.no-hover):hover .projecttileoverlay {
 
 .button_large {
   display: flex;
-  left: 50%;
-  transform: translateX(-50%);
   align-items: center;
   margin: 128px 0 64px 0;
   height: 56px;
   width: max-content;
-  z-index: 6;
   border-radius: 28px;
 }
 
@@ -569,6 +566,7 @@ a:not(.no-hover):hover .projecttileoverlay {
   stroke: #0f0f0f;
   stroke-width: 2;
 }
+
 
 .inline-buttons {
   position: relative;
