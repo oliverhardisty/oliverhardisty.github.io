@@ -533,3 +533,31 @@ h6 {
 a:not(.no-hover):hover .projecttileoverlay {
   opacity: 1;
 }
+
+
+.large-button {
+  position: relative;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  margin: 128px 0 64px 0;
+  height: 56px;
+  width: max-content;
+  z-index: 6;
+  border-radius: 28px;
+}
+
+.large-button:hover {
+  background-color: grey;
+}
+
+.back-button a {
+  text-decoration: none;
+}
+
+
+.large-button p {
+  padding: 0 48px 4px 48px;
+  font-weight: 700;
+}
