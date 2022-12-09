@@ -3,11 +3,11 @@
 }
 
 .navigation-html h2 {
-  color: black;
+  color: #0f0f0f;
 }
 
 .navigation-html svg {
-  fill: black;
+  fill: #0f0f0f;
 }
 
 
@@ -37,7 +37,7 @@
 
 
 .image_L {
-  background-color: black;
+  background-color: #0f0f0f;
   width: 48px;
   height: 48px;
   float: left;
@@ -45,7 +45,7 @@
 }
 
 .image_S {
-  background-color: black;
+  background-color: #0f0f0f;
   width: 32px;
   height: 32px;
   float: left;
@@ -74,7 +74,7 @@
 .image-placeholder {
   width: 100%;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #0f0f0f;
   height: 500px;
 }
 
