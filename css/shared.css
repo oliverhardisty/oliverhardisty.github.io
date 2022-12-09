@@ -425,9 +425,8 @@ a {
 }
 
 .linkedin_touch-target_hamburger {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  float: right;
   width: 48px;
   height: 48px;
 }
