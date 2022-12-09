@@ -256,7 +256,7 @@ h6 {
 }
 
 .home_touch-target:hover > .homelogo {
-  fill: #BFBFBF;
+  fill: #808080;
 }
   
   
@@ -294,7 +294,7 @@ h6 {
 }
 
 .navigation h2:hover {
-  color: #BFBFBF;
+  color: #808080;
 }
 
 
@@ -314,7 +314,7 @@ h6 {
 }
 
 .linkedin_touch-target:hover > svg {
-  fill: #BFBFBF;
+  fill: #808080;
 }
 
 .linkedin {
@@ -545,12 +545,12 @@ a:not(.no-hover):hover .projecttileoverlay {
 }
 
 .primary-button:hover {
-  background-color: #404040;
+  background-color: #808080;
 }
 
 .secondary-button:hover, .secondary-button p:hover {
-  outline-color: #404040;
-  color: #404040;
+  outline-color: #808080;
+  color: #808080;
 }
 
 
