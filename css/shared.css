@@ -407,14 +407,17 @@ h6 {
   width: 18px;
 }
 
-.hamburger-navigation {
-  display: flex;
-  justify-content: right;
-  justify-items: right;
+.hamburger-drawer ul {
+  position: relative;
+  right: 20px;
+  top: 48px;
+  list-style-type: none;
 }
 
-.hamburger-navigation h4 {
-  margin-bottom: 32px;
+.hamburger-drawer li {
+  display: block;
+  margin-top: 32px;
+  text-align: right;
 }
 
 a {
