@@ -568,14 +568,3 @@ a:not(.no-hover):hover .projecttileoverlay {
 }
 
 
-.project-buttons {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
-
-.inline-buttons .button_large {
-  margin: 0 8px 0 8px;
-}
-
