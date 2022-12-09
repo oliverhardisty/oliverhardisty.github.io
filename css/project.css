@@ -220,7 +220,7 @@ body {
   flex-direction: row;
   padding: 128px 0 64px 0;
   margin: auto;
-  width: auto;
+  width: fit-content;
 }
 
 .project-buttons .button_large {
