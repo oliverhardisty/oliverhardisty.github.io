@@ -429,11 +429,8 @@ h6 {
 }
 
 .linkedin_touch-target_hamburger {
-  position: absolute;
   width: 48px;
   height: 48px;
-  bottom: 12px;
-  right: 12px;
 }
 
 .linkedin_touch-target_hamburger svg {
