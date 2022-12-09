@@ -540,7 +540,7 @@ a:not(.no-hover):hover .projecttileoverlay {
   align-items: center;
   margin: 128px 0 64px 0;
   height: 56px;
-  width: max-content;
+  width: fit-content;
   border-radius: 28px;
 }
 
