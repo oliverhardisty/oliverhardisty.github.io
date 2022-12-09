@@ -157,6 +157,7 @@ body {
 }
 
 .intro-container h6 {
+  position: absolute;
   top: 25%;
 }
 
