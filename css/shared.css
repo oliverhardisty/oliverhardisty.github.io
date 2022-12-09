@@ -536,7 +536,6 @@ a:not(.no-hover):hover .projecttileoverlay {
 
 
 .button_large {
-  position: relative;
   display: flex;
   left: 50%;
   transform: translateX(-50%);
@@ -561,11 +560,11 @@ a:not(.no-hover):hover .projecttileoverlay {
   font-weight: 700;
 }
 
-primary-button {
+.primary-button {
   background-color: #0f0f0f;
 }
 
-secondary-button {
+.secondary-button {
   background-color: #ffffff;
   stroke: #0f0f0f;
   stroke-width: 2;
