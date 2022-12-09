@@ -407,33 +407,23 @@ h6 {
   width: 18px;
 }
 
-
-.hamburger-drawer ul {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  list-style-type: none;
-  margin: 0;
+.hamburger-navigation {
+  display: flex;
+  justify-content: right;
+  justify-items: right;
 }
 
-.hamburger-drawer li {
-  display: block;
-  margin: 32px 16px 32px 16px;
-  text-align: right;
+.hamburger-navigation h4 {
+  margin-bottom: 32px;
 }
 
-.hamburger-drawer a {
+a {
   text-decoration: none;
-  text-transform: none;
 }
 
 .linkedin_touch-target_hamburger {
   width: 48px;
   height: 48px;
-  display: flex;
-  align-content: center;
-  justify-content: right;
 }
 
 .linkedin_touch-target_hamburger svg {
