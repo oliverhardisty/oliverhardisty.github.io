@@ -8,6 +8,10 @@ html {
   background-color: transparent;
 }
 
+.navigation li:nth-child(1) h2 {
+  color: #ed1843;
+}
+
 .navigation-html h2 {
   color: #0f0f0f;
 }
