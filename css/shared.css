@@ -204,7 +204,7 @@ h6 {
 
 /** Colors */
 .white {
-  fill: white;
+  fill: #ffffff;
 }
 
 .red {
@@ -212,7 +212,7 @@ h6 {
 }
 
 .black {
-  fill: black;
+  fill: #0f0f0f;
 }
 
 .darkbackground {
@@ -535,7 +535,7 @@ a:not(.no-hover):hover .projecttileoverlay {
 }
 
 
-.large-button {
+.button_large {
   position: relative;
   display: flex;
   left: 50%;
@@ -546,18 +546,19 @@ a:not(.no-hover):hover .projecttileoverlay {
   width: max-content;
   z-index: 6;
   border-radius: 28px;
+  background-color: #0f0f0f;
 }
 
-.large-button:hover {
+.button_large:hover {
   background-color: grey;
 }
 
-.back-button a {
+.button_large a {
   text-decoration: none;
 }
 
 
-.large-button p {
+.button_large p {
   padding: 0 48px 4px 48px;
   font-weight: 700;
 }
@@ -568,7 +569,7 @@ a:not(.no-hover):hover .projecttileoverlay {
   margin: auto;
 }
 
-inline-buttons large-button {
+.inline-buttons .button_large {
   margin: 0 8px 0 8px;
 }
 
