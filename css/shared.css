@@ -568,7 +568,7 @@ a:not(.no-hover):hover .projecttileoverlay {
 }
 
 
-.inline-buttons {
+.project-buttons {
   position: relative;
   display: flex;
   flex-direction: row;
