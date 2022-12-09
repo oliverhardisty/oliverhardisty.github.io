@@ -426,7 +426,7 @@ a {
 }
 
 .linkedin_touch-target_hamburger {
-  position: absolute;
+  position: relative;
   float: right;
   width: 48px;
   height: 48px;
@@ -436,7 +436,7 @@ a {
 
 
 .linkedin_touch-target_hamburger linkedin {
-  height: 20px;
+  height: 40px;
 }
 
 .project-picker {
