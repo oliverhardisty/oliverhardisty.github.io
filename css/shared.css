@@ -238,7 +238,7 @@ h6 {
   left: 0;
   right: 0;
   top: 0;
-  height: 56px;
+  height: 64px;
   z-index: 10;
 }
 
@@ -248,7 +248,7 @@ h6 {
   height: 48px;
   top: 50%;
   transform: translateY(-50%);
-  left: 4px;
+  left: 8px;
 }
 
 .homelogo {
@@ -314,7 +314,7 @@ h6 {
   height: 48px;
   top: 50%;
   transform: translateY(-50%);
-  right: 4px;
+  right: 8px;
 }
 
 .linkedin_touch-target:hover > svg {
@@ -341,7 +341,7 @@ h6 {
   width: 48px;
   height: 48px;
   top: 50%;
-  right: 4px;
+  right: 8px;
   transform: translateY(-50%);
   visibility: hidden;
 }
