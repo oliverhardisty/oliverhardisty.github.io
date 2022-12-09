@@ -412,11 +412,12 @@ h6 {
   right: 24px;
   bottom: 32px;
   list-style-type: none;
+  margin: 0;
 }
 
 .hamburger-drawer li {
   display: block;
-  margin-top: 32px;
+  margin-top: 48px;
   text-align: right;
 }
 
@@ -430,9 +431,10 @@ a {
   width: 48px;
   height: 48px;
   transform: translatex(12px);
+  padding-top: 16px;
 }
 
-.linkedin_touch-target_hamburger svg {
+.linkedin_touch-target_hamburger linkedin {
   height: 20px;
 }
 
