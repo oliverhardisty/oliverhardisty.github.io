@@ -548,7 +548,7 @@ a:not(.no-hover):hover .projecttileoverlay {
   background-color: #808080;
 }
 
-.secondary-button.secondary-button p: hover {
+.secondary-button:hover, .secondary-button p:hover {
   outline-color: #808080;
   color: #808080;
 }
