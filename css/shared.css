@@ -561,3 +561,10 @@ a:not(.no-hover):hover .projecttileoverlay {
   padding: 0 48px 4px 48px;
   font-weight: 700;
 }
+
+.inline-buttons {
+  display: flex;
+  flex-direction: horizontal;
+  margin: auto;
+}
+
