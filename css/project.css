@@ -5,23 +5,12 @@
 }
 
 .navigation-html h2 {
-  color: black;
+  color: #0F0F0F;
 }
 
 .navigation-html svg {
-  fill: black;
+  fill: #0F0F0F;
 }
-  
-
-.navigation li:nth-child(1) h2 {
-  color: #ed1843;
-}
-
-.hamburger-drawer li:nth-child(1) .text_black h2 {
-  color: #ed1843;
-}
-
-
 
 
 body {
