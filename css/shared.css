@@ -568,3 +568,7 @@ a:not(.no-hover):hover .projecttileoverlay {
   margin: auto;
 }
 
+inline-buttons large-button {
+  margin: 0 8px 0 8px;
+}
+
