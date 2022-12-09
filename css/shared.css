@@ -408,9 +408,9 @@ h6 {
 }
 
 .hamburger-drawer ul {
-  position: relative;
-  right: 20px;
-  top: 48px;
+  position: absolute;
+  right: 24px;
+  bottom: 32px;
   list-style-type: none;
 }
 
