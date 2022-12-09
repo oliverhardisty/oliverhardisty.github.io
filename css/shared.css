@@ -6,7 +6,7 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 16px;
-  color: white;
+  color: #ffffff;
   line-height: 28px;
   margin: 0;
 }
@@ -16,7 +16,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  color: white;
+  color: #ffffff;
   line-height: 28px;
   margin: 0;
   letter-spacing: 1.5px;
@@ -28,7 +28,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 18px;
-  color: white;
+  color: #ffffff;
   margin: 0;
   line-height: 28px;
 }
@@ -40,7 +40,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 12px;
-  color: white;
+  color: #ffffff;
   line-height: 1.5;
   margin: 0 0 4px 0;
 }
@@ -51,7 +51,7 @@ h4 {
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 20px;
-  color: black;
+  color: #0f0f0f;
   margin: 0;
   line-height: 30px;
 }
@@ -62,7 +62,7 @@ h5 {
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 80px;
-  color: black;
+  color: #0f0f0f;
   margin: 0;
   line-height: 1;
   -ms-hyphens: auto;
@@ -78,7 +78,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 40px;
-  color: black;
+  color: #0f0f0f;
   margin: 0;
   line-height: 1.25;
 }
@@ -93,11 +93,11 @@ h6 {
 }
 
 .text_black {
-  color: black;
+  color: #0f0f0f;
 }
 
 .text_white {
-  color: white;
+  color: #ffffff;
 }
 
 .text_red {
@@ -256,7 +256,7 @@ h6 {
 }
 
 .home_touch-target:hover > svg {
-  fill: grey;
+  fill: #808080;
 }
   
   
@@ -294,7 +294,7 @@ h6 {
 }
 
 .navigation h2:hover {
-  color: grey;
+  color: #808080;
 }
 
 
@@ -314,7 +314,7 @@ h6 {
 }
 
 .linkedin_touch-target:hover > svg {
-  fill: grey;
+  fill: #808080;
 }
 
 .linkedin {
@@ -546,24 +546,33 @@ a:not(.no-hover):hover .projecttileoverlay {
   width: max-content;
   z-index: 6;
   border-radius: 28px;
-  background-color: #0f0f0f;
 }
 
 .button_large:hover {
-  background-color: grey;
+  background-color: #808080;
 }
 
 .button_large a {
   text-decoration: none;
 }
 
-
 .button_large p {
   padding: 0 48px 4px 48px;
   font-weight: 700;
 }
 
+primary-button {
+  background-color: #0f0f0f;
+}
+
+secondary-button {
+  background-color: #ffffff;
+  stroke: #0f0f0f;
+  stroke-width: 2;
+}
+
 .inline-buttons {
+  position: relative;
   display: flex;
   flex-direction: row;
   margin: auto;
