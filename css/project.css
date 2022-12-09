@@ -213,3 +213,14 @@ body {
   height: 75%;
   z-index: 10;
 }
+
+.project-buttons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.project-buttons .button_large {
+  margin: 0 8px 0 8px;
+}
