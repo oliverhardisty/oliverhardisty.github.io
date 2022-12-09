@@ -219,7 +219,8 @@ body {
   display: flex;
   flex-direction: row;
   padding: 128px 0 64px 0;
-  margin: auto; 
+  margin: auto;
+  width: auto;
 }
 
 .project-buttons .button_large {
