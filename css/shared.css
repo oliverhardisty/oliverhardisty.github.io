@@ -429,6 +429,7 @@ a {
   float: right;
   width: 48px;
   height: 48px;
+  transform: translatex(14px);
 }
 
 .linkedin_touch-target_hamburger svg {
