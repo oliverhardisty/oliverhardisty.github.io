@@ -65,40 +65,6 @@ body {
     margin: 160px 0 68px 0;
   }
 }
-
-.back-button {
-  position: relative;
-  display: flex;
-  left: 50%;
-  transform: translateX(-50%);
-  align-items: center;
-  margin: 128px 0 64px 0;
-  height: 56px;
-  width: max-content;
-  z-index: 6;
-  background-color: black;
-  border-radius: 28px;
-}
-
-.back-button:hover {
-  background-color: grey;
-}
-
-.back-button a {
-  text-decoration: none;
-}
-
-
-.back-button p {
-  padding: 0 48px 4px 48px;
-  font-weight: 700;
-}
-
-
-
-
-
-
   
 
 .infobutton {
