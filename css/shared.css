@@ -431,10 +431,14 @@ h6 {
 .linkedin_touch-target_hamburger {
   width: 48px;
   height: 48px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
 }
 
 .linkedin_touch-target_hamburger svg {
- height: 20px;
+  height: 20px; 
 }
 
 .project-picker {
