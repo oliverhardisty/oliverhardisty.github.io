@@ -270,15 +270,15 @@ body {
 @media (max-width: 479px) {
   .project-buttons {
     flex-direction: column;
+    justify-items: center;
     padding: 48px 0 48px 0;
     width: 100%;
   }
   
-  .project-buttons > .button_large.darkbackground {
+  .project-buttons .button_large {
     width: 100%;
     margin: 8px 0 8px 0;
     padding: 0 24px 0 24px;
-    justify-items: center;
   }
 }    
 
