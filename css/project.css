@@ -279,6 +279,9 @@ body {
     padding: 0 24px 0 24px;
     width: 100%;
   }
+  
+  .button_large p {
+    padding: 0;
 }    
 
 
