@@ -215,7 +215,6 @@ body {
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 128px 0 64px 0;
   height: 56px;
   width: fit-content;
   border-radius: 28px;
@@ -263,8 +262,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  padding: 96px 0 96px 0;
-  margin: auto;
+  margin: 96px auto 96px auto;
   width: fit-content;
 }
 
