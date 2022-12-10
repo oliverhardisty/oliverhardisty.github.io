@@ -271,7 +271,8 @@ body {
   
 .project-buttons .button_large {
   margin: 0 12px 0 12px;
-  width: 240px;
+  max-width: 240px;
+}
 }
 
 
