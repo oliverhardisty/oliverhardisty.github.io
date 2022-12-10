@@ -259,6 +259,7 @@ body {
   margin: 128px auto 128px auto;
   width: fit-content;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-buttons .button_large {
@@ -266,12 +267,12 @@ body {
 }
 
 @media (max-width: 479px) {
+  
   .project-buttons {
     flex-direction: column;
     width: calc(100% - 48px);
     margin: 64px 0 64px 0;
     justify-content: center;
-    justify-items: center;
   }
   
   .project-buttons .button_large {
