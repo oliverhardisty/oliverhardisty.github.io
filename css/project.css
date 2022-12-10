@@ -231,7 +231,7 @@ body {
     width: 100%;
   }
   
-  .button_large {
+  .project buttons .button_large.primary-button.secondary-button {
     margin: 8px 0 8px 0;
     width: 100%;
     padding: 0 24px 0 24px;
