@@ -276,7 +276,6 @@ body {
   
   .project-buttons .button_large {
     width: 100%;
-    flex-basis: 100%;
     margin: 8px 0 8px 0;
     padding: 0 24px 0 24px;
     justify-items: center;
