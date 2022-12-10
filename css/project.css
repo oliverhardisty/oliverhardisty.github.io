@@ -211,6 +211,61 @@ body {
   z-index: 10;
 }
 
+.button_large {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 128px 0 64px 0;
+  height: 56px;
+  width: fit-content;
+  border-radius: 28px;
+}
+
+.primary-button:hover {
+  background-color: #808080;
+}
+
+.secondary-button:hover, .secondary-button p:hover {
+  outline-color: #808080;
+  color: #808080;
+}
+
+
+.button_large a {
+  text-decoration: none;
+}
+
+.button_large p {
+  padding: 0 48px 3px 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.primary-button {
+  background-color: #0f0f0f;
+}
+
+.secondary-button {
+  background-color: #ffffff;
+  outline: 3px solid #0f0f0f;
+  outline-offset: -3px;
+}
+
+.secondary-button p {
+  color: #0f0f0f;
+}
+
+@media (max-width: 479px) {
+  .button_large {
+    width: 100%;
+    padding: 0 24px 0 24px;
+  } 
+  
+  .button_large p {
+    padding: 0 0 3px 0;
+  }
+}
+
 .project-buttons {
   position: relative;
   display: flex;
@@ -229,6 +284,10 @@ body {
     flex-direction: column;
     padding: 48px 0 48px 0;
     width: 100%;
+  }
+  
+  .project-buttons .button_large {
+    margin: 8px 0 8px 0;
   }
 }    
 
