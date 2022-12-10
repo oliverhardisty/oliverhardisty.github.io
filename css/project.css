@@ -275,8 +275,8 @@ body {
   }
   
   .button_large {
-    margin: 8px 0 8px 0;
-    width: calc(100% - 48px);
+    margin: 8px 24px 8px 24px;
+    width: 100%;
   }
   
   .button_large p {
