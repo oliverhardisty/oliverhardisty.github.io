@@ -275,11 +275,9 @@ body {
     width: 100%;
   }
   
-  .project-buttons .button_large {
+  .button_large {
     width: 100%;
-    margin: 8px 0 8px 0;
-    padding: 0 24px 0 24px;
-    align-self: start;
+    margin: 8px 24px 8px 24px;
   }
 }    
 
