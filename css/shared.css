@@ -433,7 +433,7 @@ a {
   position: absolute;
   width: 48px;
   height: 48px;
-  transform: translatex(12px);
+  transform: translate(12px 12px);
 }
 
 
