@@ -273,6 +273,8 @@ body {
     width: calc(100% - 48px);
     margin: 64px 0 64px 0;
     justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   
   .project-buttons .button_large {
