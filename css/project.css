@@ -274,13 +274,12 @@ body {
 
 @media (max-width: 767px) {
    .project-buttons {
-     width: calc(100% - 64px);
-     margin: 0 32px 0 32px;
+     width: calc(100% - 16px);
+     margin: 0 8px 0 8px;
   }
   
   .project-buttons .button_large {
     flex-grow: 1;
-    width: auto;
   }
 }
 
