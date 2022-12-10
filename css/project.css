@@ -215,7 +215,8 @@ body {
   display: flex;
   align-items: center;
   height: 56px;
-  width: fit-content;
+  max-width: 240px;
+  min-width: 208px;
   border-radius: 28px;
 }
   
@@ -260,7 +261,7 @@ body {
 .project-buttons {
   display: flex;
   position: relative;
-  margin: 160px auto 80px auto;
+  margin: 192px auto 96px auto;
   width: fit-content;
   flex-direction: row;
   flex-wrap: wrap;
@@ -275,7 +276,7 @@ body {
   .project-buttons {
     flex-direction: column;
     width: calc(100% - 48px);
-    margin: 80px 24px 48px 24px;
+    margin: 80px 24px 24px 24px;
   }
   
   .project-buttons .button_large {
