@@ -279,8 +279,8 @@ body {
   }
   
   .button_large p {
+    width: fit-content;
     width: 100%;
-    box-sizing: border-box
 }
 }
     
