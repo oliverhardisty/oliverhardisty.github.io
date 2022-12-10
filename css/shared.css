@@ -396,7 +396,7 @@ h6 {
   right: 8px;
 }
 
-.close_touch-target svg {
+.hamburger-drawer svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -430,8 +430,6 @@ a {
 .linkedin_touch-target_hamburger {
   bottom: 24px;
   right: 24px;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   width: 48px;
   height: 48px;
