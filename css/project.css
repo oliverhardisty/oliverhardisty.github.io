@@ -272,12 +272,12 @@ body {
     flex-direction: column;
     margin: 48px 0 48px 0;
     width: 100%;
+    padding: 0 24px 0 24px;
   }
   
   .project-buttons .button_large {
     margin: 8px 0px 8px 0px;
     width: 100%;
-    padding: 0 24px 0 24px;
   }
   
   .button_large p {
