@@ -265,6 +265,7 @@ body {
   width: fit-content;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
