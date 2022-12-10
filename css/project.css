@@ -297,7 +297,7 @@ body {
   
   .project-buttons .button_large {
       margin: 8px 0 8px 0;
-      width: calc(50% - 24px);
+      width: calc(50% - 12px);
   }
   
   .button_large p {
