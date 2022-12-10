@@ -213,8 +213,8 @@ body {
 
 .button_large {
   display: flex;
-  align-items: center;
-  justify-items: center;
+  align-content: center;
+  justify-content: center;
   height: 56px;
   width: fit-content;
   border-radius: 28px;
