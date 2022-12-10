@@ -227,7 +227,7 @@ body {
 }
 
 .button_large p {
-  padding: 0 48px 3px 48px;
+  padding-bottom: 3px;
   font-weight: 700;
   text-align: center;
 }
