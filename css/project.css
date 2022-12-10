@@ -272,6 +272,7 @@ body {
     flex-direction: column;
     margin: 48px 0 48px 0;
     width: 100%;
+    align-items: flex-start;
   }
   
   .button_large {
