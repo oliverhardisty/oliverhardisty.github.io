@@ -586,4 +586,18 @@ a:not(.no-hover):hover .projecttileoverlay {
   color: #0f0f0f;
 }
 
+@media (max-width: 479px) {
+  .button_large {
+    width: 100%;
+    padding: 0 24px 0 24px;
+  } 
+  
+  .button_large p {
+    padding: 0 0 3px 0;
+  }
+}
+    
+
+
+
 
