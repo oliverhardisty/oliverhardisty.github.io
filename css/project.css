@@ -244,9 +244,9 @@ body {
 }
 
 .secondary-button {
-  background-color: #ffffff;
-  outline: 3px solid #0f0f0f;
-  outline-offset: -3px;
+   -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
+    box-shadow:inset 0px 0px 0px 10px #0f0f0f;
 }
 
 .secondary-button p {
