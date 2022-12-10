@@ -280,6 +280,11 @@ body {
     align-self: stretch;
     padding: 0 24px 0 24px;
   }
-}    
+  
+  .button_large p {
+    padding: 0;
+  }    
+  
+}
 
 
