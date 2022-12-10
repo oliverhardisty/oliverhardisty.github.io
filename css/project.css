@@ -269,19 +269,17 @@ body {
   .project-buttons {
     flex-direction: column;
     width: calc(100% - 48px);
-    justify-content: center;
-    justify-items: center;
   }
   
   .project-buttons .button_large {
       margin: 8px 0 8px 0;
       width: 100%;
+      justify-content: center;
   }
   
   .button_large p {
     position: relative;
-    width: 100%;
-    
+    width: 100%; 
 }
 }
     
