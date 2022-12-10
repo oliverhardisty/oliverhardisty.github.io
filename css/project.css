@@ -224,7 +224,7 @@ body {
 }
 
 .secondary-button:hover, .secondary-button p:hover {
-  outline-color: #808080;
+  box-shadow:inset 0px 0px 0px 3px #808080;
   color: #808080;
 }
 
