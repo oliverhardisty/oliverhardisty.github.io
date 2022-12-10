@@ -255,14 +255,14 @@ body {
 }
 
 .project-buttons {
-  display: flex;
   position: relative;
   margin: 128px auto 128px auto;
   width: fit-content;
-  flex-direction: row;
 }
 
 .project-buttons .button_large {
+  display: inline-block;
+  vertical-align: middle;
   margin: 0 8px 0 8px;
 }
 
