@@ -214,7 +214,6 @@ body {
 .button_large {
   display: flex;
   align-items: center;
-  justify-items: center;
   height: 56px;
   width: fit-content;
   border-radius: 28px;
@@ -276,6 +275,9 @@ body {
       margin: 8px 0 8px 0;
       width: 100%;
   }
+  
+  .button_large p {
+    width: 100%;
 }
     
    
