@@ -261,22 +261,19 @@ body {
 .project-buttons {
   display: flex;
   position: relative;
-  margin: 192px auto 96px auto;
   width: fit-content;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-direction: row;
+  margin: 160px auto 80px 
 }
-
-@media (min-width: 768px) {
 
 .project-buttons .button_large {
   margin: 0 12px 0 12px;
   max-width: 240px;
 }
-}
 
-@media (min-width: 480px) {
+
+@media (min-width: 480px) and (max-width: 767px) {
    .project-buttons {
      width: calc(100% - 16px);
      margin: 0 8px 0 8px;
@@ -289,8 +286,6 @@ body {
 }
 
     
-    
-
 @media (max-width: 479px) {
   
   .project-buttons {
@@ -303,11 +298,9 @@ body {
       margin: 8px 0 8px 0;
       width: 100%;
   }
-  
-  .button_large p {
-    padding: 0;
+
 }
-}
+
     
    
   
