@@ -280,8 +280,7 @@ body {
   
   .button_large p {
     width: 100%;
-    padding: 0;
-    align-self: stretch;
+    box-sizing: border-box
 }
 }
     
