@@ -272,11 +272,10 @@ body {
     flex-direction: column;
     margin: 48px 0 48px 0;
     width: 100%;
-    align-items: flex-start;
   }
   
   .button_large {
-    margin: 8px 0 8px 0;
+    margin: 8px 24px 8px 24px;
     width: 100%;
   }
   
