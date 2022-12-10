@@ -246,7 +246,7 @@ body {
 .secondary-button {
    -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
     -moz-box-shadow:inset 0px 0px 0px 10px #f00;
-    box-shadow:inset 0px 0px 0px 10px #0f0f0f;
+    box-shadow:inset 0px 0px 0px 3px #0f0f0f;
 }
 
 .secondary-button p {
