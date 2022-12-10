@@ -215,7 +215,7 @@ body {
   display: flex;
   align-items: center;
   height: 56px;
-  width: 240px;
+  width: fit-content;
   border-radius: 28px;
 }
   
@@ -226,7 +226,7 @@ body {
 }
 
 .button_large p {
-  padding-bottom: 3px;
+  padding: 0 48px 3px 48px;
   font-weight: 700;
   text-align: center;
 }
@@ -268,6 +268,7 @@ body {
 
 .project-buttons .button_large {
   margin: 0 12px 0 12px;
+  width: 50%;
 }
 
 @media (max-width: 479px) {
