@@ -279,6 +279,7 @@ body {
     width: 100%;
     margin: 8px 0 8px 0;
     padding: 0 24px 0 24px;
+    align-self: start;
   }
 }    
 
