@@ -217,6 +217,7 @@ body {
   height: 56px;
   width: fit-content;
   border-radius: 28px;
+  justify-content: center
 }
   
 
@@ -271,6 +272,20 @@ body {
   width: 240px;
 }
 
+@media (max-width: 767px) {
+   .project-buttons {
+     width: calc(100% - 64px);
+     margin: 0 32px 0 32px;
+  }
+  
+  .project-buttons .button_large {
+    width: 50%;
+  }
+}
+
+    
+    
+
 @media (max-width: 479px) {
   
   .project-buttons {
@@ -282,8 +297,6 @@ body {
   .project-buttons .button_large {
       margin: 8px 0 8px 0;
       width: 100%;
-      justify-content: center;
-      border-radius: 28px;
   }
   
   .button_large p {
