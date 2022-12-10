@@ -256,33 +256,14 @@ body {
 
 .project-buttons {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  margin: 96px auto 96px auto;
+  margin: 128px auto 128px auto;
   width: fit-content;
-  flex-wrap: wrap;
 }
 
-.project-buttons .button_large {
-  margin: 0 8px 0 8px;
-}
-
-@media (max-width: 479px) {
-  .project-buttons {
-    flex-direction: column;
-    margin: 48px 0 48px 0;
-    width: 100%;
-  }
-  
-  .project-buttons .button_large {
-    margin: 8px 0px 8px 0px;
-    width: 100%; 
-  }
-  
-  .button_large p {
-    padding: 0;
-  }    
-  
+.button_large darkbackground {
+  padding: 0 16px 0 16px;
+  position: relative;
+  float: left;
 }
 
 
