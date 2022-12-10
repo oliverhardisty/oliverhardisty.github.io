@@ -257,7 +257,7 @@ body {
 .project-buttons {
   position: relative;
   margin: 128px auto 128px auto;
-  width: fit-content;
+  width: auto;
 }
 
 .button_large darkbackground {
