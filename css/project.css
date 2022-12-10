@@ -215,7 +215,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  padding: 128px 0 64px 0;
+  padding: 96px 0 96px 0;
   margin: auto;
   width: fit-content;
 }
@@ -223,3 +223,17 @@ body {
 .project-buttons .button_large {
   margin: 0 8px 0 8px;
 }
+
+@media (max-width: 479px) {
+  .project-buttons {
+    flex-direction: column;
+    padding: 48px 0 48px 0;
+  }
+  
+  .project-buttons .button_large {
+    margin: 0 24px 0 24px;
+    width: 100%;
+  } 
+}    
+
+
