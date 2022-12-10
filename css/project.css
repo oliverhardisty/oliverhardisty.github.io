@@ -227,7 +227,7 @@ body {
   box-shadow:inset 0px 0px 0px 3px #808080;
 }
 
-.secondary-button:hover > .secondary-button p {
+.secondary-button:hover > p {
   color: #808080;
 }
   
