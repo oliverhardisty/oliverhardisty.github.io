@@ -264,14 +264,14 @@ body {
   width: fit-content;
   justify-content: center;
   flex-direction: row;
-  margin: 160px auto 80px 
+  margin: 160px auto 80px auto; 
 }
 
 @media (min-width: 768px) {
   
 .project-buttons .button_large {
   margin: 0 12px 0 12px;
-  width: 240px;
+  width: 280px;
 }
 }
 
@@ -279,7 +279,7 @@ body {
 @media (max-width: 767px) {
    .project-buttons {
      width: calc(100% - 16px);
-     margin: 0 8px 0 8px;
+     margin: 160px 8px 80px 8px;
   }
   
   .project-buttons .button_large {
