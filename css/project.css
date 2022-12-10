@@ -215,8 +215,7 @@ body {
   display: flex;
   align-items: center;
   height: 56px;
-  max-width: 240px;
-  min-width: 208px;
+  width: 240px;
   border-radius: 28px;
 }
   
