@@ -294,11 +294,11 @@ body {
   .project-buttons {
     flex-direction: column;
     width: calc(100% - 48px);
-    margin: 80px 24px 24px 24px;
+    margin: 64px 24px 24px 24px;
   }
   
   .project-buttons .button_large {
-      margin: 8px 0 8px 0;
+      margin: 16px 0 16px 0;
       width: 100%;
   }
 
