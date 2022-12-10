@@ -271,7 +271,7 @@ body {
   .project-buttons {
     flex-direction: column;
     width: calc(100% - 48px);
-    margin: 64px 0 64px 0;
+    margin: 64px 24px 64px 24px;
     justify-content: center;
     align-items: center;
     align-content: center;
