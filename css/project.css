@@ -257,14 +257,7 @@ body {
 
 @media (max-width: 479px) {
   .button_large {
-    width: 100%;
-    padding: 0 24px 0 24px;
-  } 
-  
-  .button_large p {
-    padding: 0 0 3px 0;
-  }
-}
+
 
 .project-buttons {
   position: relative;
@@ -288,6 +281,13 @@ body {
   
   .project-buttons .button_large {
     margin: 8px 0 8px 0;
+    width: 100%;
+    padding: 0 24px 0 24px;
+    position: absolute;
+  }
+  
+    .button_large p {
+    padding: 0 0 3px 0;
   }
 }    
 
