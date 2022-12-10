@@ -268,7 +268,7 @@ body {
 
 .project-buttons .button_large {
   margin: 0 12px 0 12px;
-  width: 50%;
+  flex-grow: 1;
 }
 
 @media (max-width: 479px) {
