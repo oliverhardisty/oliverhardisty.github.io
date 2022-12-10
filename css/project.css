@@ -270,6 +270,7 @@ body {
     flex-direction: column;
     width: calc(100% - 48px);
     justify-content: center;
+    justify-items: center;
   }
   
   .project-buttons .button_large {
