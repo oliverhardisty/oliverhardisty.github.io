@@ -267,12 +267,15 @@ body {
   flex-wrap: wrap;
 }
 
+@media (min-width: 768px) {
+
 .project-buttons .button_large {
   margin: 0 12px 0 12px;
   width: 240px;
 }
+}
 
-@media (max-width: 767px) {
+@media (min-width: 480px) {
    .project-buttons {
      width: calc(100% - 16px);
      margin: 0 8px 0 8px;
@@ -281,7 +284,6 @@ body {
   .project-buttons .button_large {
     flex-grow: 1;
     margin: 0 8px 0 8px;
-    min-width: 208px;
   } 
 }
 
