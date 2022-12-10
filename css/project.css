@@ -223,11 +223,11 @@ body {
   background-color: #808080;
 }
 
-.button_large > .secondary-button:hover {
+.secondary-button:hover {
   box-shadow:inset 0px 0px 0px 3px #808080;
 }
 
-.button_large > .secondary-button p:hover {
+.secondary-button > .secondary-button p:hover {
   color: #808080;
 }
   
