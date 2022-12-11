@@ -81,8 +81,7 @@ body {
   bottom: 16px;
   right: 16px;
   z-index: 3;
-  height: 36px;
-  width: 295vh !important;
+  aspect-ratio: 0.34/1;
 }
 
 .imagecontainer .button_small p {
