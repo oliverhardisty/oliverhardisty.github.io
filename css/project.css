@@ -81,9 +81,12 @@ body {
   bottom: 16px;
   right: 16px;
   z-index: 3;
+  width: 295vh !important;
 }
 
-
+.imagecontainer .button_small p {
+  padding: 0;
+}
 
 .infodrawer {
   display: none;
