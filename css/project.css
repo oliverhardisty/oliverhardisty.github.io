@@ -81,14 +81,13 @@ body {
 
 .infobutton {
   position: absolute;
-  height: 48px;
-  bottom: 16px;
+  height: 40px;
   right: 16px;
   z-index: 3;
 }
 
 .infobutton p {
-  padding: 0;
+  padding: 0 16px 0 16px 0; !important
   font-size: 14px;
 }
 
