@@ -76,19 +76,14 @@ body {
 }
 
 
-
 .infobutton {
   position: absolute;
-  height: 36px;
   bottom: 16px;
   right: 16px;
   z-index: 3;
 }
 
-.imagecontainer > .secondary-button p {
-  padding: 0 24px 0 24px;
-  font-size: 14px;
-}
+
 
 .infodrawer {
   display: none;
@@ -214,16 +209,6 @@ body {
   justify-content: center
 }
 
-.button_small {
-  display: flex;
-  align-items: center;
-  height: 48px;
-  width: fit-content;
-  border-radius: 24px;
-  justify-content: center
-}
-
-
 .button_large a {
   text-decoration: none;
 }
@@ -237,9 +222,19 @@ body {
   padding: 0 32px 3px 32px;
 }
 
+.button_small {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  width: fit-content;
+  border-radius: 18px;
+  justify-content: center
+}
+
 
 .button_small p {
-  padding: 0 32px 2px 32px;
+  padding: 0 16px 0 16px;
+  font-size: 14px;
 }
   
 
