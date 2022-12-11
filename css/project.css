@@ -84,13 +84,17 @@ body {
   aspect-ratio: 2.95/1;
 }
 
-.imagecontainer .button_small p {
-  padding: 0;
+.infobutton p {
+  padding: 0 !important;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .infobutton {
     height: calc(16px*0.64) !important;
+  }
+  
+  .infobutton p {
+    font-size: calc(14px*0.64) !important;
   }
 }
 
