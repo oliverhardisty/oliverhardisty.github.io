@@ -92,6 +92,10 @@ body {
   .infobutton {
     height: 36px !important;
   }
+  
+  .infobutton p {
+    font-size: 12px;
+  }
 }
 
 
