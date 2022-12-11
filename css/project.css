@@ -84,13 +84,6 @@ body {
   cursor: pointer;
 }
 
-.infobutton p {
-  line-height: 36px;
-  padding: 0 24px 0 24px;
-  font-size: 14px;
-  font-weight: 700;
-}
-
 .infodrawer {
   display: none;
   right: 0;
@@ -218,7 +211,7 @@ body {
 .button_small {
   display: flex;
   align-items: center;
-  height: 36px;
+  height: 40px;
   width: fit-content;
   border-radius: 18px;
   justify-content: center
@@ -229,11 +222,20 @@ body {
   text-decoration: none;
 }
 
-.button_large p {
-  padding: 0 32px 3px 32px;
+.button_large p, .button_large p.{
   font-weight: 700;
   text-align: center;
 }
+
+.button_large p {
+  padding: 0 32px 3px 32px;
+}
+
+
+button_small p {
+  padding: 0 32px 2px 32px;
+}
+  
 
 .primary-button {
   background-color: #0f0f0f;
