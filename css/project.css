@@ -228,7 +228,7 @@ body {
   text-decoration: none;
 }
 
-.button_large p, .button_large p.{
+.button_large p, .button_small p.{
   font-weight: 700;
   text-align: center;
 }
