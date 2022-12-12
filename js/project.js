@@ -15,7 +15,7 @@ function imagezoomed(e){
         $("#infobutton1").hide();
     });
   
-  $("#closebutton1").click(function(){
+  $("#closebutton1.behind-infodrawer").click(function(){
         $("#infodrawer1").hide();
         $("#infobutton1").show();
     
