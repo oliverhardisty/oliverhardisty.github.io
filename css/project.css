@@ -84,7 +84,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 0 0 24px 24px;
+  paddding: 0 0 24px 24px;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -147,12 +147,13 @@ body {
 
 .infodrawer > p {
   position: absolute;
-  margin-top: 64px;
+  padding-top: 64px;
   text-align: left;
   color: #0f0f0f;
   width: 100%;
   padding: 0 24px 8px 24px;
   box-sizing: border-box;
+  transform-origin: top left;
 }
   
   
