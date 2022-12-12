@@ -91,6 +91,7 @@ body {
   border-radius: 20px;
   justify-content: center;
   width: fit-content;
+  transform-origin: bottom left;
 }
 
 .infobutton:hover {
@@ -104,17 +105,25 @@ body {
   padding: 0 24px 0 24px;
 }
 
-@media (min-width: 786px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .infobutton {
     transform: scale(0.64);
-    transform-origin: bottom left;
+}
+}  
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .infobutton {
+    transform: scale(0.63);
+}
+}
+
+@media (max-width: 480px) {
+  .infobutton {
+    transform: scale(0.67);
 }
 }
 
 
-
-
-  
 
 
 .infodrawer {
