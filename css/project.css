@@ -167,6 +167,7 @@ body {
 
 
 .infodrawer-container {
+  display: none;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -175,7 +176,6 @@ body {
 }
 
 .infodrawer {
-  display: none;
   left: 0;
   top: 0;
   width: 480px;
