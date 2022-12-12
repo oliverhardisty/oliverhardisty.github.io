@@ -126,8 +126,7 @@ body {
 
 .infodrawer p {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 48px;
   text-align: left;
   color: #0f0f0f;
   width: 100%;
