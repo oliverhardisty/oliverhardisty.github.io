@@ -108,7 +108,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  .infodrawer.infobutton {
+  .infodrawer {
+    display: none;
+  }
+  
+    .infobutton {
     display: none;
   }
 }
