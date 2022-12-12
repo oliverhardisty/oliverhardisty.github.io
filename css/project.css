@@ -124,22 +124,14 @@ body {
   }
 }
 
-
-
 .infodrawer p {
   position: absolute;
-  bottom: 56px;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: left;
   color: #0f0f0f;
   width: 100%;
-  padding: 0 24px 8px 24px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 767px) {
-  .infodrawer p {
-    padding: 0;
-  }
+  padding: 0 16px 8px 16px;
 }
 
 .imagecontainer img {
