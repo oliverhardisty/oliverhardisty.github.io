@@ -106,7 +106,7 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .infobutton, .infodrawer > p {
+  .infobutton {
     transform: scale(0.64);
 }
     
@@ -116,7 +116,7 @@ body {
 }  
 
 @media (min-width: 480px) and (max-width: 767px) {
-  .infobutton, .infodrawer > p {
+  .infobutton {
     transform: scale(0.4);
 }
   
