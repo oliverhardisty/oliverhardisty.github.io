@@ -24,6 +24,10 @@ html {
   color: #ed1843;
 }
 
+.hamburger-drawer li:nth-child(2) h4 {
+  color: #ed1843;
+}
+
 
 .cvcontent {
   position: absolute;
