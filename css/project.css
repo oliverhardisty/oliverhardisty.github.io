@@ -109,11 +109,19 @@ body {
   .infobutton, .infodrawer > p {
     transform: scale(0.64);
 }
+    
+  .infodrawer {
+    width: scale(0.64);
+}
 }  
 
 @media (min-width: 480px) and (max-width: 767px) {
   .infobutton, .infodrawer > p {
     transform: scale(0.4);
+}
+  
+  .infodrawer {
+    width: scale(0.4);
 }
 }
 
@@ -121,9 +129,11 @@ body {
   .infobutton, .infodrawer > p {
     transform: scale(0.27);
 }
+      
+  .infodrawer {
+    width: scale(0.27);
 }
-
-
+}
 
 
 .infodrawer {
@@ -152,7 +162,6 @@ body {
   text-align: left;
   color: #0f0f0f;
   width: 100%;
-  padding: 0 24px 8px 24px;
   box-sizing: border-box;
   transform-origin: top left;
 }
