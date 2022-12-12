@@ -82,8 +82,8 @@ body {
 
 .infobutton {
   position: absolute;
-  bottom: 2.8%;
-  left: 1.4%;
+  bottom: 24px;
+  left: 24px;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ body {
 
 @media (min-width: 786px) and (max-width: 1200px) {
   .infobutton {
-    transform: scale(0.5);
+    transform: scale(0.64);
 }
 }
 
