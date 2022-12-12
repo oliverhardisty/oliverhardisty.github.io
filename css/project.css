@@ -131,7 +131,7 @@ body {
   }
 }
 
-.infodrawer p {
+.infodrawer > p {
   position: absolute;
   top: 64px;
   text-align: left;
