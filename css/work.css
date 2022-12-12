@@ -8,6 +8,9 @@ html {
   color: #ed1843;
 }
 
+.hamburger-drawer li:nth-child(1) h4 {
+  color: #ed1843 !important;
+}
 
 
 .project-picker-container {
