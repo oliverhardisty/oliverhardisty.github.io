@@ -236,7 +236,7 @@ body {
 .button_small {
   display: flex;
   align-items: center;
-  height: 36px;
+  height: 40px;
   width: fit-content;
   border-radius: 22px;
   justify-content: center
@@ -245,7 +245,7 @@ body {
 
 .button_small p {
   padding: 0 24px 0 24px;
-  font-size: 14px;
+  font-size: 12px;
 }
   
 
