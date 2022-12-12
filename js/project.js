@@ -15,7 +15,7 @@ function imagezoomed(e){
         $("#infobutton1").hide();
     });
   
-  $("#icon-touch-target1").click(function(){
+  $("#closebutton1").click(function(){
         $("#infodrawer1").hide();
         $("#infobutton1").show();
     
@@ -26,7 +26,7 @@ function imagezoomed(e){
         $("#infobutton2").hide();
     });
   
-  $("#icon-touch-target2").click(function(){
+  $("#closebutton2").click(function(){
         $("#infodrawer2").hide();
         $("#infobutton2").show();
     });
@@ -36,7 +36,7 @@ $("#infobutton3").click(function(){
         $("#infobutton3").hide();
     });
   
-  $("#icon-touch-target3").click(function(){
+  $("#closebutton3").click(function(){
         $("#infodrawer3").hide();
         $("#infobutton3").show();
     });
@@ -46,7 +46,7 @@ $("#infobutton4").click(function(){
         $("#infobutton4").hide();
     });
   
-  $("#icon-touch-target4").click(function(){
+  $("#closebutton4").click(function(){
         $("#infodrawer4").hide();
         $("#infobutton4").show();
     
@@ -57,7 +57,7 @@ $("#infobutton4").click(function(){
         $("#infobutton5").hide();
     });
   
-  $("#icon-touch-target5").click(function(){
+  $("#closebutton5").click(function(){
         $("#infodrawer5").hide();
         $("#infobutton5").show();
     });
@@ -67,7 +67,7 @@ $("#infobutton6").click(function(){
         $("#infobutton6").hide();
     });
   
-  $("#icon-touch-target6").click(function(){
+  $("#closebutton6").click(function(){
         $("#infodrawer6").hide();
         $("#infobutton6").show();
     });
