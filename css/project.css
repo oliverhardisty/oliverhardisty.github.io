@@ -85,12 +85,12 @@ body {
   bottom: 2.8%;
   left: 1.4%;
   z-index: 3;
-  aspect-ratio: 3.26/1;
   display: flex;
   align-items: center;
   height: 40px;
   border-radius: 20px;
   justify-content: center;
+  width: fit-content;
 }
 
 .infobutton:hover {
@@ -101,21 +101,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   text-align: center;
-  padding: 0;
+  padding: 0 24px 0 24px;
 }
 
-@media (min-width: 480px) and (max-width: 1200px) {
+@media (min-width: 786px) and (max-width: 1200px) {
   .infobutton {
-    height: 24px !important;
-    box-shadow:inset 0px 0px 0px 2px #0f0f0f !important;
-  }
-  
-  .infobutton p {
-      font-size: 10px;
-  }
-  
-  .infobutton:hover {
-  box-shadow:inset 0px 0px 0px 2px #808080 !important;
+    transform: scale(0.5);
 }
 }
 
