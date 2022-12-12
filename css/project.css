@@ -114,6 +114,10 @@ body {
     width: calc(480px * 0.64) !important;
 }
   
+  .behind-infodrawer {
+    width: calc(100% - (480px * 0.64));
+  }
+  
   .infodrawer > p {
     font-size: calc(16px * 0.64);
     line-height: calc(28px * 0.64);
@@ -128,6 +132,10 @@ body {
   
   .infodrawer {
     width: calc(480px * 0.4) !important;
+  }
+    
+  .behind-infodrawer {
+    width: calc(100% - (480px * 0.4));
 }
   
    .infodrawer > p {
@@ -146,6 +154,10 @@ body {
     width: calc(480px * 0.27) !important;
 }
   
+  .behind-infodrawer {
+    width: calc(100% - (480px * 0.27));
+  }
+  
    .infodrawer > p {
     font-size: calc(16px * 0.27);
     line-height: calc(28px * 0.27);
@@ -153,6 +165,14 @@ body {
 }  
 }
 
+
+.infodrawer-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 
 .infodrawer {
   display: none;
@@ -182,7 +202,13 @@ body {
 .infodrawer > .infobutton {
   left: 5% !important;
 }
-  
+
+.behind-infodrawer {
+  width: calc(100% - 480px);
+  right: 0;
+  top: 0;
+  position: absolute;
+}  
   
 
 .imagecontainer img {
