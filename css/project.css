@@ -113,12 +113,12 @@ body {
 
 @media (min-width: 480px) and (max-width: 767px) {
   .infobutton {
-    height: 24px !important;
+    height: 20px !important;
     box-shadow:inset 0px 0px 0px 1px #0f0f0f !important;  
   }
   
   .infobutton p {
-    font-size: 8px !important; 
+    font-size: 6px !important; 
   }
   
   .infobutton:hover {
@@ -147,8 +147,6 @@ body {
 @media (max-width: 767px) {
   .infodrawer {
     width: 100%;
-    translate: transformY(-44px);
-    position: relative;
   }
 }
 
