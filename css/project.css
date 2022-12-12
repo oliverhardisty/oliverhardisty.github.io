@@ -12,6 +12,10 @@ html {
   color: #ed1843;
 }
 
+.hamburger-drawer li:nth-child(1) h4 {
+  color: #ed1843;
+}
+
 .navigation-html h2 {
   color: #0f0f0f;
 }
