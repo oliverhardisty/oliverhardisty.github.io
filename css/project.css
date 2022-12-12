@@ -82,8 +82,8 @@ body {
 
 .infobutton {
   position: absolute;
-  bottom: 16px;
-  left: 16px;
+  bottom: 2.8%;
+  left: 1.4%;
   z-index: 3;
   aspect-ratio: 2.95/1;
 }
