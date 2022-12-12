@@ -152,15 +152,14 @@ body {
 .infodrawer > p {
   position: absolute;
   top: 7.6%;
-  left: 1.4%;
+  left: 5%;
   text-align: left;
   color: #0f0f0f;
-  width: 100%;
+  width: 100% !important;
   box-sizing: border-box;
   transform-origin: top left;
 }
 
-@media (min-width: 768px) {
 .infodrawer > .infobutton {
   left: 5% !important;
 }
