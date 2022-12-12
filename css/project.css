@@ -148,12 +148,6 @@ body {
   box-shadow: 4px 0 10px rgb(0, 0, 0, 0.2);
 }
 
-@media (max-width: 767px) {
-  .infodrawer {
-    width: 100%;
-  }
-}
-
 
 .infodrawer > p {
   position: absolute;
