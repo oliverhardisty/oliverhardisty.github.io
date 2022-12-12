@@ -22,53 +22,53 @@ function imagezoomed(e){
     });
 
   $("#infobutton2").click(function(){
-        $("#infodrawer2").show();
+        $("#infodrawer-container2").show();
         $("#infobutton2").hide();
     });
   
-  $("#closebutton2").click(function(){
-        $("#infodrawer2").hide();
+  $("#closebutton2, .behind-infodrawer").click(function(){
+        $("#infodrawer-container2").hide();
         $("#infobutton2").show();
     });
 
 $("#infobutton3").click(function(){
-        $("#infodrawer3").show();
+        $("#infodrawer-container3").show();
         $("#infobutton3").hide();
     });
   
-  $("#closebutton3").click(function(){
-        $("#infodrawer3").hide();
+  $("#closebutton3, .behind-infodrawer").click(function(){
+        $("#infodrawer-container3").hide();
         $("#infobutton3").show();
     });
 
 $("#infobutton4").click(function(){
-        $("#infodrawer4").show();
+        $("#infodrawer-container4").show();
         $("#infobutton4").hide();
     });
   
-  $("#closebutton4").click(function(){
-        $("#infodrawer4").hide();
+  $("#closebutton4, .behind-infodrawer").click(function(){
+        $("#infodrawer-container4").hide();
         $("#infobutton4").show();
     
     });
 
   $("#infobutton5").click(function(){
-        $("#infodrawer5").show();
+        $("#infodrawer-container5").show();
         $("#infobutton5").hide();
     });
   
-  $("#closebutton5").click(function(){
-        $("#infodrawer5").hide();
+  $("#closebutton5, .behind-infodrawer").click(function(){
+        $("#infodrawer-container5").hide();
         $("#infobutton5").show();
     });
 
 $("#infobutton6").click(function(){
-        $("#infodrawer6").show();
+        $("#infodrawer-container6").show();
         $("#infobutton6").hide();
     });
   
-  $("#closebutton6").click(function(){
-        $("#infodrawer6").hide();
+  $("#closebutton6, .behind-infodrawer").click(function(){
+        $("#infodrawer-container6").hide();
         $("#infobutton6").show();
     });
  
