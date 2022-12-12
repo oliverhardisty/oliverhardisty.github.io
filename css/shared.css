@@ -536,6 +536,12 @@ a:not(.no-hover):hover .projecttileoverlay {
 }
 
 
+a:link {
+  cursor: pointer;
+}
+  
+
+
 
     
 
