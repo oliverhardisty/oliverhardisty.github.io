@@ -117,6 +117,7 @@ body {
   .infodrawer > p {
     font-size: calc(16px * 0.64);
     line-height: calc(28px * 0.64);
+    letter-spacing: calc(1px * 0.64)
 }
 }
 
@@ -132,6 +133,7 @@ body {
    .infodrawer > p {
     font-size: calc(16px * 0.4);
     line-height: calc(28px * 0.4);
+    letter-spacing: calc(1px * 0.4)
 }  
 }
 
@@ -147,6 +149,7 @@ body {
    .infodrawer > p {
     font-size: calc(16px * 0.27);
     line-height: calc(28px * 0.27);
+    letter-spacing: calc(1px * 0.27)
 }  
 }
 
@@ -166,7 +169,8 @@ body {
 
 .infodrawer > p {
   position: absolute;
-  top: 7.6%;
+  top: 50%;
+  transform: translateY(-50%);
   left: 5%;
   right: 5%;
   text-align: left;
