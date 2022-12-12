@@ -15,7 +15,7 @@ function imagezoomed(e){
         $("#infobutton1").hide();
     });
   
-  $("#closebutton1, .behind-infodrawer").click(function(){
+  $("#closebutton1, #behind-infodrawer1").click(function(){
         $("#infodrawer-container1").hide();
         $("#infobutton1").show();
     
@@ -26,7 +26,7 @@ function imagezoomed(e){
         $("#infobutton2").hide();
     });
   
-  $("#closebutton2, .behind-infodrawer").click(function(){
+  $("#closebutton2, #behind-infodrawer2").click(function(){
         $("#infodrawer-container2").hide();
         $("#infobutton2").show();
     });
@@ -36,7 +36,7 @@ $("#infobutton3").click(function(){
         $("#infobutton3").hide();
     });
   
-  $("#closebutton3, .behind-infodrawer").click(function(){
+  $("#closebutton3, #behind-infodrawer3").click(function(){
         $("#infodrawer-container3").hide();
         $("#infobutton3").show();
     });
@@ -46,7 +46,7 @@ $("#infobutton4").click(function(){
         $("#infobutton4").hide();
     });
   
-  $("#closebutton4, .behind-infodrawer").click(function(){
+  $("#closebutton4, #behind-infodrawer4").click(function(){
         $("#infodrawer-container4").hide();
         $("#infobutton4").show();
     
@@ -57,7 +57,7 @@ $("#infobutton4").click(function(){
         $("#infobutton5").hide();
     });
   
-  $("#closebutton5, .behind-infodrawer").click(function(){
+  $("#closebutton5, #behind-infodrawer5").click(function(){
         $("#infodrawer-container5").hide();
         $("#infobutton5").show();
     });
@@ -67,7 +67,7 @@ $("#infobutton6").click(function(){
         $("#infobutton6").hide();
     });
   
-  $("#closebutton6, .behind-infodrawer").click(function(){
+  $("#closebutton6, #behind-infodrawer6").click(function(){
         $("#infodrawer-container6").hide();
         $("#infobutton6").show();
     });
