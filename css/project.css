@@ -61,24 +61,6 @@ body {
   box-sizing: border-box;
 }
 
-@media (max-width: 767px) {
-  .images {
-    margin: 160px 0 68px 0;
-  }
-}
-
-@media (min-width: 1400px) {
-  height: 48px;
-}
-
-@media (min-width: 1200px) {
-  height: 36px;
-}
-
-@media (min-width: 992px) {
-  height: 36px;
-}
-
 
 .infobutton {
   position: absolute;
@@ -228,7 +210,7 @@ body {
 
 @media (max-width: 767px) {
   .imagecontainer {
-    margin-top: 60px;
+    margin-top: 32px;
   }
 }
 
