@@ -144,15 +144,23 @@ body {
   }
 }
 
+
 .infodrawer > p {
   position: absolute;
-  padding-top: 64px;
+  top: 7.6%;
+  left: 1.4%;
   text-align: left;
   color: #0f0f0f;
   width: 100%;
   padding: 0 24px 8px 24px;
   box-sizing: border-box;
   transform-origin: top left;
+}
+
+@media (min-width: 768px) {
+.infodrawer > .infobutton {
+  left: 5%;
+}
 }
   
   
