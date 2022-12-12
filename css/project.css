@@ -123,6 +123,7 @@ body {
   .infodrawer {
     width: calc(480px * 0.4) !important;
 }
+}
 
 @media (max-width: 480px) {
   .infobutton {
@@ -132,10 +133,6 @@ body {
   .infodrawer {
     width: calc(480px * 0.27) !important;
 }
-  
-    .infodrawer > p {
-    font-size: calc(16px * 0.27); 
-  }
 }
 
 
