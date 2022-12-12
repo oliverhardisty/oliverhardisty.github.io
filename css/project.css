@@ -107,8 +107,11 @@ body {
 }
 }
 
-
-
+@media (max-width: 768px) {
+  .infodrawer.infobutton {
+    display: none;
+  }
+  
 
 
 .infodrawer {
