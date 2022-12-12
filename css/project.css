@@ -113,7 +113,7 @@ body {
   background-color: #ffffff;
   z-index: 10;
   position: absolute;
-  box-shadow: -4px 0 10px rgb(0, 0, 0, 0.2);
+  box-shadow: 4px 0 10px rgb(0, 0, 0, 0.2);
 }
 
 @media (max-width: 767px) {
