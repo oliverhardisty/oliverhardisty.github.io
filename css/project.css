@@ -98,12 +98,12 @@ body {
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .infobutton {
-    height: 30px !important;
+    height: 24px !important;
     box-shadow:inset 0px 0px 0px 2px #0f0f0f !important;  
   }
   
   .infobutton p {
-    font-size: 10px !important; 
+    font-size: 8px !important; 
   }
   
   .infobutton:hover {
@@ -236,7 +236,7 @@ body {
 .button_small {
   display: flex;
   align-items: center;
-  height: 44px;
+  height: 36px;
   width: fit-content;
   border-radius: 22px;
   justify-content: center
