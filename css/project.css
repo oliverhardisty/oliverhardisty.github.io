@@ -111,7 +111,7 @@ body {
 }
     
   .infodrawer {
-    width: scale(0.64);
+    width: calc(480px*0.64);
 }
 }  
 
@@ -121,7 +121,7 @@ body {
 }
   
   .infodrawer {
-    width: scale(0.4);
+    width: calc(480px*0.4);
 }
 }
 
@@ -131,7 +131,7 @@ body {
 }
       
   .infodrawer {
-    width: scale(0.27);
+    width: calc(480px*0.27);
 }
 }
 
