@@ -135,7 +135,7 @@ body {
   }
     
   .behind-infodrawer {
-    width: calc(100% - (480px * 0.4));
+    width: calc(100% - (480px * 0.4)) !important;
 }
   
    .infodrawer > p {
@@ -155,7 +155,7 @@ body {
 }
   
   .behind-infodrawer {
-    width: calc(100% - (480px * 0.27));
+    width: calc(100% - (480px * 0.27) !important) ;
   }
   
    .infodrawer > p {
