@@ -101,11 +101,13 @@ body {
   .infobutton p {
     font-size: 10px !important; 
   }
+  
+  .infobutton:hover {
+  box-shadow:inset 0px 0px 0px 2px #808080 !important;
+}
 }
 
-.infobutton:hover {
-  box-shadow:inset 0px 0px 0px 3px #808080 !important;
-}
+
 
 
 
