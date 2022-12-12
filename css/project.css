@@ -121,7 +121,7 @@ body {
 }
   
   .infodrawer {
-    width: calc(480px*0.4);
+    width: calc(480px*(0.4));
 }
 }
 
