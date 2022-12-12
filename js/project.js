@@ -11,12 +11,12 @@ function imagezoomed(e){
 
     
     $("#infobutton1").click(function(){
-        $("#infodrawer1").show();
+        $("#infodrawer-container1").show();
         $("#infobutton1").hide();
     });
   
   $("#closebutton1.behind-infodrawer").click(function(){
-        $("#infodrawer1").hide();
+        $("#infodrawer-container1").hide();
         $("#infobutton1").show();
     
     });
