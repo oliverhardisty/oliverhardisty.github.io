@@ -94,8 +94,8 @@ body {
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .infobutton {
-    height: 32px !important;
-    box-shadow:inset 0px 0px 0px 2px #0f0f0f;  
+    height: 28px !important;
+    box-shadow:inset 0px 0px 0px 1px #0f0f0f !important;  
   }
   
   .infobutton p {
