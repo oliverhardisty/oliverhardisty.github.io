@@ -108,26 +108,14 @@ body {
   .infobutton {
     height: 24px !important;
     box-shadow:inset 0px 0px 0px 2px #0f0f0f !important;
-    font-size: 10px;
+  }
+  
+  .infobutton p {
+      font-size: 10px;
   }
   
   .infobutton:hover {
   box-shadow:inset 0px 0px 0px 2px #808080 !important;
-}
-}
-
-@media (max-width: 480px) {
-  .infobutton {
-    height: 20px !important;
-    box-shadow:inset 0px 0px 0px 1px #0f0f0f !important;  
-  }
-  
-  .infobutton p {
-    font-size: 6px !important; 
-  }
-  
-  .infobutton:hover {
-  box-shadow:inset 0px 0px 0px 1px #808080 !important;
 }
 }
 
