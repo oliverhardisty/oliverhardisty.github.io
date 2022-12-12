@@ -106,7 +106,7 @@ body {
 
 .infodrawer {
   display: none;
-  right: 0;
+  left: 0;
   top: 0;
   width: 360px;
   height: 100%;
@@ -124,33 +124,7 @@ body {
   }
 }
 
-.icon-touch-target {
-  position: absolute;
-  left: 8px;
-  bottom: 8px;
-  height: 48px;
-  width: 48px;
-  transform: rotate(180deg);
-}
 
-@media (max-width: 767px) {
-  .icon-touch-target {
-    left: 100%;
-    transform: translateX(-100%) rotate(90deg);
-  }
-}
-
-.icon-touch-target:hover {
-  cursor: pointer;
-}
-
-.icon-touch-target svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 10px;
-}
 
 .infodrawer p {
   position: absolute;
