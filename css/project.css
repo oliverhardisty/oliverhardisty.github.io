@@ -113,6 +113,10 @@ body {
   .infodrawer {
     width: calc(480px * 0.64) !important;
 }
+  
+  .infodrawer > p {
+    width: 100% !important; 
+  }
 }  
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -155,7 +159,7 @@ body {
   left: 5%;
   text-align: left;
   color: #0f0f0f;
-  width: 100% !important;
+  width: 100%;
   box-sizing: border-box;
   transform-origin: top left;
 }
