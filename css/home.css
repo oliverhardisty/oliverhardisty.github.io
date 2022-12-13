@@ -170,7 +170,7 @@ body {
 
 @media (min-width: 1200px) {
   .intro-container {
-    height: 42.9vw;
+    height: 56.25vw;
   }
 }
 
@@ -213,6 +213,7 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
+  transform: translateY(-64px);
 }
 
 
