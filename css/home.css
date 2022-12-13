@@ -49,7 +49,7 @@ body {
 
 @media (min-width: 1200px) {
   .landing-container {
-    height: 53.33vw;
+    height: 56.25vw;
   }
 }
 
@@ -170,7 +170,7 @@ body {
 
 @media (min-width: 1200px) {
   .intro-container {
-    height: 53.33vw;
+    height: 42.9vw;
   }
 }
 
