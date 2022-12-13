@@ -47,6 +47,11 @@ html {
 }
 
 
+ul {
+padding-left: 0;
+}
+
+
 .image_L {
   background-color: #0f0f0f;
   width: 48px;
