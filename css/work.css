@@ -16,7 +16,7 @@ html {
 .project-picker-container {
   position: absolute;
   left: 0;
-  top: 32%;
+  top: 24%;
   width: 100%;
   height: auto;
   display: flex;
