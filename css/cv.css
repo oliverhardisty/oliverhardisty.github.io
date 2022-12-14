@@ -99,12 +99,12 @@ ul li {
 }
 
 .list-2columns {
-  width: calc(50% - 8px);
+  width: 312px;
   padding-right: 16px;
 }
 
 .list-3columns {
-  width: calc(33.3% - 10.7px);
+  width: 202px;
   padding-right: 16px;
 }
 
