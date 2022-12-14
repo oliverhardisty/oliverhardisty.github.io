@@ -119,11 +119,11 @@ body {
   bottom: 32px;
   left: 50%;
   transform: translateX(-50%);
-  width: 32px;
 }
 
 .arrow svg {
   fill: #5F5F5F;
+  width: 32px;
 }
   
 
