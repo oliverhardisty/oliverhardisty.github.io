@@ -98,8 +98,13 @@ ul li {
   flex-wrap: wrap;
 }
 
-.list-section {
-  flex: 1 1 0;
+.list-2columns {
+  width: calc(50% - 8px);
+  padding-right: 16px;
+}
+
+.list-3columns {
+  width: calc(33.3% - 10.7px);
   padding-right: 16px;
 }
 
