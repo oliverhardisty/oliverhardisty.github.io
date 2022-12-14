@@ -114,15 +114,19 @@ body {
 }
 
 @media (max-width: 479px) {
-  .arrow {
-  top: 200%;
-}
-}
+  .arrow-container {
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  }
 
 
 .arrow {
   position: absolute;
-  padding-bottom: 64px;
+  bottom: 64px;
   left: 50%;
   transform: translateX(-50%);
   width: 32px;
