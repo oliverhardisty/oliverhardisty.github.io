@@ -116,7 +116,7 @@ body {
 
 .arrow {
   position: absolute;
-  bottom: 10%;
+  bottom: 24px;
   left: 50%;
   transform: translateX(-50%);
   width: 32px;
