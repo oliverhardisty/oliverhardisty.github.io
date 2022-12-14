@@ -89,16 +89,6 @@ ul li {
   align-items: center;
 }
 
-.exam-results h4, p {
-  display: inline;
-}
-
-.image-placeholder {
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #0f0f0f;
-  height: 500px;
-}
 
 .lists-flexbox {
   display: flex;
