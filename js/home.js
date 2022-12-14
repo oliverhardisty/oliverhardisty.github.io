@@ -33,14 +33,14 @@ $(window).scroll(function() {
 
 $(window).scroll(function () {
     $('.intro-container').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < 20%) {
+        if (($(this).offset().top - $(window).scrollTop()) < -120) {
             $(this).stop().fadeTo(100, 0);
         } else {
             $(this).stop().fadeTo('fast', 1);
         }
     });
     $('.arrow').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < 80%) {
+        if (($(this).offset().top - $(window).scrollTop()) < 80) {
             $(this).stop().fadeTo(100, 0);
         } else {
             $(this).stop().fadeTo('fast', 1);
