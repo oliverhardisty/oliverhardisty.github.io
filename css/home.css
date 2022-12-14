@@ -208,6 +208,7 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
+  transform: translateY(-64px);
 }
 
 
