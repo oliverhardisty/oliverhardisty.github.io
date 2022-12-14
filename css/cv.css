@@ -107,15 +107,12 @@ ul li {
   flex-wrap: wrap;
 }
 
-.list-section-3columns {
+.list-section {
   flex-grow: 1;
   margin-right: 16px;
 }
 
-.list-section-2columns {
-  flex-grow: 1;
-  margin-right: 16px;
-}
+
 
 
 
