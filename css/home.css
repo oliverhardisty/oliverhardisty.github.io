@@ -112,8 +112,15 @@ body {
     width: 112px;
   }
 }
-   
-  
+
+@media (max-width: 479px) {
+  .arrow-container {
+    position: absolute;
+    width: 100%; 
+    height: 200%;
+  }
+}
+
 .arrow {
   position: absolute;
   bottom: 64px;
