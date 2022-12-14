@@ -105,21 +105,17 @@ ul li {
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-row-gap: 48px;
 }
 
 .list-section-3columns {
-  width: calc(33.3% - 12px) ;
+  flex-grow: 1;
+  margin-right: 16px;
 }
 
 .list-section-2columns {
-  width: calc(50% - 12px);
+  flex-grow: 1;
+  margin-right: 16px;
 }
-
-.list-section h7 {
-  line-height: 36px;
-}
-
 
 
 
