@@ -36,14 +36,14 @@ $(window).scroll(function () {
         if (($(this).offset().top - $(window).scrollTop()) < -100) {
             $(this).stop().fadeTo(100, 0);
         } else {
-            $(this).stop().fadeTo('slow', 1);
+            $(this).stop().fadeTo('fast', 1);
         }
     });
     $('.arrow').each(function () {
         if (($(this).offset().top - $(window).scrollTop()) < 600) {
             $(this).stop().fadeTo(100, 0);
         } else {
-            $(this).stop().fadeTo('slow', 1);
+            $(this).stop().fadeTo('fast', 1);
         }
     });
 });
