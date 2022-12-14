@@ -2,13 +2,13 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -webkit-overflow-scrolling: touch;
 }
 
 
 body {
   background-color: #0f0f0f;
   transition: background-color 1s ease;
+  -webkit-overflow-scrolling: touch;
 }
 
 
