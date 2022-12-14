@@ -96,6 +96,7 @@ ul li {
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  column-gap: 16px;
 }
 
 .list-2columns {
@@ -105,7 +106,6 @@ ul li {
 
 .list-3columns {
   width: 202px;
-  padding-right: 16px;
 }
 
 
