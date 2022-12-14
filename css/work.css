@@ -21,5 +21,6 @@ html {
   height: auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 160px;
 }
 
