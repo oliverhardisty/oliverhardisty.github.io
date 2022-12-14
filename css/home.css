@@ -208,7 +208,7 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  transform: translateY(192px);
+  transform: translateY(-192px);
 }
 
 
