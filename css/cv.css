@@ -105,7 +105,8 @@ ul li {
 }
 
 .list-3columns {
-  width: 202px;
+  width: calc(33.3% - 32px);
+  min-width: 164px;
   margin-bottom: 32px;
 }
 
