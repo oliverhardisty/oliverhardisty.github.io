@@ -40,7 +40,7 @@ $(window).scroll(function () {
         }
     });
     $('.arrow').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < 1000) {
+        if (($(this).offset().top - $(window).scrollTop()) < 250) {
             $(this).stop().fadeTo(100, 0);
         } else {
             $(this).stop().fadeTo('fast', 1);
