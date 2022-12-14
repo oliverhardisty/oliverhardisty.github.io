@@ -106,7 +106,7 @@ ul li {
 
 .list-3columns {
   width: calc(33.3% - 11px);
-  min-width: 164px;
+  min-width: 155px;
   margin-bottom: 32px;
 }
 
