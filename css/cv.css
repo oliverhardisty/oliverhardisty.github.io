@@ -102,6 +102,7 @@ ul li {
 .list-2columns {
   width: 312px;
   padding-right: 16px;
+  margin-bottom: 32px;
 }
 
 .list-3columns {
