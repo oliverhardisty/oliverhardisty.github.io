@@ -2,6 +2,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 
@@ -74,7 +75,7 @@ body {
 
 @media (max-width: 479px) {
   .landing-container {
-    height: 213vw;
+    height: 178vw;
   }
 }
 
