@@ -114,18 +114,14 @@ body {
 }
 
 @media (max-width: 479px) {
-  .arrow-container {
-    position: absolute;
-    width: 100%; 
-    height: 200%;
-    top: 0;
-    left: 0;
-  }
+  .arrow {
+  top: 200%;
 }
+
 
 .arrow {
   position: absolute;
-  bottom: 64px;
+  padding-bottom: 64px;
   left: 50%;
   transform: translateX(-50%);
   width: 32px;
@@ -134,10 +130,6 @@ body {
 .arrow svg {
   fill: #5F5F5F;
 }
-
-
-
-
   
 
 
