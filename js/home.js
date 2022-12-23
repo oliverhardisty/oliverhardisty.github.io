@@ -31,6 +31,7 @@ $(window).scroll(function() {
 }).scroll();
 
 
+
 $(window).scroll(function () {
     $('.intro-container').each(function () {
         if (($(this).offset().top - $(window).scrollTop()) < -100) {
@@ -47,3 +48,4 @@ $(window).scroll(function () {
         }
     });
 });
+
