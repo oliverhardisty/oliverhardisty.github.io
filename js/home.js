@@ -31,19 +31,4 @@ $(window).scroll(function() {
 }).scroll();
 
 
-$(window).scroll(function () {
-    $('.intro-container').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < ) {
-            $(this).stop().fadeTo(100, 0);
-        } else {
-            $(this).stop().fadeTo('slow', 1);
-        }
-    });
-    $('.arrow').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < ) {
-            $(this).stop().fadeTo(100, 0);
-        } else {
-            $(this).stop().fadeTo('slow', 1);
-        }
-    });
-});
+
