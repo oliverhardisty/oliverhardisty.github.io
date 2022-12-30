@@ -151,6 +151,8 @@ body {
   position: absolute;
   top: 25%;
   flex-direction: column;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .intro-content h6 {
