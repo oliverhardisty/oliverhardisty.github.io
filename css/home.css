@@ -145,7 +145,7 @@ body {
 }
 
 .intro-content {
-  justify-content: center;
+  align-itemns: center;
   display: flex;
   position: absolute;
   top: 25%;
