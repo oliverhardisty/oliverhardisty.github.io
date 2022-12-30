@@ -143,6 +143,10 @@ h6 {
   line-height: 1.5;
 }
 
+.text_80px {
+  font-size: 80px;
+}
+
 .text_bold {
   font-weight: 700;
 }
