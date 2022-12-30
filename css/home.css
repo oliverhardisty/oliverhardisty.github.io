@@ -142,13 +142,18 @@ body {
   position: relative;
   left: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
-.intro-container h6 {
+.intro-content {
+  justify-content: center;
+  display: flex;
   position: absolute;
   top: 25%;
+  flex-direction: column;
+}
+
+.intro-content h6 {
+  margin-top: 24px;
 }
 
 
