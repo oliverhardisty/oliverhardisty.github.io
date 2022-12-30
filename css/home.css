@@ -156,8 +156,8 @@ body {
   width: max-content;
 }
 
-intro-content outlined-text {
-  text-shadow: 1px 1px #0f0f0f;
+.intro-content outlined-text {
+  -webkit-text-stroke: 1px #0f0f0f;
 }
 
 
