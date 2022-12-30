@@ -157,7 +157,8 @@ body {
 }
 
 .outlined-text {
-  -webkit-text-stroke: 1px #0f0f0f;
+  -webkit-text-stroke: 1.5px #0f0f0f;
+  margin-top: 24px;
 }
 
 
