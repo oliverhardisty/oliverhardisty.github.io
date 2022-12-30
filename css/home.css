@@ -190,6 +190,7 @@ body {
 .intro-content h5 {
   text-align: center;
   padding: 0 24px 0 24px;
+  hyphens: none;
 }
 
 .outlined-text {
@@ -206,7 +207,7 @@ body {
   }
     
   .intro-content h5 {
-    font-size: 64px;
+    font-size: 48px;
     text-align: left;
   }
   
