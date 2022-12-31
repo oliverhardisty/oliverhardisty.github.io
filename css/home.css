@@ -188,7 +188,7 @@ body {
 }
 
 .intro-content h5 {
-  text-align: center;
+
   padding: 0 24px 0 24px;
   hyphens: none;
 }
@@ -204,6 +204,7 @@ body {
 
 @media (max-width: 768px) {
   .intro-content {
+    align-items
   }
     
   .intro-content h5 {
