@@ -205,7 +205,10 @@ body {
 }
 
 @media (max-width: 768px) {
-    
+    .intro-content {
+      top: 0;
+    }
+      
   .intro-content h5 {
     font-size: 48px;
     text-align: left;
