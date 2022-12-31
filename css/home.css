@@ -177,7 +177,7 @@ body {
 }  
 
 .intro-content {
-  align-items: center;
+  align-items: stretch;
   display: flex;
   position: absolute;
   top: 25%;
@@ -203,9 +203,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .intro-content {
-    align-items
-  }
     
   .intro-content h5 {
     font-size: 48px;
