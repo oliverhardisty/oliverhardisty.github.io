@@ -6,20 +6,25 @@ html {
 
 
 body {
-  -webkit-transition: background-image 1s ease-in-out;
-  transition: background-color 1s ease, background-image 1s ease-in-out;
+  background-image: radial-gradient(circle, #000000, #292929);
+  transition: background-color 1s ease;
   -webkit-overflow-scrolling: touch;
 }
 
 
 .color-black {
   background-color: #000000;
-  background-image: radial-gradient(circle, #000000, #292929);
 }
   
 .color-white {
   background-color: #ffffff;
 }
+
+.color-transparent {
+  background-color: #00ffffff;
+}
+
+
 
 
 
