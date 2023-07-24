@@ -13,10 +13,6 @@ body {
   
 .color-white {
   background-color: #ffffff;
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  z-index: 10;
 }
 
 .color-transparent {
