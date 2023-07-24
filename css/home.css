@@ -13,7 +13,7 @@ body {
 
 
 .color-black {
-  background: radial-gradient(circle, #0f0f0f, #cb0016);
+  background-image: radial-gradient(circle, #0f0f0f, #cb0016);
 }
   
 .color-white {
