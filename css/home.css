@@ -6,7 +6,6 @@ html {
 
 
 body {
-  background-color: #000000;
   transition: background-color 1s ease;
   -webkit-overflow-scrolling: touch;
 }
