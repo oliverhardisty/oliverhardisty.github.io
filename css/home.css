@@ -6,7 +6,7 @@ html {
 
 
 body {
-  background: radial-gradient(circle, #000000, #292929);
+  background-color: #000000;
   transition: background-color 1s ease;
   -webkit-overflow-scrolling: touch;
 }
