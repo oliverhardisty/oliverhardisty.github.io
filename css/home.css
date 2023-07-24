@@ -6,17 +6,18 @@ html {
 
 
 body {
+  background: radial-gradient(circle, #f0f0f0, #303030);
   transition: background-image 1s ease;
   -webkit-overflow-scrolling: touch;
 }
 
 
 .color-black {
-  background-image: radial-gradient(circle, #f0f0f0, #cb0016);
+  background-color: #00FFFFFF;
 }
   
 .color-white {
-  background-image: #ffffff;
+  background-color: #ffffff;
 }
 
 
