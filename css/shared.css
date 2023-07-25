@@ -326,6 +326,12 @@ h7 {
   color: #808080;
 }
 
+.navigation p {
+  font-weight: 300;
+  padding-bottom: 4px;
+}
+
+
 
 .navigation a {
   text-decoration: none;
