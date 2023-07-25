@@ -310,14 +310,12 @@ h7 {
 }
 
 .navigation li {
-  margin: 0 4px 0 4px;
   display: inline-block;
-  
 }
 
 .navigation h7 {
   line-height: 18px;
-  padding: 0 16px 0 16px;
+  padding: 0 8px 0 8px;
 }
 
 .navigation h7:hover {
