@@ -6,8 +6,18 @@ html {
 
 
 body {
-  -webkit-transition: background-image 1s ease-in-out;
-transition: background-image 1s ease-in-out;
+  background-color: #0f0f0f;
+  transition: background-color 1s ease;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.color-black {
+  background-color: #0f0f0f;
+}
+  
+.color-white {
+  background-color: #ffffff;
 }
   
 .gradient-white {
