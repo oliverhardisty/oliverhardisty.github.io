@@ -237,7 +237,8 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: -128px;
+  transform: translateY(-128px);
+  padding-bottom: 128px;
   z-index: 2;
 }
 
