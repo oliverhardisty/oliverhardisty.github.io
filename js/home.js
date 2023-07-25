@@ -48,7 +48,14 @@ $(window).scroll(function () {
             $(this).stop().fadeTo('fast', 1);
         }
     });
-     $('.gradient-black').each(function () {
+     $('.gradient-top').each(function () {
+        if (($(this).offset().top - $(window).scrollTop()) < - 250) {
+            $(this).stop().fadeTo(100, 0);
+        } else {
+            $(this).stop().fadeTo('fast', 1);
+        }
+    });
+    $('.gradient-bottom').each(function () {
         if (($(this).offset().top - $(window).scrollTop()) < - 250) {
             $(this).stop().fadeTo(100, 0);
         } else {
