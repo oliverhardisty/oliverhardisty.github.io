@@ -19,15 +19,15 @@ body {
 .color-white {
   background-color: #ffffff;
 }
-  
-.gradient-white {
-  background-image: radial-gradient(circle, #ffffff, #ffffff);
-  z-index: 10;
-}
 
 .gradient-black {
   background-image: radial-gradient(circle, #0f0f0f, #292929);
-  z-index: 10;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 
