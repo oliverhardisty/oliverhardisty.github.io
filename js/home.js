@@ -34,6 +34,20 @@ $(window).scroll(function() {
 
 
 $(window).scroll(function () {
+    $('.gradient-top').each(function () {
+          if (($(this).offset().top - $(window).scrollTop()) < - 25%) {
+              $(this).stop().fadeTo(100, 0);
+          } else {
+              $(this).stop().fadeTo('fast', 1);
+          }
+    });
+    $('.arrow').each(function () {
+          if (($(this).offset().top - $(window).scrollTop()) < 50%) {
+              $(this).stop().fadeTo(100, 0);
+          } else {
+              $(this).stop().fadeTo('fast', 1);
+          }
+    });
     $('.intro-container').each(function () {
         if (($(this).offset().top - $(window).scrollTop()) < -100) {
             $(this).stop().fadeTo(100, 0);
@@ -41,20 +55,7 @@ $(window).scroll(function () {
             $(this).stop().fadeTo('fast', 1);
         }
     });
-    $('.arrow').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < 500) {
-            $(this).stop().fadeTo(100, 0);
-        } else {
-            $(this).stop().fadeTo('fast', 1);
-        }
-    });
-     $('.gradient-top').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < - 250) {
-            $(this).stop().fadeTo(100, 0);
-        } else {
-            $(this).stop().fadeTo('fast', 1);
-        }
-    });
+     
     $('.gradient-bottom').each(function () {
         if (($(this).offset().top - $(window).scrollTop()) < - 500) {
             $(this).stop().fadeTo(0, 100);
