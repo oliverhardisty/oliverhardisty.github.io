@@ -95,7 +95,7 @@ body {
 }
 
 .gradient-top {
-  background-image: radial-gradient(80% 80% at 50% 30%, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-image: radial-gradient(80% 80% at 50% 20%, rgba(0,0,0,1), rgba(0,0,0,0));
   z-index: 1;
   position: absolute;
   width: 100%;
@@ -245,7 +245,7 @@ body {
 }
 
 .gradient-bottom {
-  background-image: radial-gradient(80% 60% at 50% 70%, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-image: radial-gradient(80% 60% at 50% 80%, rgba(0,0,0,1), rgba(0,0,0,0));
   position: absolute;
   width: 100%;
   height: calc(100% + 128px);
