@@ -319,7 +319,7 @@ h7 {
 
 .navigation h7 {
   line-height: 18px;
-  padding: 0 12px 0 12px;
+  padding: 0 16px 0 16px;
 }
 
 .navigation h7:hover {
@@ -328,6 +328,7 @@ h7 {
 
 .navigation p {
   font-weight: 300;
+  font-size: 14px;
   transform: translateY(-2px);
 }
 
