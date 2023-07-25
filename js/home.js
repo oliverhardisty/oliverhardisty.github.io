@@ -35,7 +35,7 @@ $(window).scroll(function() {
 
 $(window).scroll(function () {
     $('.gradient-top').each(function () {
-          if (($(this).offset().top - $(window).scrollTop()) < - 25%) {
+          if (($(this).offset().top - $(window).scrollTop()) < 25%) {
               $(this).stop().fadeTo(100, 0);
           } else {
               $(this).stop().fadeTo('fast', 1);
