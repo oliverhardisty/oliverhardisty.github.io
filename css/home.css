@@ -131,6 +131,10 @@ body {
   width: 32px;
 }
 
+.arrow svg {
+  width: 32px;
+}
+
 
 .stroke {
   animation: dash 2s ease-out forwards;
