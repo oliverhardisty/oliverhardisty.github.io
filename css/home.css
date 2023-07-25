@@ -129,10 +129,6 @@ body {
   transform: translateX(-50%);
   z-index: 2;
 }
-
-.arrow svg {
-  fill: #5F5F5F;
-}
   
 
 
