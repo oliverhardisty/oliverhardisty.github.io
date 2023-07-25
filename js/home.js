@@ -60,7 +60,7 @@ $(window).scroll(function () {
         if (($(this).offset().top - $(window).scrollTop()) < - 400) {
             $(this).stop().fadeTo(0, 100);
         } else {
-            $(this).stop().fadeTo('fast', 1);
+            $(this).stop().fadeTo('fast', 0);
         }
     });
 });
