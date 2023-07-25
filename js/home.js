@@ -49,10 +49,10 @@ $(window).scroll(function () {
         }
     });
     $('.gradient-black').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < 600) {
+        if (($(this).offset().top - $(window).scrollTop()) < 500) {
             $(this).stop().fadeTo(100, 0);
         } else {
-            $(this).stop().fadeTo(0, 100);
+            $(this).stop().fadeTo('fast', 1);
         }
     });
 });
