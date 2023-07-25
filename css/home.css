@@ -20,14 +20,6 @@ body {
   background-color: #ffffff;
 }
 
-.gradient-black {
-  background-image: radial-gradient(80% 80% at 50% 25%, rgba(0,0,0,1), rgba(0,0,0,0));
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 
 .home-container {
   position: absolute;
@@ -100,6 +92,14 @@ body {
   transform: translate(-50%, -50%);
   width: 136px;
   z-index: 2;
+}
+
+.gradient-top {
+  background-image: radial-gradient(80% 80% at 50% 25%, rgba(0,0,0,1), rgba(0,0,0,0));
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -230,8 +230,6 @@ body {
 }
 
 
-
-
 .project-picker-container {
   position: relative;
   left: 0;
@@ -240,6 +238,15 @@ body {
   display: flex;
   justify-content: center;
   transform: translateY(-128px);
+  z-index: 2;
+}
+
+.gradient-bottom {
+  background-image: radial-gradient(80% 80% at 50% 75%, rgba(0,0,0,1), rgba(0,0,0,0));
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 
