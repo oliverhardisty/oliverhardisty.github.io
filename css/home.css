@@ -239,7 +239,6 @@ body {
   justify-content: center;
   transform: translateY(-128px);
   padding-bottom: 128px;
-  z-index: 3;
 }
 
 .gradient-bottom {
