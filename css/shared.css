@@ -87,6 +87,16 @@ h6 {
   line-height: 1.25;
 }
 
+h7 {
+  font-family: europa, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+}
+
 @media (max-width: 767px) {
   h5 {
     font-size: 64px;
