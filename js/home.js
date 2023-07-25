@@ -56,10 +56,10 @@ $(window).scroll(function () {
         }
     });
     $('.gradient-bottom').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < - 250) {
+        if (($(this).offset().top - $(window).scrollTop()) < - 500) {
             $(this).stop().fadeTo(0, 100);
         } else {
-            $(this).stop().fadeTo('fast', 1);
+            $(this).stop().fadeTo('fast', 0);
         }
     });
 });
