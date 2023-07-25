@@ -240,11 +240,16 @@ body {
   transform: translateY(-128px);
 }
 
+.project-picker-html {
+  z-index: 2;
+}
+
 .gradient-bottom {
   background-image: radial-gradient(80% 70% at 50% 30%, rgba(0,0,0,1), rgba(0,0,0,0));
   position: absolute;
   width: 100%;
   height: calc(100% + 128px);
+  z-index: 1;
 }
 
 
