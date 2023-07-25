@@ -49,12 +49,12 @@ color: #0f0f0f;
 }
 
 
-ul {
+.lists-flexbox ul {
   padding-left: 16px;
 }
 
 
-ul li {
+.lists-flexbox ul li {
   margin: 8px 0 8px 0;
 }
 
