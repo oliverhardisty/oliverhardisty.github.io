@@ -9,8 +9,12 @@ html {
   background-color: transparent;
 }
 
-.navigation-html h2 {
+.navigation-html h7 {
   color: #0f0f0f;
+}
+
+.navigation-html p {
+color: #0f0f0f;
 }
 
 .navigation-html svg {
