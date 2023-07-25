@@ -133,6 +133,7 @@ body {
 
 .arrow svg {
   width: 32px;
+  stroke-width: 2px;
 }
 
 
