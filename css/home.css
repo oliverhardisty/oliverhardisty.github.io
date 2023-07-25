@@ -22,7 +22,7 @@ body {
 
 .gradient-black {
   background-image: radial-gradient(circle, #0f0f0f, #292929);
-  z-index: 2;
+  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
