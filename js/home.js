@@ -57,7 +57,7 @@ $(window).scroll(function () {
     });
      
     $('.gradient-bottom').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < - 400) {
+        if (($(this).offset().top - $(window).scrollTop()) < 600) {
             $(this).stop().fadeTo(0, 100);
         } else {
             $(this).stop().fadeTo('fast', 0);
