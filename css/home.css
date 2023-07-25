@@ -6,6 +6,7 @@ html {
 
 
 body {
+  background-color: #0f0f0f; 
   transition: background-color 1s ease;
   -webkit-overflow-scrolling: touch;
 }
@@ -21,10 +22,12 @@ body {
   
 .gradient-white {
   background-image: radial-gradient(circle, #ffffff, #ffffff);
+  z-index: 10;
 }
 
 .gradient-black {
   background-image: radial-gradient(circle, #0f0f0f, #292929);
+  z-index: 10;
 }
 
 
