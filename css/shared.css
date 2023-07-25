@@ -328,7 +328,7 @@ h7 {
 
 .navigation p {
   font-weight: 300;
-  padding-bottom: 8px;
+  transform: translateY(-4px);
 }
 
 
