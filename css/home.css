@@ -237,7 +237,7 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  margin-bottom: -128px;
+  padding-bottom: -128px;
   z-index: 2;
 }
 
