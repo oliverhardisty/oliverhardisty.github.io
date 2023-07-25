@@ -27,6 +27,15 @@ $(window).scroll(function() {
       // Add class of currently active div
       $body.addClass('color-' + $(this).data('color'));
     }
+
+     // Remove all classes on body with gradient-
+      $body.removeClass(function (index, css) {
+        return (css.match (/(^|\s)gradient-\S+/g) || []).join(' ');
+      });
+       
+      // Add class of currently active div
+      $body.addClass('gradient-' + $(this).data('gradient'));
+    }
   });      
 }).scroll();
 
