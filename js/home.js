@@ -48,5 +48,12 @@ $(window).scroll(function () {
             $(this).stop().fadeTo('fast', 1);
         }
     });
+    $('.gradient-black').each(function () {
+        if (($(this).offset().top - $(window).scrollTop()) < 600 ) {
+            $(this).stop().fadeTo(100, 0);
+        } else {
+            $(this).stop().fadeTo('fast', 1);
+        }
+    });
 });
 
