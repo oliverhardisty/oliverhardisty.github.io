@@ -49,7 +49,7 @@ $(window).scroll(function () {
         }
     });
     $('.gradient-black').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < 600) {
+        if (($(this).offset().top - $(window).scrollTop()) < 1000) {
             $(this).stop().fadeTo(100, 0);
         } else {
             $(this).stop().fadeTo('fast', 1);
