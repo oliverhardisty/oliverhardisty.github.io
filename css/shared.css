@@ -295,7 +295,7 @@ h7 {
 .navigation {
   position: absolute;
   left: 50%;
-  bottom: 16px;
+  bottom: 8px;
   transform: translateX(-50%);
   z-index: 20;
 }
@@ -319,7 +319,7 @@ h7 {
 
 .navigation h7 {
   line-height: 18px;
-  padding: 0 8px 0 8px;
+  padding: 0 12px 0 12px;
 }
 
 .navigation h7:hover {
