@@ -234,7 +234,7 @@ body {
   position: relative;
   left: 0;
   width: 100%;
-  height: auto;
+  height: calc(auto - 128px);
   display: flex;
   justify-content: center;
   transform: translateY(-128px);
