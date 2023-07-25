@@ -6,14 +6,14 @@ html {
 
 
 body {
-  background-color: #3D3D3D; 
+  background-color: #292929; 
   transition: background-color 1s ease;
   -webkit-overflow-scrolling: touch;
 }
 
 
 .color-black {
-  background-color: #3D3D3D;
+  background-color: #292929;
 }
   
 .color-white {
@@ -95,7 +95,7 @@ body {
 }
 
 .gradient-top {
-  background-image: radial-gradient(80% 80% at 50% 40%, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-image: radial-gradient(160% 80% at 50% 20%, rgba(0,0,0,1), rgba(0,0,0,0));
   z-index: 1;
   position: absolute;
   width: 100%;
@@ -245,7 +245,7 @@ body {
 }
 
 .gradient-bottom {
-  background-image: radial-gradient(80% 60% at 50% 80%, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-image: radial-gradient(160% 80% at 50% 80%, rgba(0,0,0,1), rgba(0,0,0,0));
   position: absolute;
   width: 100%;
   height: calc(100% + 128px);
