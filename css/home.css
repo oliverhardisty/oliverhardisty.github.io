@@ -93,6 +93,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 136px;
+  z-index: 1;
 }
 
 
@@ -113,6 +114,16 @@ body {
     width: 112px;
   }
 }
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%:
+  background-image: radial-gradient(circle, #0f0f0f, #292929);
+  z-index: 2;
+}
+  
+
 
 
 .arrow {
