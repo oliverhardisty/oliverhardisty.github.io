@@ -27,6 +27,6 @@ html {
 }
 
 .background {
-  background-image: radial-gradient(120% 40% at 50% 50%, #000000, #1F1F1F);
+  background-image: radial-gradient(120% 40% at 50% 50%, #000000, #333333);
 }
 
