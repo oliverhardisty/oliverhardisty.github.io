@@ -476,6 +476,7 @@ a {
   flex-wrap: wrap;
   width: 990px;
   z-index: 2;
+  row-gap: 80px;
 }
 
  
@@ -503,7 +504,6 @@ a {
   position: relative;
   height: auto;
   width: 280px;
-  margin-bottom: 80px;
 }
 
 @media (max-width: 479px) {
