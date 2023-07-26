@@ -514,7 +514,7 @@ a {
   }
 }
 
-.projecttile:hover .projecttiletitle h1, .projecttiletitle p {
+.projecttile:hover .projecttiletitle h1, .projecttile:hover .projecttiletitle p {
   color: #808080;
 }
 
