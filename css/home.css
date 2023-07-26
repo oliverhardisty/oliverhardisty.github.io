@@ -95,7 +95,7 @@ body {
 }
 
 .gradient-top {
-  background-image: radial-gradient(120% 80% at 50% 20%, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-image: radial-gradient(120% 80% at 50% 10%, rgba(0,0,0,1), rgba(0,0,0,0));
   z-index: 1;
   position: absolute;
   width: 100%;
