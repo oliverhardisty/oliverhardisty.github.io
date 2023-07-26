@@ -246,8 +246,9 @@ h7 {
   fill: #0f0f0f;
 }
 
-.darkbackground {
-  background-color: #0f0f0f;
+.background-dark {
+  background-image: radial-gradient(120% 60% at 50% 50%, #000000, #1F1F1F);
+  background-attachment: fixed;
 }
 
 .lightbackground {
