@@ -502,7 +502,7 @@ a {
   position: relative;
   height: auto;
   width: 280px;
-  margin: 0px 16px 64px 16px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 479px) {
