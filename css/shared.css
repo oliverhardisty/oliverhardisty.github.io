@@ -514,6 +514,10 @@ a {
   }
 }
 
+.projecttile:hover .projecttiletitle {
+  color: #808080;
+}
+
 .image-container {
   position: relative;
   width: 100%;
