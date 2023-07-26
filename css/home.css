@@ -246,7 +246,7 @@ body {
 }
 
 .gradient-bottom {
-  background-image: radial-gradient(120% 60% at 50% 60%, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-image: radial-gradient(120% 40% at 50% 50%, rgba(0,0,0,1), rgba(0,0,0,0));
   position: absolute;
   width: 100%;
   height: calc(100% + 128px);
