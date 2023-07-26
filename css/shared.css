@@ -247,7 +247,7 @@ h7 {
 }
 
 .background-dark {
-  background-image: radial-gradient(120% 60% at 50% 50%, #000000, #1F1F1F);
+  background-image: radial-gradient(120% 60% at 50% 50%, #000000, #333333);
   background-attachment: fixed;
 }
 
