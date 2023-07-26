@@ -471,7 +471,7 @@ a {
 .project-picker {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 990px;
   z-index: 2;
@@ -501,7 +501,7 @@ a {
 .projecttile {
   position: relative;
   height: auto;
-  width: 298px;
+  width: 280px;
   margin: 0px 16px 48px 16px;
 }
 
@@ -524,6 +524,7 @@ a {
   max-width: 100%;
   max-height: auto;
   z-index: 1;
+  border-radius: 140px
 }
 
 .project-picker a {
