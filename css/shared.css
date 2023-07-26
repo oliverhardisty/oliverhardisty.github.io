@@ -541,16 +541,18 @@ a {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   top: 0;
+  border-radius: 140px;
 }
 
-.projecttileoverlay h1 {
+.projecttileoverlay p {
   padding: 0 16px 0 16px;
-  font-weight: 300;
+  text-align: center;
 }
 
 .projecttiletitle {
   position: relative;
-  padding-top: 8px;
+  padding-top: 16px;
+  text-align: center;
 } 
 
 
