@@ -502,7 +502,7 @@ a {
   position: relative;
   height: auto;
   width: 280px;
-  margin: 0px 16px 48px 16px;
+  margin: 0px 16px 64px 16px;
 }
 
 @media (max-width: 479px) {
@@ -545,7 +545,7 @@ a {
 }
 
 .projecttileoverlay p {
-  padding: 0 16px 0 16px;
+  padding: 0 12px 0 12px;
   text-align: center;
   font-weight: 300;
 }
