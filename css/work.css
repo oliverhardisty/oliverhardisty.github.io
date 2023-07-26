@@ -26,7 +26,3 @@ html {
   z-index: 2;
 }
 
-.background {
-  background-image: radial-gradient(120% 40% at 50% 50%, #000000, #333333);
-}
-
