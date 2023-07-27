@@ -132,12 +132,6 @@ body {
   fill: none;
 }
 
-  @media (max-width: 479px) {
-  .arrow {
-    top: 190%;
-  }
-}
-
 .arrow svg {
   width: 32px;
   stroke-width: 1px;
