@@ -131,10 +131,15 @@ body {
   width: 32px;
 }
 
+.arrow-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
 .arrow svg {
   width: 32px;
   stroke-width: 1px;
-  position: relative;
 }
 
 
