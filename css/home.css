@@ -124,18 +124,13 @@ body {
 
 .arrow {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
   width: 32px;
+  height: 32px;
   fill: none;
-}
-
-  @media (max-width: 479px) {
-  .arrow {
-    transform: translateY(50%);
-  }
 }
 
 .arrow svg {
