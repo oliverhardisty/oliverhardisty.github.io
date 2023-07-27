@@ -122,19 +122,13 @@ body {
 }
   
 
-.arrow-parent {
+.arrow {
   position: absolute;
   bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
   width: 32px;
-}
-
-.arrow-child {
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
 .arrow svg {
