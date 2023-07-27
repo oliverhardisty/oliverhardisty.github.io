@@ -124,7 +124,7 @@ body {
 
 .arrow {
   position: absolute;
-  bottom: 80px;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -133,9 +133,6 @@ body {
 }
 
 .arrow svg {
-  position: relative;
-  top: 0;
-  left: 0;
   width: 32px;
   stroke-width: 1px;
 }
