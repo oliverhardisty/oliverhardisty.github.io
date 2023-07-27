@@ -129,9 +129,13 @@ body {
   transform: translateX(-50%);
   z-index: 2;
   width: 32px;
+  fill: none;
 }
 
 .arrow svg {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 32px;
   stroke-width: 1px;
 }
