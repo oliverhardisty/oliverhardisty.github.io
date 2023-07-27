@@ -122,7 +122,7 @@ body {
 }
   
 
-.arrow {
+.arrow-parent {
   position: absolute;
   bottom: 80px;
   left: 50%;
@@ -131,7 +131,7 @@ body {
   width: 32px;
 }
 
-.arrow-container {
+.arrow-child {
   position: relative;
   top: 0;
   left: 0;
