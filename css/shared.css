@@ -530,7 +530,7 @@ a {
   max-width: 100%;
   max-height: auto;
   z-index: 1;
-  border-radius: 140px
+  border-radius: 50%;
 }
 
 .project-picker a {
