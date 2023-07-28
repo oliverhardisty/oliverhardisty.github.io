@@ -531,6 +531,7 @@ a {
   max-height: auto;
   z-index: 1;
   border-radius: 50%;
+  box-shadow: 0 0 48px rgba(255, 255, 255, 0.4);
 }
 
 .project-picker a {
