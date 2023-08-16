@@ -472,32 +472,35 @@ a {
 .project-picker {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
-  width: 990px;
   z-index: 2;
-  row-gap: 80px;
 }
 
+@media (min-width: 1024px) {
+  .project-picker {
+    width: 952px;
+  }
+}
  
 @media (min-width: 768px) and (max-width: 1023px) {
   .project-picker {
-    width: 660px;
+    width: 696px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
   .project-picker {
-    width: 330px;
+    width: 100%;
+    padding: 0 32px 0 32px;
   }
 }
 
 
 @media (max-width: 479px) {
   .project-picker {
-    width: calc(100% - 80px);
-    padding: 0 40px 0 40px;
-    row-gap: 64px;
+    width: 100%;
+    padding: 0 24px 0 24px;
+    align-items: center;
   }
 }
 
@@ -505,15 +508,20 @@ a {
 .projecttile {
   position: relative;
   height: auto;
-  width: 280px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 1023px) {
   .projecttile {
-    width: 100%;
-    height: auto;
+    width: 232px;
   }
 }
+
+@media (min-width: 1024px) {
+  .projecttile {
+    width: 317px;
+  }
+}
+
 
 .projecttile:hover .projecttiletitle h1, .projecttile:hover .projecttiletitle p {
   color: #808080;
