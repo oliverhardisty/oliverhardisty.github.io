@@ -552,24 +552,24 @@ a {
   top: 0;
 }
 
-.projecttileoverlay p {
-
-  font-weight: 300;
-}
-
 .project-tile-text {
   position: absolute;
   left: 16px;
-  bottom: 16px;
+  bottom: 24px;
 } 
 
+.project-tile-title p {
+  letter-spacing: 2px;
+  padding-bottom: 16px;
+}
 
 .project-tile-text p {
   font-size: 14px;
-  letter-spacing: 2px;
   font-weight: 300;
   line-height: 1.5;
 }
+
+
 
 
 a:not(.no-hover):hover .projecttileoverlay {
