@@ -496,7 +496,7 @@ a {
 
 @media (max-width: 575px) {
   .project-picker {
-    justify-content: center;
+    width: 232px;
   }
 }
 
