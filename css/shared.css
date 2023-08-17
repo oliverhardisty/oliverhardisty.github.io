@@ -566,8 +566,9 @@ a {
 
 .project-tile-title p {
   letter-spacing: 2px;
-  padding-bottom: 16px;
+  padding: 8px 0 16px 0;
   font-size: 14px;
+  
 }
 
 .project-tile-text p {
