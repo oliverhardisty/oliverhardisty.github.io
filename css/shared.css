@@ -561,15 +561,13 @@ a {
 .project-tile-title p {
   letter-spacing: 2px;
   padding-bottom: 16px;
+  font-size: 14px;
 }
 
 .project-tile-text p {
-  font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
 }
-
-
 
 
 a:not(.no-hover):hover .projecttileoverlay {
