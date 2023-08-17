@@ -554,8 +554,9 @@ a {
 
 .project-tile-text {
   position: absolute;
-  left: 16px;
-  bottom: 24px;
+  width: 100%;
+  padding: 0 16px 24px 16px;
+  bottom: 0;
 } 
 
 .project-tile-title p {
