@@ -488,22 +488,17 @@ a {
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .project-picker {
-    width: 100%;
-    padding: 0 32px 0 32px;
+    width: 464px;
   }
 }
 
-
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .project-picker {
-    width: 100%;
-    padding: 0 24px 0 24px;
-    align-items: center;
+    justify-content: center;
   }
 }
-
 
 .projecttile {
   position: relative;
@@ -538,7 +533,6 @@ a {
   max-width: 100%;
   max-height: auto;
   z-index: 1;
-  border-radius: 50%;
   box-shadow: 0 0 48px rgba(255, 255, 255, 0.4);
 }
 
@@ -556,7 +550,6 @@ a {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   top: 0;
-  border-radius: 140px;
 }
 
 .projecttileoverlay p {
