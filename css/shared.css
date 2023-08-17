@@ -577,7 +577,7 @@ a {
 }
 
 
-a:not(.no-hover):hover .projecttileoverlay {
+a:not(.no-hover):hover .project-tile-overlay {
   opacity: 1;
 }
 
