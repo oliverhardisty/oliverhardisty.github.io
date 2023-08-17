@@ -553,15 +553,14 @@ a {
 }
 
 .projecttileoverlay p {
-  padding: 0 12px 0 12px;
-  text-align: center;
+
   font-weight: 300;
 }
 
 .project-tile-text {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 16px;
+  bottom: 16px;
 } 
 
 
@@ -569,7 +568,6 @@ a {
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: 300;
-  padding-top: 2px;
   line-height: 1.5;
 }
 
