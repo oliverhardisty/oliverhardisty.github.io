@@ -545,7 +545,7 @@ a {
   text-decoration: none;
 }
 
-.projecttileoverlay {
+.project-tile-overlay {
   position: absolute;
   display: flex;
   align-items: center;
