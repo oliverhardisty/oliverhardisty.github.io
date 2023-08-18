@@ -567,7 +567,7 @@ a:not(.no-hover):hover .project-tile-overlay-L {
   height: 50%;
   opacity: 0;
   background-image: linear-gradient(none, black);
-  z-index: 2;
+  z-index: 5;
   bottom: 0;
 }
 
