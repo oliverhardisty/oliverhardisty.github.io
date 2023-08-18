@@ -555,7 +555,7 @@ a {
   top: 0;
 }
 
-.project-tile-overlay-S/M {
+.project-tile-overlay-S,M {
   position: absolute;
   opacity: 0;
   position: center;
