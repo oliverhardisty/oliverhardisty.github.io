@@ -505,25 +505,25 @@ a {
   }
 }
 
-.projecttile {
+.project-tile {
   position: relative;
   height: auto;
 }
 
 @media (max-width: 1023px) {
-  .projecttile {
+  .project-tile {
     width: 232px;
   }
 }
 
 @media (min-width: 1024px) {
-  .projecttile {
+  .project-tile {
     width: 317px;
   }
 }
 
 
-.projecttile:hover .projecttiletitle h1, .projecttile:hover .projecttiletitle p {
+.project-tile:hover .projecttiletitle h1, .projecttile:hover .projecttiletitle p {
   color: #808080;
 }
 
@@ -612,8 +612,6 @@ a:link {
   margin: 0 12px 12px 12px;
 }
 
-
-.project-tile-text p
 
 
 
