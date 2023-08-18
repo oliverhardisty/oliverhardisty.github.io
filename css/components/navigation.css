@@ -1,1 +1,207 @@
+.navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 64px;
+  z-index: 10;
+}
+
+.home_touch-target {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+}
+
+.homelogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+}
+
+.home_touch-target:hover .homelogo {
+  fill: #808080;
+}
+  
+  
+
+.navigation {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+@media (max-width: 479px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.navigation ul {
+  list-text-style: none;
+  padding: 0;
+  margin: 0;
+  width: max-content;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation h7 {
+  padding: 0 24px 0 24px;
+}
+
+.navigation h7:hover {
+  color: #808080;
+}
+
+.navigation p {
+  font-weight: 300;
+  font-size: 12px;
+  transform: translateY(-2px);
+}
+
+
+
+.navigation a {
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+}
+
+.linkedin_touch-target {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+}
+
+.linkedin_touch-target:hover svg {
+  fill: #808080;
+}
+
+.linkedin {
+  position: absolute;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 479px) {
+  .linkedin_touch-target {
+    visibility: hidden;
+  }
+}
+
+
+.hamburger_touch-target {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  visibility: hidden;
+}
+
+.hamburger_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 18px;
+}
+
+
+@media (max-width: 479px) {
+  .hamburger_touch-target {
+    visibility: visible;
+  }
+}
+
+#hamburger-container {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.hamburger-drawer {
+  position: absolute;
+  width: 64%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  box-shadow: -8px 0px 10px rgb(0 0 0 / 0.2);
+}
+
+.behind-hamburger {
+  position: absolute;
+  width: 36%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.close_touch-target {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 8px;
+  right: 8px;
+}
+
+.hamburger-drawer svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close_touch-target svg {
+  width: 20px;
+}
+
+.hamburger-drawer ul {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style-type: none;
+  margin: 0;
+}
+
+.hamburger-drawer li {
+  display: block;
+  margin-top: 32px;
+  text-align: right;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.linkedin_touch-target_hamburger {
+  bottom: 24px;
+  right: 24px;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  transform: translate(12px, 8px);
+}
 
