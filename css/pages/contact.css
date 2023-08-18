@@ -1,0 +1,34 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.navigation li:nth-child(5) h7 {
+  color: #ed1843;;
+}
+
+.hamburger-drawer li:nth-child(3) h4 {
+  color: #ed1843;
+}
+
+
+.contactcontent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 32%;
+  box-sizing: border-box;
+  margin-bottom: 96px;
+}
+
+@media (max-width: 479px) {
+  .contactcontent {
+    padding: 0 24px 0 24px;
+    width: 100%;
+  }
+}
+
+.contactcontent .info-section {
+  margin-top: 64px;
+}
