@@ -559,6 +559,32 @@ a:not(.no-hover):hover .project-tile-overlay-L {
   opacity: 1;
 }
 
+  
+.project-tile-text-L {
+  position: absolute;
+  width: calc(100% - 32px);
+  padding: 0 16px 24px 16px;
+  bottom: 0;
+} 
+
+.project-tile-title p {
+  letter-spacing: 2px;
+  padding: 4px 0 16px 0;
+  font-size: 14px;
+  
+}
+
+.project-tile-text-L p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+a:link {
+  cursor: pointer;
+}
+
+
 .project-tile-overlay-S {
   position: absolute;
   opacity: 0;
@@ -585,31 +611,9 @@ a:not(.no-hover):hover .project-tile-overlay-L {
   width: 100%;
   margin: 0 12px 12px 12px;
 }
-  
-.project-tile-text-L {
-  position: absolute;
-  width: calc(100% - 32px);
-  padding: 0 16px 24px 16px;
-  bottom: 0;
-} 
-
-.project-tile-title p {
-  letter-spacing: 2px;
-  padding: 4px 0 16px 0;
-  font-size: 14px;
-  
-}
-
-.project-tile-text-L p {
-  font-weight: 300;
-  line-height: 1.5;
-}
 
 
-a:link {
-  cursor: pointer;
-}
-  
+.project-tile-text p
 
 
 
