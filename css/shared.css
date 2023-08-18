@@ -545,7 +545,7 @@ a {
   text-decoration: none;
 }
 
-.project-tile-overlay {
+.project-tile-overlay-L {
   position: absolute;
   display: flex;
   align-items: center;
@@ -557,7 +557,7 @@ a {
   top: 0;
 }
 
-.project-tile-text {
+.project-tile-text-L {
   position: absolute;
   width: calc(100% - 32px);
   padding: 0 16px 24px 16px;
@@ -571,7 +571,7 @@ a {
   
 }
 
-.project-tile-text p {
+.project-tile-text-L p {
   font-weight: 300;
   line-height: 1.5;
 }
