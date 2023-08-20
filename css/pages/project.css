@@ -5,11 +5,11 @@ html {
 }
 
 .navigation-html .navigation li:nth-child(1) h3 {
-  color: #ed1843 !important;
+  color: #ed1843;
 }
 
 .hamburger-drawer li:nth-child(1) h2 {
-  color: #ed1843 !important;
+  color: #ed1843;
 }
 
 .navigation-html h3 {
