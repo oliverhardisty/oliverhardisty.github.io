@@ -13,6 +13,14 @@ html {
   color: #ed1843;
 }
 
+.navigation-html h3 {
+  color: #ffffff;
+}
+
+.navigation-html .body1 {
+color: #ffffff;
+}
+
 
 .project-picker-container {
   position: absolute;
