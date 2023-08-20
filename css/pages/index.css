@@ -199,7 +199,7 @@ body {
   width: 100%;
 }
 
-.intro-content h5 {
+.intro-content h9 {
   text-align: center;
   padding: 0 24px 0 24px;
   -webkit-hyphens: none;
@@ -211,7 +211,7 @@ body {
   color: #00FFFFFF;
 }
 
-.intro-content h1 {
+.intro-content .body3 {
   margin-top: 80px;
   text-align: center;
   padding: 0 24px 0 24px;  
@@ -222,12 +222,12 @@ body {
       top: 0;
     }
       
-  .intro-content h5 {
+  .intro-content h9 {
     font-size: 48px;
     text-align: left;
   }
   
-  .intro-content h1 {
+  .intro-content .body3 {
     text-align: left;
   }  
 }
