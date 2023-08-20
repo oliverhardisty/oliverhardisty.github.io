@@ -29,10 +29,13 @@ body {
   height: auto;
   overflow-x: hidden;
 }
-  
 
-.navigation-html .darkbackground {
-  background-color: transparent;
+.navigation-html h3 {
+  color: #000000;
+}
+
+.navigation-html .body1 {
+color: #000000;
 }
 
 .home_touch-target svg {
