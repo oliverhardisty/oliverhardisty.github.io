@@ -15,23 +15,23 @@ $('a').on('click', function() {
 
 
 $(function(){
-      $(".navigation-html").load("html/shared/navigation.html"); 
+      $(".navigation-html").load("html/components/navigation.html"); 
     });
 
 $(function(){
-      $(".navigation-html").load("shared/navigation.html"); 
+      $(".navigation-html").load("components/navigation.html"); 
     });
 
 $(function(){
-      $(".navigation-html").load("../shared/navigation.html"); 
+      $(".navigation-html").load("../components/navigation.html"); 
     });
 
 $(function(){
-  $(".project-picker-html").load("html/shared/project-picker.html"); 
+  $(".project-picker-html").load("html/components/project-picker.html"); 
 });
 
 $(function(){
-  $(".project-picker-html").load("shared/project-picker.html"); 
+  $(".project-picker-html").load("components/project-picker.html"); 
 });
 
 
