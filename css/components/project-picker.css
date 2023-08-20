@@ -97,7 +97,7 @@ a:not(.no-hover):hover .project-tile-overlay {
   padding-top: 4px;
 }
 
-project-tile-text .body2 {
+.project-tile-text .body2 {
   padding-top: 16px;
 }
 
