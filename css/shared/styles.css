@@ -170,8 +170,49 @@ h9 {
 .text_red {
   color: #ed1843;
 }
-  
 
+
+/** Text sizes */
+
+.text_12px {
+  font-size: 12px;
+}
+
+.text_14px {
+  font-size: 14px;
+}
+
+.text_16px {
+  font-size: 16px;
+}
+
+.text_18px {
+  font-size: 18px;
+}
+
+.text_20px {
+  font-size: 20px;
+}
+
+.text_24px {
+  font-size: 24px;
+}
+
+.text_40px {
+  font-size: 40px;
+}
+
+.text_48px {
+  font-size: 48px;
+}
+
+.text_64px {
+  font-size: 48px;
+}
+
+.text_80px {
+  font-size: 80px;
+}
 
 
 /** Spacings */
