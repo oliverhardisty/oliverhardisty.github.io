@@ -55,18 +55,12 @@
   display: inline-block;
 }
 
-.navigation h7 {
+.navigation h3 {
   padding: 0 24px 0 24px;
 }
 
-.navigation h7:hover {
+.navigation h3:hover {
   color: #808080;
-}
-
-.navigation p {
-  font-weight: 300;
-  font-size: 12px;
-  transform: translateY(-2px);
 }
 
 
