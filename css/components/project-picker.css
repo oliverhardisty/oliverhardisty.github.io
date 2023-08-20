@@ -115,8 +115,8 @@ a:link {
     bottom: 0;
   }
 
-  .project-tile-title .h4 {
-    font-size: 18px;
+  .project-tile-title h4 {
+    font-size: 20px;
   }
 
   .project-tile-title .body1 {
