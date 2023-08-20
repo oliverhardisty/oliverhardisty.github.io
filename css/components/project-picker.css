@@ -91,14 +91,12 @@ a:not(.no-hover):hover .project-tile-overlay-L {
   bottom: 0;
 } 
 
-.project-tile-title p {
+.project-tile-title .body1 {
   letter-spacing: 2px;
   padding: 4px 0 16px 0;
-  font-size: 14px;
-  
 }
 
-.project-tile-text-L p {
+.project-tile-text-L .body2 {
   font-weight: 300;
   line-height: 1.5;
 }
