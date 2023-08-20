@@ -27,11 +27,24 @@ $(function(){
     });
 
 $(function(){
+      $(".navigation-html").load("../../components/navigation.html"); 
+    });
+
+
+$(function(){
   $(".project-picker-html").load("html/components/project-picker.html"); 
 });
 
 $(function(){
   $(".project-picker-html").load("components/project-picker.html"); 
+});
+
+$(function(){
+  $(".project-picker-html").load("../components/project-picker.html"); 
+});
+
+$(function(){
+  $(".project-picker-html").load("../../components/project-picker.html"); 
 });
 
 
