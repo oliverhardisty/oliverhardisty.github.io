@@ -63,7 +63,11 @@
   color: #808080;
 }
 
-
+.navigation p {
+  font-weight: 300;
+  font-size: 12px;
+  transform: translateY(-2px);
+}
 
 .navigation a {
   text-decoration: none;
