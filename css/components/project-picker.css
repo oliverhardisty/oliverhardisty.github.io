@@ -118,10 +118,6 @@ a:link {
   .project-tile-title h4 {
     font-size: 20px;
   }
-
-  .project-tile-title .body1 {
-    padding-top: 2px;
-  }
   
   .project-tile-text .body2 {
     display: none;
