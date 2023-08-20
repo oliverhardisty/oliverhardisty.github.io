@@ -63,9 +63,8 @@
   color: #808080;
 }
 
-.navigation p {
-  font-weight: 300;
-  font-size: 12px;
+.navigation .body1 {
+  font-weight: 700;
   transform: translateY(-2px);
 }
 
