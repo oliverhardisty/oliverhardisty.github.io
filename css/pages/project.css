@@ -8,19 +8,19 @@ html {
   background-color: transparent;
 }
 
-.navigation li:nth-child(1) h7 {
+.navigation li:nth-child(1) h3 {
   color: #ed1843;
 }
 
-.hamburger-drawer li:nth-child(1) h4 {
+.hamburger-drawer li:nth-child(1) h2 {
   color: #ed1843;
 }
 
-.navigation-html h7 {
+.navigation-html h3 {
   color: #0f0f0f;
 }
 
-.navigation-html p {
+.navigation-html .body1 {
 color: #0f0f0f;
 }
 
