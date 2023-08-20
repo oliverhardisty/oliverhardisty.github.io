@@ -4,12 +4,12 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-.navigation li:nth-child(1) h7 {
+.navigation li:nth-child(1) h3 {
   color: #ed1843;
 }
 
 
-.hamburger-drawer li:nth-child(1) h4 {
+.hamburger-drawer li:nth-child(1) h2 {
   color: #ed1843;
 }
 
