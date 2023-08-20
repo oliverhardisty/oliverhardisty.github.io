@@ -4,10 +4,6 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-.navigation-html .darkbackground {
-  background-color: transparent;
-}
-
 .navigation li:nth-child(1) h3 {
   color: #ed1843;
 }
