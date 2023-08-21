@@ -1,4 +1,6 @@
 
+**/ Large button /*
+
 .button_large {
   display: flex;
   align-items: center;
@@ -19,28 +21,35 @@
 }
   
 
-.primary-button {
+.primary-button_black {
   background-color: #0f0f0f;
 }
 
-.primary-button:hover {
+.primary-button_black:hover {
   background-color: #808080;
 }
 
-.secondary-button {
+.secondary-button_black {
    -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
     -moz-box-shadow:inset 0px 0px 0px 10px #f00;
     box-shadow:inset 0px 0px 0px 3px #0f0f0f;
 }
 
-.secondary-button .body2 {
+.secondary-button_black .body2 {
   color: #0f0f0f;
 }
 
-.secondary-button:hover {
+.secondary-button_black:hover {
   box-shadow:inset 0px 0px 0px 3px #808080;
 }
 
-.secondary-button:hover .body2 {
+.secondary-button_black:hover .body2 {
   color: #808080;
 }
+
+
+**
+
+
+
+
