@@ -262,6 +262,7 @@ body {
 @media (max-width: 479px) {
   .project-buttons {
     flex-direction: column;
+    row-gap: 16px;
     box-sizing: border-box;
     width: 100%;
     padding: 64px 24px 24px 24px;
