@@ -25,6 +25,10 @@
   background-color: #0f0f0f;
 }
 
+.primary-button_black .body2 {
+  background-color: #ffffff;
+}
+
 .primary-button_black:hover {
   background-color: #808080;
 }
