@@ -248,9 +248,23 @@ body {
 .project-buttons {
     display: flex;
     position: relative;
-    width: fit-content;
+}
+
+@media (min-width: 480px) {
+  .project-buttons {
     justify-content: center;
     flex-direction: row;
-    margin: 160px auto 80px auto;
-    column-gap: 24px;
+    margin: 160px 0 80px 0;
+    column-gap: 16px;
+  }
 }
+
+@media (max-width: 479px)
+.project-buttons {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 64px 24px 24px 24px;
+}
+
+
