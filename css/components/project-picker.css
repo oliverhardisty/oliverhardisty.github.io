@@ -22,6 +22,7 @@
   .project-picker {
     width: max-content;
     max-width: 648px;
+    min-width: 432px;
   }
 }
 
