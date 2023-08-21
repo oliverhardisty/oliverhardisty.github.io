@@ -48,7 +48,7 @@
   box-shadow:inset 0px 0px 0px 3px #808080;
 }
 
-.secondary-button_black:hover .body2 {
+.secondary-button_black:hover .body2, .secondary-button_black:hover .body1  {
   color: #808080;
 }
 
