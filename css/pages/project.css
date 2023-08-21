@@ -245,52 +245,6 @@ body {
   z-index: 10;
 }
 
-.button_large {
-  display: flex;
-  align-items: center;
-  height: 56px;
-  width: fit-content;
-  border-radius: 28px;
-  justify-content: center
-}
-
-.button_large a {
-  text-decoration: none;
-}
-
-.button_large p {
-  font-weight: 700;
-  text-align: center;
-  padding: 0 32px 2px 32px;
-}
-  
-
-.primary-button {
-  background-color: #0f0f0f;
-}
-
-.primary-button:hover {
-  background-color: #808080;
-}
-
-.secondary-button {
-   -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
-    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
-    box-shadow:inset 0px 0px 0px 3px #0f0f0f;
-}
-
-.secondary-button p {
-  color: #0f0f0f;
-}
-
-.secondary-button:hover {
-  box-shadow:inset 0px 0px 0px 3px #808080;
-}
-
-.secondary-button:hover p {
-  color: #808080;
-}
-
 .project-buttons {
   display: flex;
   position: relative;
