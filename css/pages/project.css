@@ -244,3 +244,12 @@ body {
   height: 75%;
   z-index: 10;
 }
+
+.project-buttons {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    justify-content: center;
+    flex-direction: row;
+    margin: 160px auto 80px auto;
+}
