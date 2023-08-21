@@ -21,6 +21,7 @@
 @media (min-width: 480px) and (max-width: 767px) {
   .project-picker {
     width: max-content;
+    max-width: 648px;
   }
 }
 
