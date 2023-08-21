@@ -261,11 +261,15 @@ body {
 
 @media (max-width: 479px) {
   .project-buttons {
-      flex-direction: column;
-      box-sizing: border-box;
-      width: 100%;
-      padding: 64px 24px 24px 24px;
-    }
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 64px 24px 24px 24px;
   }
+
+  .project-buttons .button_large {
+    width: 100%;
+  }
+}
 
 
