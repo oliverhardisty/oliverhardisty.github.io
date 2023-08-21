@@ -20,7 +20,7 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
   .project-picker {
-    width: max-content;
+    width: fit-content;
     max-width: 648px;
     min-width: 432px;
   }
