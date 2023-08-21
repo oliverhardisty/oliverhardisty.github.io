@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 2;
+  margin: auto;
 }
 
 @media (min-width: 1024px) {
@@ -26,7 +27,9 @@
 
 @media (max-width: 479px) {
   .project-picker {
-    width: calc(100% - 48px);
+    width: 100%
+    box-sizing: border-box;
+    padding: 0 24px 0 24px;
   }
 }
 
