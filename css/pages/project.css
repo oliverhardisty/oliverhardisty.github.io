@@ -4,7 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-.navigation-html .navigation li:nth-child(1) h3 {
+.navigation li:nth-child(1) h3 {
   color: #ed1843;
 }
 
@@ -12,15 +12,15 @@ html {
   color: #ed1843;
 }
 
-.navigation-html h3 {
+.navigation h3 {
   color: #0f0f0f;
 }
 
-.navigation-html .body1 {
+.navigation .body1 {
 color: #0f0f0f;
 }
 
-.navigation-html svg {
+.navigation svg {
   fill: #0f0f0f;
 }
 
