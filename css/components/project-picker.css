@@ -127,6 +127,10 @@ a:link {
     height: 50%;
     opacity: 1;
   }
+
+  .project-tile-text {
+    padding-bottom: 16px;
+  }
   
   .project-tile-text .body2 {
     display: none;
