@@ -252,4 +252,5 @@ body {
     justify-content: center;
     flex-direction: row;
     margin: 160px auto 80px auto;
+    column-gap: 24px;
 }
