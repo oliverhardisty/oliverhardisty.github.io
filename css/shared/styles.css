@@ -221,6 +221,11 @@ h9 {
 
 /** Spacings */
 
+.info-section {
+  position: relative;
+  margin-top: 48px;
+}
+
 .vertical-spacing_16px {
   height: 16px;
 }
