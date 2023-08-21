@@ -219,12 +219,15 @@ h9 {
 }
 
 
-/** Spacings */
+/** Text components */
 
 .info-section {
   position: relative;
   margin-top: 48px;
 }
+
+
+/** Spacings */
 
 .vertical-spacing_16px {
   height: 16px;
