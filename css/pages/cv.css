@@ -37,7 +37,9 @@ color: #0f0f0f;
   width: 640px;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 112px;
+  box-sizing: box-border;
+  height: auto;
+  padding-bottom: 112px;
 }
 
 @media (max-width: 767px) {
