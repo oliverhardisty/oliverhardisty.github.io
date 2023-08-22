@@ -145,7 +145,7 @@ body {
 }
 
 .infodrawer {
-  left: 0;
+  right: 0;
   top: 0;
   width: 480px;
   height: 100%;
@@ -169,7 +169,7 @@ body {
 }
 
 .infodrawer > .infobutton {
-  left: 5% !important;
+  right: 5% !important;
 }
 
 .behind-infodrawer {
