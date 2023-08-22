@@ -131,13 +131,13 @@ color: #ffffff;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   fill: none;
 }
 
 .arrow svg {
-  width: 32px;
+  width: 30px;
   stroke-width: 1px;
 }
 
