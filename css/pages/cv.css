@@ -38,6 +38,7 @@ color: #0f0f0f;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
+  margin-bottom: 112px;
 }
 
 @media (max-width: 767px) {
