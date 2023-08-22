@@ -94,8 +94,8 @@ color: #0f0f0f;
   column-gap: 16px;
 }
 
-.lists-flexbox > .image-title {
-  margin: 8px 0 8px 0;
+.lists-flexbox .image-title {
+  margin: 8px 0 8px 0 !important;
 }
 
 
