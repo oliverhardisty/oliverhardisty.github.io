@@ -153,6 +153,14 @@ h9 {
 
 /** Text weight */
 
+.text_extra-bold {
+  font-weight: 800;
+}
+
+.text_heavy {
+  font-weight: 900;
+}
+
 .text_bold {
   font-weight: 700;
 }
