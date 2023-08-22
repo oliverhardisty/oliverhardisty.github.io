@@ -28,7 +28,6 @@ body {
   width: 100%;
   height: auto;
   overflow-x: hidden;
-  padding-bottom: 128px;
 }
 
 .navigation h3 {
@@ -240,6 +239,7 @@ color: #ffffff;
   display: flex;
   justify-content: center;
   transform: translateY(-128px);
+  padding-bottom: 64px;
 }
 
 .project-picker-html {
