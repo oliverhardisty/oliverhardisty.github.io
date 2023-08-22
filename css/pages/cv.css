@@ -53,6 +53,12 @@ color: #0f0f0f;
   margin: 0;
 }
 
+.lists-flexbox ul li {
+  margin-bottom: 8px;
+}
+
+
+
 
 
 .image_L {
