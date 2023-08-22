@@ -5,29 +5,24 @@ html {
 }
 
 
-.navigation-html .darkbackground {
-  background-color: transparent;
-}
-
-.navigation-html h7 {
-  color: #0f0f0f;
-}
-
-.navigation-html p {
-color: #0f0f0f;
-}
-
-.navigation-html svg {
-  fill: #0f0f0f;
-}
-
-
-.navigation li:nth-child(3) h3 {
+.navigation li:nth-child(2) h3 {
   color: #ed1843;
 }
 
 .hamburger-drawer li:nth-child(2) h3 {
   color: #ed1843;
+}
+
+.navigation h3 {
+  color: #0f0f0f;
+}
+
+.navigation .body1 {
+color: #0f0f0f;
+}
+
+.navbar svg {
+  fill: #0f0f0f;
 }
 
 
