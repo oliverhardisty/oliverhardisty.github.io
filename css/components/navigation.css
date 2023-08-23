@@ -11,8 +11,8 @@
 @media (min-width: 1920px) {
   .navbar {
     transform: scale(1.1);
+    transform-origin: top left;
     width: 90.9%;
-    left: 0;
    }
   }
 
