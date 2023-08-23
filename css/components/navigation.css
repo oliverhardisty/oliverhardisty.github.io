@@ -23,12 +23,6 @@
   left: 8px;
 }
 
-@media (min-width: 1920px) {
-  .home_touch-target {
-    transform: scale(1.1);
-   }
-  }
-
 
 .homelogo {
   position: absolute;
@@ -37,6 +31,12 @@
   transform: translate(-50%, -50%);
   height: 36px;
 }
+
+@media (min-width: 1920px) {
+  .homelogo {
+    transform: scale(1.1);
+   }
+  }
 
 .home_touch-target:hover .homelogo {
   fill: #808080;
