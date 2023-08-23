@@ -38,11 +38,21 @@
   z-index: 20;
 }
 
+@media (min-width: 1920px) {
+  .navigation {
+  transform: scale(1.5);
+  }
+}
+
+
+
 @media (max-width: 479px) {
   .navigation {
     display: none;
   }
 }
+
+
 
 .navigation ul {
   list-text-style: none;
