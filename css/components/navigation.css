@@ -98,12 +98,6 @@
   right: 8px;
 }
 
-@media (min-width: 1920px) {
-  .linkedin_touch-target {
-    transform: scale(1.1);
-   }
-  }
-
 .linkedin_touch-target:hover svg {
   fill: #808080;
 }
