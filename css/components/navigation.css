@@ -16,6 +16,12 @@
   left: 8px;
 }
 
+@media (min-width: 1920px) {
+  transform: scale(1.1);
+  transform-origin: top left;
+ }
+}
+
 .homelogo {
   position: absolute;
   top: 50%;
@@ -94,6 +100,8 @@
   transform: translateY(-50%);
   right: 8px;
 }
+
+
 
 .linkedin_touch-target:hover svg {
   fill: #808080;
