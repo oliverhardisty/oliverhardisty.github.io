@@ -21,6 +21,13 @@ html {
 color: #ffffff;
 }
 
+.workcontent {
+  position: absolute;
+  top: 32%;
+  width: fit-content;
+  height: auto;
+}  
+
 
 .project-picker-container {
   position: absolute;
