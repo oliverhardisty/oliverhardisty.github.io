@@ -128,6 +128,16 @@ h9 {
   margin: 0;
 }
 
+h10 {
+  font-family: europa, sans-serif;
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  margin: 0;
+}
+
 @media (max-width: 767px) {
   h9 {
     font-size: 64px;
