@@ -26,15 +26,13 @@ color: #ffffff;
   top: 32%;
   width: fit-content;
   height: auto;
+  left: 50%
+  transform: translateX(-50%);
 }  
 
 
 .project-picker-container {
-  position: absolute;
-  left: 0;
-  top: 24%;
-  width: 100%;
-  height: auto;
+  position: relative;
   display: flex;
   justify-content: center;
   padding-bottom: 192px;
