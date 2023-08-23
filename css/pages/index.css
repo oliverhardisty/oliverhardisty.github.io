@@ -98,7 +98,7 @@ color: #ffffff;
 }
 
 @media (min-width: 1920px) {
-  .logo {
+  .logo svg {
     transform: scale(1.25);
     transform-orgin: 50% 50%;
   }
