@@ -10,12 +10,6 @@
 
 @media (min-width: 1920px) {
   .navbar {
-    height: 80px 
-   }
-  }
-
-@media (min-width: 1920px) {
-  .navbar svg {
     transform: scale(1.1);
    }
   }
@@ -50,13 +44,6 @@
   bottom: 12px;
   transform: translateX(-50%);
   z-index: 20;
-}
-
-@media (min-width: 1920px) {
-  .navigation ul {
-  transform: scale(1.1);
-  transform-origin: center top;
-  }
 }
 
 
