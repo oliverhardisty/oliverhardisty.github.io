@@ -50,6 +50,9 @@ color: #ffffff;
   left: 0;
 }
 
+@media (min-width: 1920px) {
+
+
 @media (min-width: 1200px) {
   .landing-container {
     height: 56.25vw;
