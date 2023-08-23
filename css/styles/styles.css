@@ -139,11 +139,14 @@ h10 {
 }
 
 @media (max-width: 767px) {
-  h9 {
-    font-size: 64px;
-  }
   h6 {
     font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h10 {
+    font-size: 112px;
   }
 }
 
