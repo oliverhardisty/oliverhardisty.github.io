@@ -6,9 +6,16 @@
   margin: auto;
 }
 
+@media (min-width: 1440px) {
+  .project-picker {
+    width: 1300px;
+  }
+}
+
+
 @media (min-width: 1024px) {
   .project-picker {
-    width: 976px;
+    width: 975px;
   }
 }
  
