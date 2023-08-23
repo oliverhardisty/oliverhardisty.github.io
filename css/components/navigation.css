@@ -41,7 +41,7 @@
 @media (min-width: 1920px) {
   .navigation {
   transform: scale(1.25);
-  transform-origin: top center;
+  transform-origin: center top;
   }
 }
 
