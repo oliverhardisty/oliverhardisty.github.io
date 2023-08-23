@@ -5,7 +5,14 @@
   top: 0;
   height: 64px;
   z-index: 10;
+  width: 100%;
 }
+
+@media (min-width: 1920px) {
+  .navbar {
+    height: 80px 
+   }
+  }
 
 .home_touch-target {
   position: absolute;
@@ -17,10 +24,11 @@
 }
 
 @media (min-width: 1920px) {
-  transform: scale(1.1);
-  transform-origin: top left;
- }
-}
+  .home_touch-target {
+    transform: scale(1.1);
+   }
+  }
+
 
 .homelogo {
   position: absolute;
@@ -101,7 +109,11 @@
   right: 8px;
 }
 
-
+@media (min-width: 1920px) {
+  .linkedin_touch-target {
+    transform: scale(1.1);
+   }
+  }
 
 .linkedin_touch-target:hover svg {
   fill: #808080;
