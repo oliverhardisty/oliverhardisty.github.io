@@ -87,7 +87,6 @@ color: #ffffff;
   left: 50%;
   transform: translate(-50%, -100%);
   width: 148px;
-  height: auto;
   z-index: 2;
 }
 
@@ -98,11 +97,11 @@ color: #ffffff;
   }
 }
 
-@media (max-width: 479px)
+  @media (max-width: 479px) {
   .logo {
     width: 112px;
   }
-}  
+}
 
 .gradient-top {
   background-image: radial-gradient(120% 80% at 50% 10%, rgba(0,0,0,1), rgba(0,0,0,0));
@@ -124,12 +123,7 @@ color: #ffffff;
   0% { clip-path: inset(0 0 100% 0); }
   100% { clip-path: inset(0); }
 }
-  
-  @media (max-width: 479px) {
-  .logo {
-    width: 112px;
-  }
-}
+
   
 
 .arrow {
