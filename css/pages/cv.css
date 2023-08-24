@@ -44,7 +44,7 @@ color: #0f0f0f;
     max-width: 614px;
   }
    .cvcontent h9 {
-    width: calc(100% + 48px);
+    width: 100%
   }
 }
 
