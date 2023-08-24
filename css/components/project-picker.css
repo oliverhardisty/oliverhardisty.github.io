@@ -55,15 +55,14 @@
   }
 }
 
-
-@media (min-width: 1024px) and (max-width: 1920px) {
-  .project-tile {
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .project-tile {
     width: 348px;
   }
 }
 
 
-@media (min-width: 480px) and (max-width: 1023px) {
+@media (min-width: 480px) and (max-width: 1440px) {
   .project-tile {
     width: 325px;
   }
