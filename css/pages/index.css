@@ -186,7 +186,11 @@ color: #ffffff;
 }  
 
 .intro-content {
-  width: fit-content; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  column-gap: 24px;
+  width: 100%;
 }
 
 .intro-content h9 {
@@ -200,8 +204,7 @@ color: #ffffff;
 
 .intro-content .body3 {
   margin-top: 80px;
-  text-align: center;
-  padding: 0 24px 0 24px;  
+  text-align: center;  
 }
 
 @media (max-width: 768px) {
