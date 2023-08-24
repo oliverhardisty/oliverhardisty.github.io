@@ -211,7 +211,7 @@ color: #ffffff;
 
 @media (min-width: 480px) and (max-width: 767px) {
    .intro-content h9 {
-    font-size: 88px;
+    font-size: 104px;
     }
   }
       
@@ -219,11 +219,8 @@ color: #ffffff;
     font-size: 48px;
     text-align: left;
   }
-  
-  .intro-content .body3 {
-    text-align: left;
-  }  
 }
+
 
 
 
