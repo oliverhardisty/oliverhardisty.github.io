@@ -31,12 +31,6 @@ body {
   box-sizing: border-box;
 }
 
-@media (max-width: 479px) {
-  .home-container {
-    padding: 0 24px 0 24px;
-  }
-}
-
 .navigation h3 {
   color: #ffffff;
 }
