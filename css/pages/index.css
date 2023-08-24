@@ -87,6 +87,7 @@ color: #ffffff;
   left: 50%;
   transform: translate(-50%, -100%);
   width: 148px;
+  height: fit-content;
   z-index: 2;
 }
 
@@ -99,7 +100,7 @@ color: #ffffff;
 
   @media (max-width: 479px) {
   .logo {
-    width: 112px;
+    width: 112px; 
   }
 }
 
