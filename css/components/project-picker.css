@@ -126,7 +126,7 @@ a:not(.no-hover):hover .project-tile-overlay {
 } 
 
 @media (max-width: 768px) {
-  project-tile-text h6 {
+  .project-tile-text h6 {
     font-size: 32px;
   }
 }
