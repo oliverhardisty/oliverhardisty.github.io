@@ -189,7 +189,6 @@ color: #ffffff;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  column-gap: 24px;
   width: 100%;
 }
 
@@ -200,6 +199,7 @@ color: #ffffff;
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
   color: #00FFFFFF;
+  margin-top: 64px;
 }
 
 .intro-content .body3 {
