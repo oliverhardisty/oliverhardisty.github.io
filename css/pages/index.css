@@ -235,6 +235,12 @@ color: #ffffff;
   padding-bottom: 64px;
 }
 
+@media (max-width: 479px) {
+  .project-picker-container {
+  padding: 0 24px 0 24px;
+  }
+}
+
 .project-picker-html {
   z-index: 2;
 }
