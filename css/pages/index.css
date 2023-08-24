@@ -89,13 +89,6 @@ color: #ffffff;
   z-index: 2;
 }
 
-@media (min-width: 1920px) {
-  .logo svg {
-    transform: scale(1.25);
-    transform-orgin: 50% 50%;
-  }
-}
-
   @media (max-width: 479px) {
   .logo {
     width: 112px;
