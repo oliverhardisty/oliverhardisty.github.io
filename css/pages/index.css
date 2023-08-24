@@ -236,6 +236,13 @@ color: #ffffff;
   justify-content: center;
   transform: translateY(-128px);
   padding-bottom: 64px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 479px) {
+  .project-picker-container {
+    padding: 0 24px 0 24px;
+  }
 }
 
 .project-picker-html {
