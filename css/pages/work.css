@@ -29,11 +29,12 @@ color: #ffffff;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
+  padding-bottom: 320px;
 }  
 
 @media (max-width: 479px) {
   .workcontent {
-    padding: 0 24px 0 24px;
+    padding: 0 24px 128px 24px;
     width: 100%;
     
   }
