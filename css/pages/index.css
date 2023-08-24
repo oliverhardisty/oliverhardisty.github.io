@@ -203,10 +203,9 @@ color: #ffffff;
   }
 }
 
-@media (min-width: 480px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
    .intro-content h9 {
-    font-size: 104px;
-    text-align: left;
+    font-size: 96px;
     }
   }
 
