@@ -299,6 +299,16 @@ h9 {
   height: 112px;
 }
 
+@media (max-width: 479px) {
+  .vertical-spacing_56px {
+    height: 40px;
+  }
+
+  .vertical-spacing_112px {
+    height: 96px;
+  } 
+}
+
 
 
 /** Fill colors */
