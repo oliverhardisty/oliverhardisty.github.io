@@ -90,7 +90,7 @@ color: #ffffff;
 }
 
 @media (min-width: 1920px) {
-  .logo {
+  .logo svg {
     transform: scale(1.2);
     transform-origin: 50% 50%;
   }
