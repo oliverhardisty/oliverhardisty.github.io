@@ -186,7 +186,7 @@ color: #ffffff;
 }  
 
 .intro-content {
-  width: 100%;
+  width: fit-content; 
 }
 
 .intro-content h9 {
