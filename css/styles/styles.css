@@ -301,11 +301,11 @@ h9 {
 
 @media (max-width: 479px) {
   .vertical-spacing_56px {
-    height: 24px;
+    height: 16px;
   }
 
   .vertical-spacing_112px {
-    height: 88px;
+    height: 80px;
   } 
 }
 
