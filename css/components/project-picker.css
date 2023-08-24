@@ -127,7 +127,7 @@ a:not(.no-hover):hover .project-tile-overlay {
 
 .project-tile-title .body1 {
   letter-spacing: 2px;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 
 .project-tile-text .body2 {
