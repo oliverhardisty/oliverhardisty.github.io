@@ -29,7 +29,7 @@ color: #ffffff;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
-  padding-bottom: 256px;
+  padding-bottom: 320px;
 }  
 
 @media (max-width: 479px) {
