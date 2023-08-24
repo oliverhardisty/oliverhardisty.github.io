@@ -98,7 +98,10 @@ color: #ffffff;
   }
 }
 
-    
+@media (max-width: 479px)
+.logo {
+    width: 112px;
+}    
 
 .gradient-top {
   background-image: radial-gradient(120% 80% at 50% 10%, rgba(0,0,0,1), rgba(0,0,0,0));
