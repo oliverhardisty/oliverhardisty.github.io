@@ -53,7 +53,7 @@ color: #ffffff;
 
 @media (min-width: 1920px) {
   .landing-container {
-    height: 42.9vw;
+    height: 56.25vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1920px) {
@@ -157,7 +157,7 @@ color: #ffffff;
 
 @media (min-width: 1920px) {
   .intro-container {
-    height: 42.9vw;
+    height: 56.25vw;
   }
 }
 
