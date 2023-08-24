@@ -211,10 +211,10 @@ color: #ffffff;
 
 @media (min-width: 480px) and (max-width: 767px) {  
   .intro-content h9 {
-    font-size: 64px;
+    font-size: 56px;
     text-align: left;   
   }
-
+}
 
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
