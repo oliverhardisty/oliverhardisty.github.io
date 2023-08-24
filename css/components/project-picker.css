@@ -15,7 +15,7 @@
 
 @media (min-width: 1440px) and (max-width: 1920px) {
   .project-picker {
-    width: 1344px;
+    width: 1236px;
   }
 }
 
@@ -55,14 +55,8 @@
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
-  .project-tile {
-    width: 448px;
-  }
-}
 
-
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1920px) {
   .project-tile {
     width: 309px;
   }
