@@ -259,7 +259,7 @@ color: #ffffff;
 
 @media (max-width: 479px) {
   .project-picker-container {
-  padding: 0 24px 0 24px;
+  padding: 0 24px auto 24px;
   }
 }
 
