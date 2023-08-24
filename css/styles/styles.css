@@ -120,7 +120,7 @@ h8 {
 
 h9 {
   font-family: europa, sans-serif;
-  font-size: 80px;
+  font-size: 128px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -128,24 +128,19 @@ h9 {
   margin: 0;
 }
 
-h10 {
-  font-family: europa, sans-serif;
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  line-height: 0.8;
-  margin: 0;
-}
 
 @media (max-width: 767px) {
   h6 {
     font-size: 32px;
   }
+  h9 {
+      font-size: 80px;
+    }
 }
 
-@media (min-width: 1440px) {
-  h10 {
+
+@media (min-width: 1920px) {
+  h9 {
     font-size: 144px;
   }
 }
