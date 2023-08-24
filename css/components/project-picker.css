@@ -117,12 +117,6 @@ a:not(.no-hover):hover .project-tile-overlay {
   bottom: 0;
 } 
 
-@media (max-width: 479px) {
-  .project-tile-text h7 {
-    font-size: 32px;
-  }
-}
-
 
 .project-tile-title .body1 {
   letter-spacing: 2px;
