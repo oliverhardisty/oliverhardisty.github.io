@@ -197,12 +197,6 @@ color: #ffffff;
   margin-top: 16px; 
 }
 
-@media (min-width: 768px) and (max-width: 1920px) {
-  .intro-content h9 {
-    font-size: 100px;
-  }
-} 
-
 
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
