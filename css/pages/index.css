@@ -198,7 +198,7 @@ color: #ffffff;
 }
 
 @media (min-width: 768px) and (max-width: 1920px) {
-  .introcontent h9 {
+  .intro-content h9 {
   font-size: 160px;
   }
 }
