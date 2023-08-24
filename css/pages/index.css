@@ -194,6 +194,7 @@ color: #ffffff;
 
 .intro-content h9 {
   text-align: center;
+  margin-top: 32px;
 }
 
 @media (min-width: 1440px) and (max-width: 1920px) {
@@ -206,7 +207,6 @@ color: #ffffff;
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
   color: #00FFFFFF;
-  margin-top: 48px;
 }
 
 .intro-content .body3 {
