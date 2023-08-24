@@ -194,6 +194,7 @@ color: #ffffff;
 
 .intro-content h9 {
   text-align: center;
+  margin-top: 16px; 
 }
 
 @media (min-width: 768px) and (max-width: 1920px) {
