@@ -233,6 +233,13 @@ color: #ffffff;
   text-align: center;  
 }
 
+@media (max-width: 768px) {
+  .intro-content .body3 {
+    margin-top: 80px;
+    text-align: left;   
+  }
+}
+
 
 
 
