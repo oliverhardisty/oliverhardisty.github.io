@@ -84,7 +84,7 @@ color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -50%);
   width: 148px;
   z-index: 2;
 }
@@ -127,7 +127,7 @@ color: #ffffff;
 
 .arrow {
   position: absolute;
-  bottom: 16%;
+  bottom: 8%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
