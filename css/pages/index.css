@@ -84,7 +84,7 @@ color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   width: 148px;
   height: auto;
   z-index: 2;
