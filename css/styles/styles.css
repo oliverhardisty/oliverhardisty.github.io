@@ -130,9 +130,6 @@ h9 {
 
 
 @media (max-width: 479px) {
-  h6 {
-    font-size: 32px;
-  }
   h9 {
     font-size: 56px;
     word-break: break-word;
