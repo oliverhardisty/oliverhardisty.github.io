@@ -28,6 +28,13 @@ body {
   width: 100%;
   height: auto;
   overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+@media (max-width: 479px) {
+  .home-container {
+    padding: 0 24px 0 24px;
+  }
 }
 
 .navigation h3 {
