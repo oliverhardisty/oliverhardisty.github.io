@@ -39,12 +39,12 @@ color: #0f0f0f;
 
 @media (max-width: 767px) {
   .cvcontent {
-    margin: 0 24px 0 24px;
+    padding: 0 24px 0 24px;
     width: 100%;
     max-width: 614px;
   }
    .cvcontent h9 {
-    width: 100%;
+    width: calc(100% + 48px);
     height: auto;
     max-width: 614px;
   }
