@@ -82,9 +82,9 @@ color: #ffffff;
 
 .logo {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -50%);
   width: 160px;
   z-index: 2;
 }
