@@ -176,6 +176,7 @@ color: #ffffff;
 @media (max-width: 479px) {
   .intro-container {
     height: 178vw;
+    padding: 0 24px 0 24px;
   }
 }  
 
@@ -192,8 +193,6 @@ color: #ffffff;
 
 .intro-content h9 {
   text-align: center;
-  padding: 0 24px 0 24px;
-  -webkit-hyphens: none;
 }
 
 .outlined-text {
