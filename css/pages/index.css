@@ -87,6 +87,8 @@ color: #ffffff;
   left: 50%;
   transform: translate(-50%, -100%);
   z-index: 2;
+  height: fit-content;
+  width: fit-content;
 }
 
 .logo svg {
