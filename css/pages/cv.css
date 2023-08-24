@@ -29,17 +29,24 @@ color: #0f0f0f;
 .cvcontent {
   position: absolute;
   top: 32%;
-  width: 640px;
+  width: 614px;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
   padding-bottom: 128px;
 }
 
+
 @media (max-width: 767px) {
   .cvcontent {
     padding: 0 24px 0 24px;
     width: 100%;
+    max-width: 614px;
+  }
+   .cvcontent h9 {
+    width: 100%;
+    height: auto;
+    max-width: 614px;
   }
 }
 
