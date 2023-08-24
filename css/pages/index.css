@@ -1,4 +1,4 @@
-html {
+`html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -236,13 +236,6 @@ color: #ffffff;
   justify-content: center;
   transform: translateY(-128px);
   padding-bottom: 64px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 479px) {
-  .project-picker-container {
-    padding: 0 24px 0 24px;
-  }
 }
 
 .project-picker-html {
