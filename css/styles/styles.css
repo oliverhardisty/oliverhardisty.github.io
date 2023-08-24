@@ -129,7 +129,7 @@ h9 {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   h6 {
     font-size: 32px;
   }
@@ -138,6 +138,16 @@ h9 {
     word-break: break-word;
   }
 }
+
+@media (min-width: 480px) {
+  h9 {
+    font-size: 80px;
+    word-break: break-word;
+  }
+}
+
+
+
 
 
 @media (min-width: 1920px) {
