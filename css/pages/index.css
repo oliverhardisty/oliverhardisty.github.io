@@ -265,13 +265,14 @@ color: #ffffff;
 
 .project-picker-html {
   z-index: 2;
+  padding-bottom: 256px;
 }
 
 .gradient-bottom {
   background-image: radial-gradient(120% 60% at 50% 60%, rgba(0,0,0,1), rgba(0,0,0,0));
   position: absolute;
   width: 100%;
-  height: calc(100% + 128px);
+  height: 100%;
   z-index: 1;
 }
 
