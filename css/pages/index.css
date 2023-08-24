@@ -254,7 +254,7 @@ color: #ffffff;
   height: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 64px;
+  padding-bottom: 256px;
 }
 
 @media (max-width: 479px) {
@@ -265,7 +265,6 @@ color: #ffffff;
 
 .project-picker-html {
   z-index: 2;
-  padding-bottom: 256px;
 }
 
 .gradient-bottom {
