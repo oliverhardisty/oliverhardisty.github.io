@@ -205,9 +205,26 @@ color: #ffffff;
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro-content h9 {
-  font-size: 104px;
+  font-size: 88px;
   }
 }
+
+@media (min-width: 480px) and (max-width: 767px) {
+   .intro-content h9 {
+    font-size: 88px;
+    }
+  }
+      
+  .intro-content h9 {
+    font-size: 48px;
+    text-align: left;
+  }
+  
+  .intro-content .body3 {
+    text-align: left;
+  }  
+}
+
 
 
 
@@ -221,20 +238,7 @@ color: #ffffff;
   text-align: center;  
 }
 
-@media (max-width: 768px) {
-    .intro-content {
-      top: 0;
-    }
-      
-  .intro-content h9 {
-    font-size: 48px;
-    text-align: left;
-  }
-  
-  .intro-content .body3 {
-    text-align: left;
-  }  
-}
+
 
 
 .project-picker-container {
