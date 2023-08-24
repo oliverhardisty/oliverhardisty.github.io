@@ -39,7 +39,7 @@ body {
 .projectinfo {
   position: relative;
   top: 32%;
-  width: 640px;
+  width: 614px;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
