@@ -197,13 +197,13 @@ color: #ffffff;
   margin-top: 16px; 
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
+@media (min-width: 1024px) and (max-width: 1920px) {
   .intro-content h9 {
   font-size: 136px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1024px) {
    .intro-content h9 {
     font-size: 96px;
     }
