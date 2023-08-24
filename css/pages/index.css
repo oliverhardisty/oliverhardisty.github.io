@@ -156,6 +156,7 @@ color: #ffffff;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-content: center;
   padding: 0 24px 0 24px;
 }
 
@@ -185,8 +186,6 @@ color: #ffffff;
 }  
 
 .intro-content {
-  position: absolute;
-  top: 24%;
   width: 100%;
 }
 
@@ -196,7 +195,6 @@ color: #ffffff;
 
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
-  margin-top: 32px;
   color: #00FFFFFF;
 }
 
