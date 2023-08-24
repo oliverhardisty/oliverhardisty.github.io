@@ -80,12 +80,13 @@ color: #ffffff;
   display: flex;
 }
 
-.logo svg {
+.logo {
   position: absolute;
-  width: 148px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -50%);
+  width: 148px;
+  height: auto;
   z-index: 2;
 }
 
@@ -97,8 +98,9 @@ color: #ffffff;
 }
 
   @media (max-width: 479px) {
-  .logo svg {
-    width: 112px; 
+  .logo {
+    width: 112px;
+    height: auto;
   }
 }
 
