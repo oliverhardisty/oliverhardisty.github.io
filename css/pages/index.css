@@ -210,7 +210,7 @@ color: #ffffff;
 }
 
 .intro-content .body3 {
-  margin-top: 80px;
+  margin-top: 160px;
   text-align: center;  
 }
 
@@ -237,7 +237,6 @@ color: #ffffff;
   height: auto;
   display: flex;
   justify-content: center;
-  transform: translateY(-128px);
   padding-bottom: 64px;
 }
 
