@@ -135,7 +135,7 @@ h9 {
   }
   h9 {
     font-size: 64px;
-    hyphens: auto;
+    hyphens: manual;
     word-break: break-all;
   }
 }
