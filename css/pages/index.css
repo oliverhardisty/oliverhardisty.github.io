@@ -80,19 +80,13 @@ color: #ffffff;
   display: flex;
 }
 
-
-.logo {
+.logo svg {
   position: absolute;
+  width: 148px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   z-index: 2;
-  height: fit-content;
-  width: fit-content;
-}
-
-.logo svg {
-  width: 148px;
 }
 
 @media (min-width: 1920px) {
