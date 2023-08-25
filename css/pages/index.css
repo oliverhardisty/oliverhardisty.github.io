@@ -51,26 +51,26 @@ color: #ffffff;
 }
 
 
-@media (min-width: 1920px) {
+@media (min-width: 992px) {
   .landing-container {
-    height: 56.25vw;
+    height: 50vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1920px) {
-  .landing-container {
-    height: 62.5vw;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .landing-container {
     height: 160vw;
   }
 }
 
-@media (max-width: 479px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .landing-container {
-    height: 178vw;
+    height: 50vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .landing-container {
+    height: 200vw;
   }
 }
 
@@ -94,13 +94,13 @@ color: #ffffff;
   }
 }
   
-  @media (min-width: 480px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 767px) {
   .logo {
     width: 24%; 
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .logo {
     width: 32%;
   }
@@ -165,29 +165,28 @@ color: #ffffff;
 }
 
 
-@media (min-width: 1920px) {
+@media (min-width: 992px) {
   .intro-container {
-    height: 48.6vw;
+    height: 50vw;
   }
 }
-
-@media (min-width: 768px) and (max-width: 1920px) {
-  .intro-container {
-    height: 62.5vw;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .intro-container {
     height: 160vw;
   }
 }
 
-@media (max-width: 479px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .intro-container {
-    height: 178vw;
+    height: 50vw;
   }
-}  
+}
+
+@media (max-width: 575px) {
+  .intro-container {
+    height: 200vw;
+  }
+} 
 
 .intro-content {
   display: flex;
@@ -201,31 +200,26 @@ color: #ffffff;
   margin-top: 16px; 
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
-  .intro-content h9 {
-  font-size: 136px;
-  }
-}
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
    .intro-content h9 {
     font-size: 96px;
     }
   }
 
-@media (min-width: 480px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 1199px) {
   .intro-content h9 {
      font-size: 68px;   
   }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {  
+@media (min-width: 576px) and (max-width: 767px) {  
   .intro-content h9 {
     text-align: left;  
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
   .intro-content h9 {
      font-size: 48px;
     text-align: left;   
@@ -242,7 +236,7 @@ color: #ffffff;
   text-align: center;  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .intro-content .body3 {
     text-align: left;   
   }
@@ -261,7 +255,7 @@ color: #ffffff;
   padding-bottom: 256px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .project-picker-container {
   padding: 0 24px 128px 24px;
   }
