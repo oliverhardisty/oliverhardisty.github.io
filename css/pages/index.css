@@ -164,15 +164,21 @@ color: #ffffff;
   padding: 0 24px 0 24px;
 }
 
-
-@media (min-width: 992px) {
+@media (min-width: 1920px) {
   .intro-container {
     height: 50vw;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1919px) {
+  .intro-container {
+    height: 56.25vw;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .intro-container {
-    height: 160vw;
+    height: 178vw;
   }
 }
 
