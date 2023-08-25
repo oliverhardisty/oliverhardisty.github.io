@@ -28,7 +28,7 @@ color: #ffffff;
   top: 32%;
   box-sizing: border-box;
   padding-bottom: 256px;
-  min-width: fit-content;
+  width: min-content;
 }
 
 @media (max-width: 575px) {
