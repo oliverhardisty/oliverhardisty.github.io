@@ -29,7 +29,7 @@ color: #0f0f0f;
 .cvcontent {
   position: absolute;
   top: 32%;
-  width: 614px;
+  width: fit-content;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
