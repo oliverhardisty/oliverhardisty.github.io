@@ -28,7 +28,7 @@ color: #ffffff;
   top: 32%;
   box-sizing: border-box;
   padding-bottom: 256px;
-  width: min-content;
+  width: fit-content;
 }
 
 @media (max-width: 575px) {
@@ -36,6 +36,10 @@ color: #ffffff;
     padding: 0 24px 0 24px;
     width: 100%;
   }
+}
+
+.contactcontent h9 {
+  white-space: no-wrap;
 }
 
 .linkedin-link {
