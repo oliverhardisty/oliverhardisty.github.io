@@ -50,21 +50,28 @@ color: #ffffff;
   left: 0;
 }
 
-
-@media (min-width: 992px) {
+@media (min-width: 1920px) {
   .landing-container {
     height: 50vw;
   }
 }
+
+
+@media (min-width: 992px) and (max-width: 1919px) {
+  .landing-container {
+    height: 56vw;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .landing-container {
-    height: 160vw;
+    height: 178vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .landing-container {
-    height: 50vw;
+    height: 56vw;
   }
 }
 
@@ -172,7 +179,7 @@ color: #ffffff;
 
 @media (min-width: 992px) and (max-width: 1919px) {
   .intro-container {
-    height: 56.25vw;
+    height: 56vw;
   }
 }
 
@@ -184,13 +191,13 @@ color: #ffffff;
 
 @media (min-width: 576px) and (max-width: 767px) {
   .intro-container {
-    height: 50vw;
+    height: 56vw;
   }
 }
 
 @media (max-width: 575px) {
   .intro-container {
-    height: 200vw;
+    height: 178vw;
   }
 } 
 
