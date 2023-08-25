@@ -30,7 +30,7 @@ color: #ffffff;
   padding-bottom: 256px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .contactcontent {
     padding: 0 24px 0 24px;
     width: 100%;
