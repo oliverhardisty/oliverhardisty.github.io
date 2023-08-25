@@ -213,13 +213,6 @@ color: #ffffff;
   margin-top: 16px; 
 }
 
-
-@media (min-width: 1200px) and (max-width: 1920px) {
-   .intro-content h9 {
-    font-size: 96px;
-    }
-  }
-
 @media (min-width: 576px) and (max-width: 1199px) {
   .intro-content h9 {
      font-size: 68px;   
