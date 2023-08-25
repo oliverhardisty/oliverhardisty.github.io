@@ -29,15 +29,11 @@ color: #0f0f0f;
 .cvcontent {
   position: absolute;
   top: 32%;
-  width: fit-content;
+  width: 614px
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
   padding-bottom: 128px;
-}
-
-.cv-info {
-  width: 614px;
 }
 
 
