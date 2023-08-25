@@ -24,7 +24,7 @@ color: #ffffff;
 .contactcontent {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translateX(-50%);
   top: 32%;
   box-sizing: border-box;
   padding-bottom: 256px;
