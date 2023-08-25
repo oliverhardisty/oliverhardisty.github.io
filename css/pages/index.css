@@ -95,15 +95,15 @@ color: #ffffff;
   z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .logo {
-    width: 12%;
+    width: 8%;
   }
 }
   
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 991px) {
   .logo {
-    width: 24%; 
+    width: 18%; 
   }
 }
 
