@@ -31,7 +31,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 36px;
+  height: 38px;
 }
 
 .home_touch-target:hover .homelogo {
@@ -132,7 +132,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 18px;
+  height: 20px;
 }
 
 
