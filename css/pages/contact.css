@@ -41,6 +41,7 @@ color: #ffffff;
   display: flex;
   flex-direction: row;
   column-gap: 8px;
+  align-items: center;
 }
 
 .linkedin-link svg {
