@@ -21,8 +21,6 @@ html {
 color: #ffffff;
 }
 
-
-
 .contactcontent {
   position: absolute;
   left: 50%;
@@ -38,3 +36,11 @@ color: #ffffff;
     width: 100%;
   }
 }
+
+.linkedin-link {
+  display: flex;
+  flex-direction: column;
+  column-gap: 8px;
+}
+  
+  
