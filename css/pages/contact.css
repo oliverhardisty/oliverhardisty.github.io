@@ -39,12 +39,12 @@ color: #ffffff;
 
 .linkedin-link {
   display: flex;
-  flex-direction: column;
-  column-gap: 8px;
+  flex-direction: row;
+  row-gap: 8px;
 }
 
 .linkedin-link svg {
-  width: 16px;
+  width: 24px;
 }
   
   
