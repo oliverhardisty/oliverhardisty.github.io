@@ -85,23 +85,28 @@ color: #ffffff;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 168px;
   z-index: 2;
 }
 
-@media (min-width: 1920px) {
-  .logo svg {
-    transform: scale(1.2);
-    transform-origin: 50% 50%;
+@media (min-width: 768px) {
+  .logo {
+    width: 12%;
   }
 }
 
     
-  @media (max-width: 479px) {
+  @media (min-width: 480px) and (max-width: 767px) {
   .logo {
-    width: 128px;
+    width: 20%; 
   }
 }
+
+@media (max-width: 479px) {
+  .logo {
+    width: 32%;
+  }
+}
+
 
 
 
