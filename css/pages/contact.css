@@ -40,11 +40,11 @@ color: #ffffff;
 .linkedin-link {
   display: flex;
   flex-direction: row;
-  row-gap: 8px;
+  column-gap: 8px;
 }
 
 .linkedin-link svg {
-  width: 24px;
+  width: 20 px;
 }
   
   
