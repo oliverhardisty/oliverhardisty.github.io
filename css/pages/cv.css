@@ -90,6 +90,10 @@ color: #0f0f0f;
   margin: 8px 0 16px 0;
 }
 
+.image-title h3 {
+  line-height: 1;
+}
+
 
 .lists-flexbox {
   display: flex;
