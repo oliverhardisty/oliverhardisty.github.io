@@ -254,7 +254,7 @@ color: #ffffff;
   height: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 320px;
+  padding-bottom: 256px;
 }
 
 @media (max-width: 479px) {
