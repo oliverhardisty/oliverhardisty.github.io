@@ -12,10 +12,16 @@
   }
 }
 
-
-@media (min-width: 1200px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 1919px) {
   .project-picker {
-    width: 1040px;
+    width: 1344px;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .project-picker {
+    width: 1008px;
   }
 }
 
@@ -57,7 +63,7 @@
 
 @media (min-width: 1200px) and (max-width: 1919px) {
     .project-tile {
-    width: 346px;
+    width: 336px;
   }
 }
 
