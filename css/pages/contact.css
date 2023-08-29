@@ -49,8 +49,12 @@ color: #ffffff;
   align-items: center;
 }
 
-.contact-link svg {
+.external-link-icon {
   width: 16px;
+}
+
+.send-icon {
+  width: 20px;
 }
   
   
