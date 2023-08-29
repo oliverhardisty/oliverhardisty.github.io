@@ -42,15 +42,19 @@ color: #ffffff;
   white-space: nowrap;
 }
 
-.linkedin-link {
+.contact-link {
   display: flex;
   flex-direction: row;
   column-gap: 8px;
   align-items: center;
 }
 
-.linkedin-link svg {
+.external-link-icon {
   width: 16px;
+}
+
+.send-icon {
+  width: 22px;
 }
   
   
