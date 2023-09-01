@@ -14,14 +14,14 @@
 
 @media (min-width: 1440px) and (max-width: 1919px) {
   .project-picker {
-    width: 1344px;
+    width: 1280px;
   }
 }
 
 
-@media (min-width: 1200px) and (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1439px) {
   .project-picker {
-    width: 1008px;
+    width: 1040px;
   }
 }
 
@@ -61,9 +61,15 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 1919px) {
     .project-tile {
-    width: 336px;
+    width: 426px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .project-tile {
+    width: 346px;
   }
 }
 
