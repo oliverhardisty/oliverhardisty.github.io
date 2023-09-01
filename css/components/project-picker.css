@@ -8,7 +8,7 @@
 
 @media (min-width: 1920px) {
   .project-picker {
-    width: 1600px;
+    width: 1760px;
   }
 }
 
@@ -57,7 +57,7 @@
 
 @media (min-width: 1920px) {
   .project-tile {
-    width: 400px;
+    width: 440px;
   }
 }
 
