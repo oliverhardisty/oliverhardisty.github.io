@@ -55,8 +55,6 @@
 
 .project-tile {
   height: auto;
-  margin: 0;
-  flex: 1;
 }
 
 @media (min-width: 1920px) {
@@ -67,8 +65,7 @@
 
 @media (min-width: 1440px) and (max-width: 1919px) {
     .project-tile {
-    min-width: 336px;
-    flex-basis: 25%;
+    flex: 0 0 33.3333%
   }
 }
 
