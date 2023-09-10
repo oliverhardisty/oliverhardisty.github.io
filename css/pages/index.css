@@ -282,18 +282,25 @@ color: #ffffff;
   margin: auto;
   padding-top: 80px;
   width: 100%;
-  box-sizing: border-box;
 }
 
+.project-picker-html {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 2;
+  width: 100%;
+}
+
+
 @media (min-width: 1920px) {
-  .project-picker-container {
+  .project-picker-html {
     padding: 0 160px 256px 160px;
   }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
-  .project-picker-container {
-    padding: 0 80px 256px 80px;
+  .project-picker-html {
+    width: 0 80px 256px 80px;
   }
 }
 
@@ -315,9 +322,6 @@ color: #ffffff;
     }
   }
 
-.project-picker-html {
-  z-index: 2;
-}
 
 .gradient-bottom {
   background-image: radial-gradient(120% 60% at 50% 60%, rgba(0,0,0,1), rgba(0,0,0,0));
