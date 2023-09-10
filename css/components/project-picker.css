@@ -15,7 +15,7 @@
 
 @media (min-width: 1440px) and (max-width: 1919px) {
   .project-picker {
-    width: 100%;
+    width: calc(100% - 160px);
   }
 }
 
