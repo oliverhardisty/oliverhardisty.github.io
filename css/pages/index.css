@@ -279,9 +279,8 @@ color: #ffffff;
 
 .projects-container {
   position: relative;
-  margin: auto;
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 
 .project-picker-container {
