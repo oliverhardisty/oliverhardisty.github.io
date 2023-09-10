@@ -37,26 +37,20 @@ color: #ffffff;
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
   .workcontent {
     padding: 0 80px 256px 80px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1439px) {
-  .workcontent {
-    padding: 0 48px 256px 48px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .workcontent {
     padding: 0 32px 256px 32px;
   }
 }
 
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .workcontent {
     padding: 0 24px 128px 24px;
   }
