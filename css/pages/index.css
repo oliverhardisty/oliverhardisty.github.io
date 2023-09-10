@@ -281,7 +281,7 @@ color: #ffffff;
   position: relative;
   margin: auto;
   width: 100%;
-  height: auto;
+  height: fit-content;
 }
 
 .project-picker-container {
