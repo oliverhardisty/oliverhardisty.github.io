@@ -277,15 +277,15 @@ color: #ffffff;
 }
 
 
-.project-picker-container {
+.projects-container {
   position: relative;
   margin: auto;
-  padding-top: 80px;
   width: 100%;
 }
 
-.project-picker-html {
+.project-picker-container {
   position: absolute;
+  padding-top: 80px;
   box-sizing: border-box;
   z-index: 2;
   width: 100%;
@@ -293,13 +293,13 @@ color: #ffffff;
 
 
 @media (min-width: 1920px) {
-  .project-picker-html {
+  .project-picker-container {
     padding: 0 160px 256px 160px;
   }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
-  .project-picker-html {
+  .project-picker-container {
     width: 0 80px 256px 80px;
   }
 }
