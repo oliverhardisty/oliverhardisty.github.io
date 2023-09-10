@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   z-index: 2;
   margin: auto;
+  height: fit-content;
 }
 
 @media (min-width: 1920px) {
