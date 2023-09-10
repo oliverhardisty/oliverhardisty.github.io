@@ -1,6 +1,5 @@
 .project-picker {
   position: absolute;
-  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,7 +15,7 @@
 
 @media (min-width: 1440px) and (max-width: 1919px) {
   .project-picker {
-    width: 100%;
+    width: calc(100% - 96px);
     box-sizing: border-box;
   }
 }
