@@ -279,14 +279,11 @@ color: #ffffff;
 
 .projects-container {
   position: relative;
-  left: 0;
   width: 100%;
   height: auto;
-  display: flex;
 }
 
 .project-picker-container {
-  position: absolute;
   padding-top: 80px;
   box-sizing: border-box;
   z-index: 2;
