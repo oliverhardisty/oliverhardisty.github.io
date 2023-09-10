@@ -26,11 +26,11 @@ color: #ffffff;
   position: absolute;
   top: 32%;
   width: 100%;
-  height: auto;
+  height: fit-content;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
-  padding: 0 48px 256px 48px;
+  padding: 0 80px 256px 80px;
 }  
 
 @media (max-width: 575px) {
