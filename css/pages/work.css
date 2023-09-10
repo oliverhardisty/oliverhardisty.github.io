@@ -30,7 +30,7 @@ color: #ffffff;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
-  padding: 0 48px 256px 48px;
+  margin: 0 48px 256px 48px;
 }  
 
 @media (max-width: 575px) {
