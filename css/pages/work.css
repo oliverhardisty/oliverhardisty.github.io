@@ -25,12 +25,12 @@ color: #ffffff;
 .workcontent {
   position: absolute;
   top: 32%;
-  width: fit-content;
+  width: 100%
   height: auto;
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
-  padding-bottom: 256px;
+  padding: 0 48px 256px 48px;
 }  
 
 @media (max-width: 575px) {
