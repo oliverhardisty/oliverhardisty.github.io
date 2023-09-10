@@ -37,3 +37,8 @@ color: #ffffff;
     
   }
 
+.project-picker-container {
+  position: relative;
+  width: 100%;
+}
+
