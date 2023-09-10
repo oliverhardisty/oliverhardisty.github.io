@@ -54,7 +54,7 @@
 }
 
 .project-tile {
-  position: absolute;
+  position: relative;
   height: auto;
 }
 
