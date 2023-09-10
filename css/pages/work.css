@@ -40,11 +40,3 @@ color: #ffffff;
     
   }
 
-
-.project-picker-container {
-  position: relative;
-  padding-bottom: 192px;
-  z-index: 2;
-  width: 100%;
-}
-
