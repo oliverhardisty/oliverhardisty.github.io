@@ -25,19 +25,13 @@ color: #ffffff;
 .workcontent {
   position: absolute;
   top: 32%;
-  width: calc(100% - 160px);
-  margin: auto;
+  width: 100%;
+  box-sizing: box-border;
+  padding: 0 80px 256px 80px;
 }  
 
 @media (max-width: 575px) {
   .workcontent {
     padding: 0 24px 128px 24px;
-    width: 100%;
-    
   }
-
-.project-picker-container {
-  position: relative;
-  width: 100%;
-}
 
