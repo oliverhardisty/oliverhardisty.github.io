@@ -6,6 +6,7 @@ html {
 
 .navigation li:nth-child(1) h3 {
   color: #00CC99;
+  font-weight: 700;
 }
 
 
@@ -15,7 +16,6 @@ html {
 
 .navigation h3 {
   color: #ffffff;
-  font-weight: 700;
 }
 
 .navigation .body1 {
