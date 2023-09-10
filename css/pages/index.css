@@ -305,7 +305,7 @@ color: #ffffff;
 
 @media (min-width: 576px) and (max-width: 991px) {
   .project-picker-container {
-    padding: 0 32px 256px 32px;
+    padding: 0 32px 128px 32px;
   }
 }
 
