@@ -36,3 +36,12 @@ color: #ffffff;
     padding: 0 24px 128px 24px;
   }
 
+
+.project-picker-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 192px;
+  z-index: 2;
+}
+
