@@ -1,5 +1,6 @@
 .project-picker {
   position: absolute;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
