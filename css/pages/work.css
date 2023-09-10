@@ -27,8 +27,6 @@ color: #ffffff;
   top: 32%;
   width: 100%;
   height: fit-content;
-  left: 50%;
-  transform: translateX(-50%);
   box-sizing: border-box;
   padding: 0 80px 256px 80px;
 }  
