@@ -16,7 +16,6 @@
 @media (min-width: 1440px) and (max-width: 1919px) {
   .project-picker {
     width: 100%;
-    box-sizing: border-box;
   }
 }
 
