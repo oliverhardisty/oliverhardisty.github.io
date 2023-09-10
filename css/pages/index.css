@@ -17,7 +17,7 @@ body {
 }
   
 .color-green {
-  background-color: #99FFE6;
+  background-color: #D6FFF5;
 }
 
 
@@ -262,7 +262,7 @@ color: #ffffff;
 
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
-  color: #00FFFFFF;
+  color: #D6FFF5;
 }
 
 .intro-content .body3 {
