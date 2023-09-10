@@ -26,7 +26,8 @@ color: #ffffff;
   position: absolute;
   top: 32%;
   width: 100%;
-  box-sizing: box-border;
+  height: min-content;
+  box-sizing: border-box;
   padding: 0 80px 256px 80px;
 }  
 
