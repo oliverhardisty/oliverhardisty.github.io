@@ -284,7 +284,6 @@ color: #ffffff;
 }
 
 .project-picker-container {
-  position: absolute;
   padding-top: 80px;
   box-sizing: border-box;
   z-index: 2;
@@ -327,6 +326,8 @@ color: #ffffff;
 .gradient-bottom {
   background-image: radial-gradient(120% 60% at 50% 60%, rgba(0,0,0,1), rgba(0,0,0,0));
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
