@@ -284,6 +284,9 @@ color: #ffffff;
 }
 
 .project-picker-container {
+  position: absolute;
+  left: 0;
+  top: 0;
   padding-top: 80px;
   box-sizing: border-box;
   z-index: 2;
