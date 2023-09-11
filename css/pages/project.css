@@ -5,11 +5,12 @@ html {
 }
 
 .navigation li:nth-child(1) h3 {
-  color: #ed1843;
+  color: #00CC99;
+  font-weight: 700;
 }
 
 .hamburger-drawer li:nth-child(1) h3 {
-  color: #ed1843;
+  color: #00CC99;
 }
 
 .navigation h3 {

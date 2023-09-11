@@ -5,12 +5,13 @@ html {
 }
 
 .navigation li:nth-child(1) h3 {
-  color: #ed1843;
+  color: #00CC99;
+  font-weight: 700;
 }
 
 
 .hamburger-drawer li:nth-child(1) h3 {
-  color: #ed1843;
+  color: #00CC99;
 }
 
 .navigation h3 {
@@ -23,28 +24,41 @@ color: #ffffff;
 
 .workcontent {
   position: absolute;
+  left: 0;
   top: 32%;
-  width: fit-content;
+  width: 100%;
   height: auto;
-  left: 50%;
-  transform: translateX(-50%);
   box-sizing: border-box;
-  padding-bottom: 256px;
 }  
+
+@media (min-width: 1920px) {
+  .workcontent {
+    padding: 0 160px 256px 160px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .workcontent {
+    padding: 0 80px 256px 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  .workcontent {
+    padding: 0 48px 256px 48px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .workcontent {
+    padding: 0 32px 128px 32px;
+  }
+}
+
 
 @media (max-width: 575px) {
   .workcontent {
     padding: 0 24px 128px 24px;
-    width: 100%;
-    
   }
-
-
-.project-picker-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 192px;
-  z-index: 2;
 }
 
