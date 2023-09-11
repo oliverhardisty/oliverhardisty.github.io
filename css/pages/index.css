@@ -280,7 +280,6 @@ color: #ffffff;
 .projects-container {
   position: relative;
   width: 100%;
-  height: min-content;
 }
 
 .project-picker-container {
