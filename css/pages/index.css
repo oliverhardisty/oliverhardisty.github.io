@@ -322,8 +322,16 @@ color: #ffffff;
   }
 
 
-.project-picker-html {
-  padding-top: 80px;
+@media (min-width: 576px) {
+  .project-picker-html {
+    padding-top: 160px;
+  }
+}
+
+@media (max-width: 575px) {
+  .project-picker-html {
+    padding-top: 80px;
+  }
 }
 
 
