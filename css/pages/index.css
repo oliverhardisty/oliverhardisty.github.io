@@ -284,7 +284,6 @@ color: #ffffff;
 
 .project-picker-container {
   position: relative;
-  transform: translateY(80px);
   box-sizing: border-box;
   width: 100%;
   height: auto;
@@ -321,6 +320,11 @@ color: #ffffff;
       padding: 0 24px 128px 24px;
     }
   }
+
+
+.project-picker-html {
+  padding-top: 80px;
+}
 
 
 .gradient-bottom {
