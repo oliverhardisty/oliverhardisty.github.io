@@ -286,9 +286,9 @@ color: #ffffff;
 .project-picker-container {
   padding-top: 80px;
   box-sizing: border-box;
-  z-index: 2;
   width: 100%;
   height: auto;
+  z-index: 2;
 }
 
 
@@ -321,6 +321,10 @@ color: #ffffff;
       padding: 0 24px 128px 24px;
     }
   }
+
+.project-picker-html {
+    z-index: 2;
+}
 
 
 .gradient-bottom {
