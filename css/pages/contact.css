@@ -8,6 +8,10 @@ html {
   fill: #FFFFFF;
 }
 
+.home_touch-target:hover svg {
+  fill: #01F4C2;
+}
+
 .navigation li:nth-child(5) h3 {
   color: #01F4C2;
   font-weight: 700;
