@@ -12,6 +12,31 @@ body {
 }
 
 
+.home_touch-target svg {
+  fill: #01F4C2;
+}
+
+.navigation h3 {
+  color: #FFFFFF;
+}
+
+.navigation h3:hover {
+  color: #01F4C2;
+}  
+
+.navigation .body1 {
+color: #FFFFFF;
+} 
+
+.linkedin_touch-target svg {
+  fill: #FFFFFF;
+}
+
+.linkedin_touch-target:hover svg {
+  fill: #01F4C2;
+}
+
+
 .color-black {
   background-color: #333333;
 }
@@ -28,35 +53,6 @@ body {
   width: 100%;
   height: auto;
   overflow-x: hidden;
-}
-
-.navigation h3 {
-  color: #FFFFFF;
-}
-
-.navigation h3:hover {
-  color: #01F4C2;
-}  
-
-.navigation .body1 {
-color: #FFFFFF;
-}
-
-.home_touch-target svg {
-  fill: #01F4C2;
-}
-
-.home_touch-target:hover .homelogo {
-  fill: #01F4C2;
-}
-   
-
-.linkedin_touch-target svg {
-  fill: #FFFFFF;
-}
-
-.linkedin_touch-target:hover svg {
-  fill: #01F4C2;
 }
   
 
