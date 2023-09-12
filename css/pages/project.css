@@ -84,7 +84,7 @@ body {
   transform-origin: bottom right;
 }
 
-.infobutton .body1, .infobutton .body1 {
+.infobutton, .infobutton .body1 {
 color: #000000;
 background-color: #000000;
 }
