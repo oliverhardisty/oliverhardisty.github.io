@@ -20,6 +20,10 @@ body {
   color: #FFFFFF;
 }
 
+.navigation .body1 {
+  color: #FFFFFF;
+}
+
 .navigation h3:hover {
   color: #01F4C2;
 }   
