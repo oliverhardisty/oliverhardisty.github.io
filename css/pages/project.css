@@ -84,13 +84,17 @@ body {
   transform-origin: bottom right;
 }
 
-.infobutton, .infobutton .body1 {
-color: #000000;
+.infobutton {
 background-color: #000000;
+}
+
+.infobutton .body1 {
+color: #000000;
 }
 
 .infobutton:hover {
   cursor: pointer;
+  background-color: #000000; 
 }
 
 
