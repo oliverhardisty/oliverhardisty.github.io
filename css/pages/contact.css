@@ -63,13 +63,10 @@ html {
 }
 
 .contact-link {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   column-gap: 8px;
   align-items: center;
-  justify-content: flex-start;
   width: min-content;
-  margin: 0;
 }
 
 .external-link-icon {
