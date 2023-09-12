@@ -94,11 +94,11 @@ color: #000000;
 
 .infobutton:hover {
   cursor: pointer;
-  box-shadow:inset 0px 0px 0px 3px #000000;
+  box-shadow:inset 0px 0px 0px 3px #808080;
 }
 
 .infobutton .body1:hover {
-  color: #000000;
+  color: #808080;
 }
 
 
