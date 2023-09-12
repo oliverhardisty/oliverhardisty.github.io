@@ -66,8 +66,7 @@ html {
   display: inline-flex;
   column-gap: 8px;
   align-items: center;
-  justify-content: flex-start;
-  width: min-content;
+  width: fit-content;
 }
 
 .external-link-icon {
