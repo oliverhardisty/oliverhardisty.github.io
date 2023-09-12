@@ -77,13 +77,15 @@ html {
   width: 22px;
 }
 
-.contact-link .body3 {
-  color: #01A281;
-}
-
 .contact-link svg {
   fill: #01A281;
 }
+
+.contact-link:hover svg {
+  fill: #01F4C2;
+}
+
+
 
 
   
