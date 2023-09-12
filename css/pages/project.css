@@ -85,7 +85,11 @@ body {
 }
 
 .infobutton {
-  box-shadow:inset 0px 0px 0px 3px #000000;
+  box-shadow:inset 0px 0px 0px 3px #000000 !important;
+}
+
+.infobutton .body1 {
+  color: #000000 !important;
 }
 
 .infobutton:hover {
@@ -94,11 +98,11 @@ body {
 
 
 .infobutton:hover .infobutton {
-  box-shadow:inset 0px 0px 0px 3px #808080;
+  box-shadow:inset 0px 0px 0px 3px #808080 !important;
 }
 
 .infobutton:hover .body1 {
-  color: #808080;
+  color: #808080 !important;
 }
 
 
