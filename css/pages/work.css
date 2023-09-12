@@ -25,7 +25,11 @@ html {
 
 .navigation h3:hover {
   color: #01F4C2;
-}  
+}
+
+.navigation .body1 {
+  color: #FFFFFF;
+}
 
 .linkedin_touch-target:hover svg {
   fill: #01F4C2;
