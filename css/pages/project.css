@@ -97,7 +97,7 @@ body {
 }
 
 
-.infobutton:hover .infobutton {
+.infobutton:hover {
   box-shadow:inset 0px 0px 0px 3px #808080 !important;
 }
 
