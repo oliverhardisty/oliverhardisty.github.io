@@ -40,7 +40,7 @@
     box-shadow:inset 0px 0px 0px 3px #01A281;
 }
 
-.secondary-button .body2 {
+.secondary-button .body2, .secondary-button .body1 {
   color: #01A281;
 }
 
@@ -48,10 +48,9 @@
   box-shadow:inset 0px 0px 0px 3px #01CBA2;
 }
 
-.secondary-button:hover .body2, .secondary-button_black:hover .body1  {
+.secondary-button:hover .body2, .secondary-button:hover .body1  {
   color: #01CBA2;
 }
-
 
 /** Medium button */
 
