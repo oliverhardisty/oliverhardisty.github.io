@@ -4,22 +4,37 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.home_touch-target svg {
+  fill: #01F4C2;
+}
+
 .navigation li:nth-child(5) h3 {
-  color: #00CC99;
+  color: #01F4C2;
   font-weight: 700;
 }
 
-.hamburger-drawer li:nth-child(3) h3 {
-  color: #ed1843;
+.hamburger-drawer li:nth-child(5) h3 {
+  color: #01F4C2;
 }
-
 
 .navigation h3 {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
+.navigation h3:hover {
+  color: #01F4C2;
+}  
+
 .navigation .body1 {
-color: #ffffff;
+color: #FFFFFF;
+} 
+
+.linkedin_touch-target svg {
+  fill: #FFFFFF;
+}
+
+.linkedin_touch-target:hover svg {
+  fill: #01F4C2;
 }
 
 .contactcontent {
