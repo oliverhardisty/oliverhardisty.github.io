@@ -68,7 +68,7 @@ html {
   column-gap: 8px;
   align-items: center;
   justify-content: flex-start;
-  width: fit-content;
+  width: min-content;
   margin: 0;
 }
 
