@@ -92,8 +92,8 @@ body {
   color: #000000 !important;
 }
 
-.infobutton .secondary-button:hover {
-  pointer: cursor;
+.infobutton:hover {
+  cursor: pointer;
 }
 
 
