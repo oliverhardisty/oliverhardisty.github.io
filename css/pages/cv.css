@@ -5,18 +5,26 @@ html {
 }
 
 
+.home_touch-target:hover .homelogo {
+  fill: #01CBA2;
+}
+
 .navigation li:nth-child(3) h3 {
-  color: #00CC99;
+  color: #01CBA2;
   font-weight: 700;
 }
 
 .hamburger-drawer li:nth-child(3) h3 {
-  color: #00CC99;
+  color: #01CBA2;
 }
 
 .navigation h3 {
   color: #0f0f0f;
 }
+
+.navigation h3:hover {
+  color: #01CBA2;
+}  
 
 .navigation .body1 {
 color: #0f0f0f;
@@ -24,6 +32,10 @@ color: #0f0f0f;
 
 .navbar svg {
   fill: #0f0f0f;
+}
+
+.linkedin_touch-target:hover svg {
+  fill: #01CBA2;
 }
 
 
