@@ -85,18 +85,21 @@ body {
 }
 
 .infobutton {
-background-color: #000000;
+  box-shadow:inset 0px 0px 0px 3px #000000;
 }
 
-.infobutton .body1 {
+.infobutton .body1  {
 color: #000000;
 }
 
 .infobutton:hover {
   cursor: pointer;
-  background-color: #000000; 
+  box-shadow:inset 0px 0px 0px 3px #000000;
 }
 
+.infobutton .body1:hover {
+  color: #000000;
+}
 
 
 @media (min-width: 768px) and (max-width: 991px) {
