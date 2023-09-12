@@ -84,15 +84,16 @@ body {
   transform-origin: bottom right;
 }
 
-.infobutton {
+.infobutton .secondary-button {
   box-shadow:inset 0px 0px 0px 3px #000000 !important;
 }
 
 .infobutton:hover {
-  cursor: pointer;
+  pointer: cursor;
 }
 
-.infobutton:hover .infobutton {
+
+.infobutton:hover .infobutton .secondary-button {
   box-shadow:inset 0px 0px 0px 3px #808080 !important;
 }
 
