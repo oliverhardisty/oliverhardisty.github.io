@@ -88,8 +88,11 @@ body {
   box-shadow:inset 0px 0px 0px 3px #000000 !important;
 }
 
-.infobutton:hover .infobutton {
+.infobutton:hover {
   cursor: pointer;
+}
+
+.infobutton:hover .infobutton {
   box-shadow:inset 0px 0px 0px 3px #808080 !important;
 }
 
