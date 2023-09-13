@@ -226,16 +226,10 @@ body {
   margin-top: 16px; 
 }
 
-@media (min-width: 1920px) {
-   .intro-content h9 {
-     font-size: 160px;   
-  }
-}
 
-
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1440px) {
   .intro-content h9 {
-     font-size: 144px;   
+     font-size: 160px;   
   }
 }
 
