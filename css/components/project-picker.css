@@ -10,7 +10,7 @@
 
 @media (min-width: 1920px) {
   .project-picker {
-    padding: 0 256px 256px 256px;
+    width: 1760px;
   }
 }
 
