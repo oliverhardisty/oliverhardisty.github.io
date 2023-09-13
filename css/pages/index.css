@@ -291,6 +291,7 @@ body {
 
 .project-picker-container {
   position: relative;
+  box-sizing: border-box;
   width: 100%;
   height: auto;
   z-index: 2;
