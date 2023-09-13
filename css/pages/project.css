@@ -50,12 +50,7 @@ body {
   position: absolute;
   top: 32%;
   width: 100%;
-}
-
-@media (min-width: 992px) {
-  .projectcontent {
-    padding-bottom: 256px;
-  }
+  padding-bottom: 128px
 }
 
 @media (max-width: 991px) {
