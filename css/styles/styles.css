@@ -128,15 +128,27 @@ h9 {
   margin: 0;
 }
 
+h10 {
+  font-family: europa, sans-serif;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 0.88;
+  margin: 0;
+}
 
-@media (max-width: 479px) {
+
+
+
+@media (max-width: 575px) {
   h9 {
     font-size: 56px;
     word-break: break-word;
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   h9 {
     font-size: 96px;
     word-break: break-word;
