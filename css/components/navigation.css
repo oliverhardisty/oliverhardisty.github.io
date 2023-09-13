@@ -27,6 +27,7 @@
   width: 100%;
   transition: top 0.3s;
   background-color: #F5F5F5;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 #navbar_fixed .navbar {
@@ -36,10 +37,6 @@
 #navbar_fixed .navigation {
   bottom: 50%;
   transform: translate(-50%, 50%);
-}
-
-#navbar_fixed .homelogo {
-  height: 36px;
 }
 
 .home_touch-target {
