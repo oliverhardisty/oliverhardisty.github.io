@@ -52,10 +52,10 @@ $(function(){
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("navbar_fixed").style.top = "0";
+  if (document.body.scrollTop > 100 || document.documentElements.scrollTop > 100) {
+    document.getElementsByClassName("navbar_fixed").style.top = "0";
   } else {
-    document.getElementById("navbar_fixed").style.top = "-56px";
+    document.getElementsByClassName("navbar_fixed").style.top = "-56px";
   }
 }
 
