@@ -47,6 +47,8 @@ html {
 @media (min-width: 1920px) {
   .workcontent {
     width: 1760px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
