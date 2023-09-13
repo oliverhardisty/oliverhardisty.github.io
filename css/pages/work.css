@@ -4,22 +4,35 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+
+.home_touch-target:hover .homelogo {
+  fill: #01F4C2;
+}
+
 .navigation li:nth-child(1) h3 {
-  color: #00CC99;
+  color: #01F4C2;
   font-weight: 700;
 }
 
 
 .hamburger-drawer li:nth-child(1) h3 {
-  color: #00CC99;
+  color: #01CBA2;
 }
 
 .navigation h3 {
   color: #ffffff;
 }
 
+.navigation h3:hover {
+  color: #01F4C2;
+}
+
 .navigation .body1 {
-color: #ffffff;
+  color: #FFFFFF;
+}
+
+.linkedin_touch-target:hover svg {
+  fill: #01F4C2;
 }
 
 .workcontent {
@@ -33,7 +46,9 @@ color: #ffffff;
 
 @media (min-width: 1920px) {
   .workcontent {
-    padding: 0 160px 256px 160px;
+    width: 1760px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 

@@ -12,12 +12,37 @@ body {
 }
 
 
+.home_touch-target svg {
+  fill: #01F4C2;
+}
+
+.navigation h3 {
+  color: #FFFFFF;
+}
+
+.navigation .body1 {
+  color: #FFFFFF;
+}
+
+.navigation h3:hover {
+  color: #01F4C2;
+}   
+
+.linkedin_touch-target svg {
+  fill: #FFFFFF;
+}
+
+.linkedin_touch-target:hover svg {
+  fill: #01F4C2;
+}
+
+
 .color-black {
   background-color: #333333;
 }
   
 .color-green {
-  background-color: #C2FFF0;
+  background-color: #C2FFF2;
 }
 
 
@@ -28,18 +53,6 @@ body {
   width: 100%;
   height: auto;
   overflow-x: hidden;
-}
-
-.navigation h3 {
-  color: #ffffff;
-}
-
-.navigation .body1 {
-color: #ffffff;
-}
-
-.home_touch-target svg {
-  fill: #00CC99;
 }
   
 
@@ -208,26 +221,20 @@ color: #ffffff;
   width: 100%;
 }
 
-.intro-content h9 {
+.intro-content h10 {
   text-align: center;
   margin-top: 16px; 
 }
 
-@media (min-width: 1920px) {
-   .intro-content h9 {
+
+@media (min-width: 1440px) {
+  .intro-content h10 {
      font-size: 160px;   
   }
 }
 
-
-@media (min-width: 1440px) and (max-width: 1919px) {
-  .intro-content h9 {
-     font-size: 144px;   
-  }
-}
-
 @media (min-width: 1200px) and (max-width: 1439px) {
-  .intro-content h9 {
+  .intro-content h10 {
      font-size: 128px;   
   }
 }
@@ -235,26 +242,26 @@ color: #ffffff;
 
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .intro-content h9 {
+  .intro-content h10 {
      font-size: 96px;   
   }
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .intro-content h9 {
+  .intro-content h10 {
      font-size: 64px;   
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {  
-  .intro-content h9 {
+  .intro-content h10 {
     text-align: left;  
   }
 }
 
 @media (max-width: 575px) {
-  .intro-content h9 {
+  .intro-content h10 {
      font-size: 48px;
     text-align: left;   
   }
@@ -262,7 +269,7 @@ color: #ffffff;
 
 .outlined-text {
   -webkit-text-stroke: 1.5px #0f0f0f;
-  color: #C2FFF0;
+  color: #C2FFF2;
 }
 
 .intro-content .body3 {
@@ -288,12 +295,12 @@ color: #ffffff;
   width: 100%;
   height: auto;
   z-index: 2;
+  margin: auto;
 }
-
 
 @media (min-width: 1920px) {
   .project-picker-container {
-    padding: 0 160px 256px 160px;
+    width: 1760px;
   }
 }
 
@@ -315,11 +322,12 @@ color: #ffffff;
   }
 }
 
+
 @media (max-width: 575px) {
-    .project-picker-container {
-      padding: 0 24px 128px 24px;
-    }
+  .project-picker-container {
+    padding: 0 24px 128px 24px;
   }
+}
 
 
 @media (min-width: 576px) {

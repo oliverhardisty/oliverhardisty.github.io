@@ -4,18 +4,26 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.home_touch-target:hover .homelogo {
+  fill: #01CBA2;
+}
+
 .navigation li:nth-child(1) h3 {
-  color: #00CC99;
+  color: #01CBA2;
   font-weight: 700;
 }
 
 .hamburger-drawer li:nth-child(1) h3 {
-  color: #00CC99;
+  color: #01CBA2;
 }
 
 .navigation h3 {
   color: #0f0f0f;
 }
+
+.navigation h3:hover {
+  color: #01CBA2;
+}  
 
 .navigation .body1 {
 color: #0f0f0f;
@@ -25,6 +33,13 @@ color: #0f0f0f;
   fill: #0f0f0f;
 }
 
+.linkedin_touch-target:hover svg {
+  fill: #01CBA2;
+}
+
+.navbar_fixed .navbar {
+  background-color: white;
+}
 
 body {
   padding: 0;
@@ -35,6 +50,13 @@ body {
   position: absolute;
   top: 32%;
   width: 100%;
+  padding-bottom: 128px
+}
+
+@media (max-width: 991px) {
+  .projectcontent {
+    padding-bottom: 128px;
+  }
 }
 
 .projectinfo {
@@ -57,7 +79,7 @@ body {
 
 .images {
   position: relative;
-  padding: 0 24px 0 24px;
+  padding: 0 32px 0 32px;
   margin: 144px 0 48px 0;
   width: 100%;
   box-sizing: border-box;
@@ -72,9 +94,27 @@ body {
   transform-origin: bottom right;
 }
 
+.infobutton {
+  box-shadow:inset 0px 0px 0px 3px #000000 !important;
+}
+
+.infobutton .body1 {
+  color: #000000 !important;
+}
+
 .infobutton:hover {
   cursor: pointer;
 }
+
+
+.infobutton:hover {
+  box-shadow:inset 0px 0px 0px 3px #808080 !important;
+}
+
+.infobutton:hover .body1 {
+  color: #808080 !important;
+}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .infobutton {

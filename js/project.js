@@ -73,8 +73,6 @@ $("#infobutton6").click(function(){
     });
  
    
-
-  
   
   
  

@@ -22,36 +22,35 @@
 
   
 
-.primary-button_black {
-  background-color: #0f0f0f;
+.primary-button {
+  background-color: #01A281;
 }
 
-.primary-button_black .body2 {
-  color: #ffffff;
+.primary-button .body2 {
+  color: #FFFFFF;
 }
 
-.primary-button_black:hover {
-  background-color: #808080;
+.primary-button:hover {
+  background-color: #01CBA2;
 }
 
-.secondary-button_black {
+.secondary-button {
    -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
     -moz-box-shadow:inset 0px 0px 0px 10px #f00;
-    box-shadow:inset 0px 0px 0px 3px #0f0f0f;
+    box-shadow:inset 0px 0px 0px 3px #01A281;
 }
 
-.secondary-button_black .body2 {
-  color: #0f0f0f;
+.secondary-button .body2, .secondary-button .body1 {
+  color: #01A281;
 }
 
-.secondary-button_black:hover {
-  box-shadow:inset 0px 0px 0px 3px #808080;
+.secondary-button:hover {
+  box-shadow:inset 0px 0px 0px 3px #01CBA2;
 }
 
-.secondary-button_black:hover .body2, .secondary-button_black:hover .body1  {
-  color: #808080;
+.secondary-button:hover .body2, .secondary-button:hover .body1  {
+  color: #01CBA2;
 }
-
 
 /** Medium button */
 
