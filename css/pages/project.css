@@ -52,6 +52,18 @@ body {
   width: 100%;
 }
 
+@media (min-width: 992px) {
+  .projectcontent {
+    padding-bottom: 256px;
+  }
+}
+
+@media (max-width: 991px) {
+  .projectcontent {
+    padding-bottom: 128px;
+  }
+}
+
 .projectinfo {
   position: relative;
   top: 32%;
