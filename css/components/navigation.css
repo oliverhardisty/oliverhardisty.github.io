@@ -26,6 +26,7 @@
   z-index: 10;
   width: 100%;
   transition: top 0.3s;
+  background-color: #F5F5F5;
 }
 
 #navbar_fixed .navbar {
