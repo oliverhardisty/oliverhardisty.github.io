@@ -37,6 +37,9 @@ color: #0f0f0f;
   fill: #01CBA2;
 }
 
+.navbar_fixed .navbar {
+  background-color: white;
+}
 
 body {
   padding: 0;
