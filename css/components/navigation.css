@@ -28,6 +28,10 @@
   transition: top 0.3s;
 }
 
+.navbar_fixed .navbar {
+  height: 48px;
+}
+
 
 .home_touch-target {
   position: absolute;
