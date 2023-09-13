@@ -17,7 +17,7 @@
   }
 
 
-.navbar_fixed {
+#navbar_fixed {
   position: fixed;
   left: 0;
   right: 0;
@@ -29,11 +29,11 @@
   background-color: #F5F5F5;
 }
 
-.navbar_fixed .navbar {
+#navbar_fixed .navbar {
   height: 56px;
 }
 
-.navbar_fixed .navigation {
+#navbar_fixed .navigation {
   bottom: 50%;
   transform: translate(-50%, 50%);
 }
