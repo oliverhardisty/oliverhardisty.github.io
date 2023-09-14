@@ -10,7 +10,6 @@ $(window).scroll(function() {
   
   // Change 33% earlier than scroll position so colour is there when you arrive.
   var scroll = $window.scrollTop() + 650;
-
  
   $panel.each(function () {
     var $this = $(this);
@@ -50,7 +49,7 @@ $(window).scroll(function () {
           }
     });
     $('.intro-container').each(function () {
-        if (($(this).offset().top - $(window).scrollTop()) < -100) {
+        if (($(this).offset().top - $(window).scrollTop()) < -200) {
             $(this).stop().fadeTo(100, 0);
         } else {
             $(this).stop().fadeTo('fast', 1);
@@ -65,4 +64,6 @@ $(window).scroll(function () {
         }
     });
 });
+
+
 
