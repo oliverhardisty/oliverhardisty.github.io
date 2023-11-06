@@ -77,3 +77,18 @@ html {
   }
 }
 
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .workcontent h10 {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 575px) {
+  .workcontent h10 {
+    font-size: 80px;
+  }
+}
+
+
+
