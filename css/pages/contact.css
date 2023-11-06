@@ -41,6 +41,9 @@ html {
   fill: #01F4C2;
 }
 
+.contactcontent h10 {
+white-space: nowrap;
+}
 
 .contactcontent {
   position: absolute;
