@@ -47,16 +47,15 @@ html {
 
 @media (max-width: 575px) {
   .contactcontent h10 {
-    font-size: 64px;
+    font-size: 72px;
   }
 }
 
-@media (min-width: 576px)  {
+@media (min-width: 576px) and (max-width: 767px) {
   .contactcontent h10 {
-    font-size: 64px;
+    font-size: 120px;
   }
 }
-
 
 
 .contactcontent {
