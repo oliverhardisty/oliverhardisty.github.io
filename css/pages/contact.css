@@ -41,22 +41,6 @@ html {
   fill: #01F4C2;
 }
 
-.contactcontent h10 {
-  white-space: nowrap;
-}
-
-@media (max-width: 575px) {
-  .contactcontent h10 {
-    font-size: 80px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-  .contactcontent h10 {
-    font-size: 120px;
-  }
-}
-
 
 .contactcontent {
   position: absolute;
