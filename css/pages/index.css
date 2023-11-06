@@ -226,7 +226,7 @@ body {
   margin-top: 16px; 
 }
 
-@media (max-width: 575px) {  
+@media (max-width: 767px) {  
   .intro-content h9 {
     text-align: left;  
   }
