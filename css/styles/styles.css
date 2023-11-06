@@ -156,10 +156,16 @@ h10 {
 }
 
 
-
 @media (min-width: 1920px) {
   h9 {
     font-size: 144px;
+  }
+}
+
+@media (max-width: 575px) {
+  h10 {
+    font-size: 80px;
+    word-break: break-word;
   }
 }
 
@@ -170,12 +176,12 @@ h10 {
   }
 }
 
-@media (max-width: 575px) {
+@media (min-width: 1920px) {
   h10 {
-    font-size: 80px;
-    word-break: break-word;
+    font-size: 200px;
   }
 }
+
 
 
 .overline-title {
