@@ -320,7 +320,7 @@ body {
 
 @media (max-width: 575px) {
   .project-picker-container {
-    padding: 0 40px 128px 40px;
+    padding: 0 56px 128px 24px;
   }
 }
 
