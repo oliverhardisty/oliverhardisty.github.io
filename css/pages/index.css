@@ -214,7 +214,7 @@ body {
   }
 } 
 
-.intro-content_>576px, .intro-content_<576px, {
+.intro-content_s, .intro-content_mlxl {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -227,13 +227,13 @@ body {
 }
 
 @media (min-width: 576px) {
-  .intro-content_<576px {
+  .intro-content_s {
     display: none;
   }
 }
 
 @media (max-width: 575px) {
-  .intro-content_>576px {
+  .intro-content_mlxl {
     display: none;
   }
 }
