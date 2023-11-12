@@ -221,7 +221,7 @@ body {
   width: 100%;
 }
 
-.intro-content h9 {
+.intro-content_s h9, .intro-content_mlxl h9  {
   text-align: center;
   margin-top: 16px; 
 }
