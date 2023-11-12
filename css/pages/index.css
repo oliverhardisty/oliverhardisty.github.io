@@ -227,13 +227,13 @@ body {
 }
 
 @media (min-width: 576px) {
-  .intro-content(<576px) {
+  .intro-content_<576px {
     display: none;
   }
 }
 
 @media (max-width: 575px) {
-  .intro-content(>576px) {
+  .intro-content_>576px {
     display: none;
   }
 }
