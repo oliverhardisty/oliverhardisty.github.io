@@ -214,7 +214,7 @@ body {
   }
 } 
 
-.intro-content(>576px), .intro-content(<576px), {
+.intro-content_>576px, .intro-content_<576px, {
   display: flex;
   justify-content: center;
   flex-direction: column;
