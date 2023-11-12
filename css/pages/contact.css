@@ -81,12 +81,9 @@ html {
   fill: white;
 }
 
-.contact-link:hover svg {
+.contact-link:hover svg, .contact-link:hover .body3 {
   fill: #01F4C2;
-}
-
-.contact-link:hover text_white {
-  color: #01F4C2 !important ;
+  color: #01F4C2;
 }
 
 
