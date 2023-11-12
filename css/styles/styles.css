@@ -281,6 +281,12 @@ h10 {
   font-size: 80px;
 }
 
+/** Text underline */
+
+.text_underline {
+  text-decoration: underline;
+}
+
 
 /** Text components */
 
