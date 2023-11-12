@@ -64,19 +64,11 @@ html {
   }
 }
 
-@media (min-width: 576px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .workcontent {
     padding: 0 32px 128px 32px;
   }
 }
-
-
-@media (max-width: 575px) {
-  .workcontent {
-    padding: 0 40px 128px 40px;
-  }
-}
-
 
 
 
