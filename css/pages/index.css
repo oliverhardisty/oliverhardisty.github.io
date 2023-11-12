@@ -214,7 +214,7 @@ body {
   }
 } 
 
-.intro-content(>576px) {
+.intro-content(>576px), .intro-content(<576px), {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -226,6 +226,18 @@ body {
   margin-top: 16px; 
 }
 
+@media (min-width: 576px) {
+  .intro-content(<576px) {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .intro-content(>576px) {
+    display: none;
+  }
+}
+  
 @media (min-width: 1440px) {
   .intro-content h9 {
      font-size: 160px;   
