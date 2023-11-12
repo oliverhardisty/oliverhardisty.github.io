@@ -266,12 +266,6 @@ body {
   text-align: center;  
 }
 
-@media (max-width: 767px) {
-  .intro-content .body3 {
-    text-align: left;   
-  }
-}
-
 
 .projects-container {
   position: relative;
