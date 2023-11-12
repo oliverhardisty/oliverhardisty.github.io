@@ -81,8 +81,9 @@ html {
   fill: white;
 }
 
-.contact-link:hover svg {
+.contact-link:hover {
   fill: #01F4C2;
+  text-color: #01F4C2;
 }
 
 
