@@ -244,12 +244,6 @@ body {
   }
 }
 
-@media (max-width: 767px) {  
-  .intro-content h9 {
-    text-align: left;  
-  }
-}
-
 @media (min-width: 576px) and (max-width: 767px) {
   .intro-content h9 {
      font-size: 64px;   
